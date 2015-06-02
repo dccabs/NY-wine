@@ -14,4 +14,14 @@ angular.module('nyWineApp')
       'AngularJS',
       'Karma'
     ];
+    $scope.regions = {
+      longIsland: { position: [40.868282, -72.842895]},
+      fingerLakes: { position: [42.727274, -76.836426]},
+      lakeErie: { position: [42.419645, -79.436646]},
+      niagraEscarpment: { position: [43.168962, -79.005821]},
+      hudsonRiver: { position: [41.630632, -73.959698]}
+    };
+    $scope.getRadius = function(num) {
+      return Math.sqrt(num) * 100;
+    };
   });

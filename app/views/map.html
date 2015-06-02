@@ -1,11 +1,24 @@
-<map center="52.5167, 13.38333" zoom="12">
-	<info-window id="1" position="52.5167, 13.38333" visible="true">
+<div id="map-container">
+  <map center="42.7534979, -75.8092041" zoom="7">
+    <!-- <info-window id="1" position="52.5167, 13.38333" visible="true">
     <div ng-non-bindable="">
-    	Berlin, Germany<br>
-    	Home of KB
+        Berlin, Germany<br>
+        Home of KB
     </div>
-	</info-window>
-</map>
+    </info-window> -->
+        <shape name="circle" ng-repeat="region in regions"
+          stroke-color="#FF0000"
+          stroke-opacity="0.8"
+          stroke-weight="2"
+          fill-color="#FF0000"
+          fill-opacity="0.35"
+          center="{{region.position}}"
+          radius="20000">
+        </shape>
+    </map>  
+
+    
+</div>
 
 <br>
 <br>
