@@ -17,15 +17,19 @@
           fill-color="#FF0000"
           fill-opacity="0.35"
           center="{{region.position}}"
+          region="{{region}}"
           radius="20000">
         </shape>
-    </map>  
+    </map>
 
-    
+    <div id="map-overlay" class="map-overlay">
+      <div class="map-overlay-content">
+        <div class="title"></div>
+        <button class="btn-overlay-close" ng-click="onOverlayCloseBtnClick()">Close</button>
+      </div>
+    </div>
 </div>
 
-<br>
-<br>
 
 <!-- <map center="30.2500, -97.7500" zoom="12">
 	<info-window id="2" position="30.2500, -97.7500" visible="true">
