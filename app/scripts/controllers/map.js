@@ -9,13 +9,28 @@
  */
 
 angular.module('nyWineApp')
-  .controller('MapCtrl', function ($scope) {
+  .controller('MapCtrl', function ($scope,$location) {
 
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
+
+    $scope.bookmarkedVenue = $location.search().venue;
+
+    $scope.$watch('bookmarkedVenue', function() {
+      var match = _.filter($scope.venues, function(ven){ return ven.name==$scope.bookmarkedVenue; });
+      match = match[0];
+      $scope.mapZoom = 10;
+      $scope.mapCoordinates = [match.pos.lat, match.pos.lng];
+      $scope.activeVenue = match;
+      $scope.showMapOverlay = true;
+    });
+
+    $scope.changeLoc = function() {
+      $location.search().venue = 'Whisper Vineyards'
+    }
 
     $scope.markers = [];
     $scope.mapZoom = 7;
