@@ -7,6 +7,7 @@
  * # MainCtrl
  * Controller of the nyWineApp
  */
+
 angular.module('nyWineApp')
   .controller('MapCtrl', function ($scope) {
 
@@ -19,14 +20,12 @@ angular.module('nyWineApp')
     $scope.markers = [];
     $scope.mapZoom = 7;
     $scope.mapCoordinates = [42.7534979, -75.8092041];
+    $scope.showMapOverlay = false;
+    $scope.activeVenue = null;
 
     $scope.regions = {
       longIsland: {
-        position: [40.868282, -72.842895],
-        venues: [
-          { name: 'Whisper Vineyards', pos: {lat:40.870819, lng:-73.179245} },
-          { name: 'Loughlin Vineyard', pos: {lat:40.735756, lng:-73.0734} }
-        ]
+        position: [40.868282, -72.842895]
       },
       fingerLakes: { position: [42.727274, -76.836426]},
       lakeErie: { position: [42.419645, -79.436646]},
@@ -34,9 +33,10 @@ angular.module('nyWineApp')
       hudsonRiver: { position: [41.630632, -73.959698]}
     };
 
-    $scope.getRadius = function(num) {
-      return Math.sqrt(num) * 100;
-    };
+    $scope.venues = [
+      { name: 'Whisper Vineyards', pos: {lat:40.870819, lng:-73.179245} },
+      { name: 'Loughlin Vineyard', pos: {lat:40.735756, lng:-73.0734} }
+    ]
 
     $scope.getMapZoomLevel = function() {
       return $scope.map.getZoom();
@@ -88,18 +88,28 @@ angular.module('nyWineApp')
       $scope.markers.push(marker);
     };
 
-    $scope.setMarkers = function(region) {
+    /*$scope.setMarkers = function(region) {
       angular.forEach(region.venues, function(venue) {
         console.log(venue.pos);
         $scope.setMarker(venue);
       });
-    };
+    };*/
+
+    $scope.showVenueOverlay = function(e,venue) {
+      console.log(venue);
+      $scope.activeVenue = venue;
+      $scope.toggleMapOverlay();
+    }
+
+    $scope.toggleMapOverlay = function() {
+      $scope.showMapOverlay = !$scope.showMapOverlay;
+    }
 
     $scope.regionClick = function() {
       $scope.mapZoom = 10;
       $scope.mapCoordinates = [this.center.A, this.center.F];
     };
 
-    $scope.$on('mapInitialized', $scope.onMapInit);
+    // $scope.$on('mapInitialized', $scope.onMapInit);
 
-  });
+  })
