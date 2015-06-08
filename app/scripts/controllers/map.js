@@ -7,6 +7,7 @@
  * # MainCtrl
  * Controller of the nyWineApp
  */
+
 angular.module('nyWineApp')
   .controller('MapCtrl', function ($scope) {
 
@@ -34,9 +35,10 @@ angular.module('nyWineApp')
       hudsonRiver: { position: [41.630632, -73.959698]}
     };
 
-    $scope.getRadius = function(num) {
-      return Math.sqrt(num) * 100;
-    };
+    $scope.venues = [
+      { name: 'Whisper Vineyards', pos: {lat:40.870819, lng:-73.179245} },
+      { name: 'Loughlin Vineyard', pos: {lat:40.735756, lng:-73.0734} }
+    ]
 
     $scope.getMapZoomLevel = function() {
       return $scope.map.getZoom();
@@ -88,18 +90,32 @@ angular.module('nyWineApp')
       $scope.markers.push(marker);
     };
 
-    $scope.setMarkers = function(region) {
+    /*$scope.setMarkers = function(region) {
       angular.forEach(region.venues, function(venue) {
         console.log(venue.pos);
         $scope.setMarker(venue);
       });
-    };
+    };*/
+
+    $scope.showVenueOverlay = function(e,venue) {
+      console.log(venue);
+      console.log('show overlay');
+    }
 
     $scope.regionClick = function() {
       $scope.mapZoom = 10;
       $scope.mapCoordinates = [this.center.A, this.center.F];
     };
 
-    $scope.$on('mapInitialized', $scope.onMapInit);
+    // $scope.$on('mapInitialized', $scope.onMapInit);
 
+  })
+
+  .directive("mapOverlay", function($http,$compile){
+    return function(scope, element, attrs){
+      element.bind("click", function(){
+        scope.count++;
+        angular.element(document.getElementById('space-for-buttons')).append($compile("<div><button class='btn btn-default' data-alert="+scope.count+">Show alert #"+scope.count+"</button></div>")(scope));
+      });
+    };
   });
