@@ -1,6 +1,6 @@
-<div id="map-overlay" class="map-overlay" >
+<div id="map-overlay" class="map-overlay" ng-if="showMapOverlay">
   <div class="map-overlay-content">
-		<div class="title"></div>
-		<button class="btn-overlay-close" ng-click="onOverlayCloseBtnClick()">Close</button>
+		<div class="title">{{activeVenue.name}}</div>
+		<button class="btn-overlay-close" ng-click="toggleMapOverlay()">Close</button>
    </div>
 </div>

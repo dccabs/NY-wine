@@ -20,14 +20,12 @@ angular.module('nyWineApp')
     $scope.markers = [];
     $scope.mapZoom = 7;
     $scope.mapCoordinates = [42.7534979, -75.8092041];
+    $scope.showMapOverlay = false;
+    $scope.activeVenue = null;
 
     $scope.regions = {
       longIsland: {
-        position: [40.868282, -72.842895],
-        venues: [
-          { name: 'Whisper Vineyards', pos: {lat:40.870819, lng:-73.179245} },
-          { name: 'Loughlin Vineyard', pos: {lat:40.735756, lng:-73.0734} }
-        ]
+        position: [40.868282, -72.842895]
       },
       fingerLakes: { position: [42.727274, -76.836426]},
       lakeErie: { position: [42.419645, -79.436646]},
@@ -99,7 +97,12 @@ angular.module('nyWineApp')
 
     $scope.showVenueOverlay = function(e,venue) {
       console.log(venue);
-      console.log('show overlay');
+      $scope.activeVenue = venue;
+      $scope.toggleMapOverlay();
+    }
+
+    $scope.toggleMapOverlay = function() {
+      $scope.showMapOverlay = !$scope.showMapOverlay;
     }
 
     $scope.regionClick = function() {
@@ -110,12 +113,3 @@ angular.module('nyWineApp')
     // $scope.$on('mapInitialized', $scope.onMapInit);
 
   })
-
-  .directive("mapOverlay", function($http,$compile){
-    return function(scope, element, attrs){
-      element.bind("click", function(){
-        scope.count++;
-        angular.element(document.getElementById('space-for-buttons')).append($compile("<div><button class='btn btn-default' data-alert="+scope.count+">Show alert #"+scope.count+"</button></div>")(scope));
-      });
-    };
-  });

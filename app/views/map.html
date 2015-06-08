@@ -1,16 +1,6 @@
 <div id="map-container">
 
-  <div ng-click="mapZoom=10;mapCoordinates=[40.868282, -72.84289]">Map Zoom</div>
-  <span>{{mapCoordinates}}</span>
-  <span ng-click="regionClick()">click</span>
-
   <map center="{{mapCoordinates}}" zoom="{{mapZoom}}">
-    <!-- <info-window id="1" position="52.5167, 13.38333" visible="true">
-    <div ng-non-bindable="">
-        Berlin, Germany<br>
-        Home of KB
-    </div>
-    </info-window> -->
         <shape on-click="regionClick()" name="circle" ng-repeat="region in regions"
           stroke-color="#FF0000"
           stroke-opacity="0.8"
@@ -32,20 +22,7 @@
 
     </map>
 
-    <div id="map-overlay" class="map-overlay" >
-      <div class="map-overlay-content">
-        <div class="title"></div>
-        <button class="btn-overlay-close" ng-click="onOverlayCloseBtnClick()">Close</button>
-      </div>
-    </div>
+    <div ng-include="'/views/map-overlay.html'"></div>
+
 </div>
 
-
-<!-- <map center="30.2500, -97.7500" zoom="12">
-	<info-window id="2" position="30.2500, -97.7500" visible="true">
-    <div ng-non-bindable="">
-    	Austin, TX, USA<br>
-    	Home of DC
-    </div>
-	</info-window>
-</map> -->
