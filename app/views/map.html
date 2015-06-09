@@ -1,6 +1,10 @@
 <div id="map-container">
 {{bookmarkedVenue}}
-  <map center="{{mapCoordinates}}" zoom="{{mapZoom}}">
+  <map center="{{mapCoordinates}}" zoom="{{mapZoom}}" styles="{{mapStyles}}">
+        <shape name="polygon" ng-if="getMapZoomLevel() < 10" on-click="showArrays()" 
+        paths="{{nyShape}}" stroke-color="#000000" stroke-opacity="0.8" stroke-weight="2" fill-color="#d0bea0" fill-opacity="0.6">
+       </shape>
+
         <shape on-click="regionClick()" name="circle" ng-repeat="region in regions"
           stroke-color="#FF0000"
           stroke-opacity="0.8"
