@@ -9,7 +9,7 @@
  */
 
 angular.module('nyWineApp')
-  .controller('MapCtrl', function ($scope,$location) {
+  .controller('MapCtrl', function ($scope,$location,$rootScope) {
 
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
@@ -17,6 +17,7 @@ angular.module('nyWineApp')
       'Karma'
     ];
 
+    $rootScope.device = "desktop";
     $scope.bookmarkedVenue = $location.search().venue;
 
     $scope.$watch('bookmarkedVenue', function() {
