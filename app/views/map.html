@@ -1,5 +1,4 @@
 <div id="map-container">
-{{bookmarkedVenue}}
   <map center="{{mapCoordinates}}" zoom="{{mapZoom}}" styles="{{mapStyles}}">
         <shape name="polygon" ng-if="getMapZoomLevel() < 10" on-click="showArrays()" 
         paths="{{nyShape}}" stroke-color="#000000" stroke-opacity="0.8" stroke-weight="2" fill-color="#d0bea0" fill-opacity="0.6">
@@ -20,7 +19,7 @@
           ng-repeat="venue in venues"
           on-click="showVenueOverlay(event,{{venue}})"
           ng-if="getMapZoomLevel() >= 10"  
-          position="{{venue.pos.lat}},{{venue.pos.lng}}" 
+          position="{{venue.coordinates}}" 
           title="{{venue.name}}">
         </marker>
 

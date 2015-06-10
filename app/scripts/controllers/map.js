@@ -9,16 +9,23 @@
  */
 
 angular.module('nyWineApp')
-  .controller('MapCtrl', function ($scope,$location,$rootScope) {
+  .controller('MapCtrl', function ($scope,$location,$rootScope,$http) {
 
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $scope.wineries = null;
+    $scope.hotels = null;
+    $scope.restaurants = null;
 
     $rootScope.device = "desktop";
     $scope.bookmarkedVenue = $location.search().venue;
+
+    $http.get('/data/venues.json').
+      success(function(data, status, headers, config) {
+        $scope.venues = data;
+      }).
+      error(function(data, status, headers, config) {
+        // called asynchronously if an error occurs
+        // or server returns response with an error status.
+      });
 
     $scope.$watch('bookmarkedVenue', function() {
       var match = _.filter($scope.venues, function(ven){ return ven.name==$scope.bookmarkedVenue; });
@@ -51,10 +58,10 @@ angular.module('nyWineApp')
       hudsonRiver: { position: [41.630632, -73.959698]}
     };
 
-    $scope.venues = [
-      { name: 'Whisper Vineyards', pos: {lat:40.870819, lng:-73.179245} },
-      { name: 'Loughlin Vineyard', pos: {lat:40.735756, lng:-73.0734} }
-    ]
+    // $scope.venues = [
+    //   { name: 'Whisper Vineyards', pos: {lat:40.870819, lng:-73.179245} },
+    //   { name: 'Loughlin Vineyard', pos: {lat:40.735756, lng:-73.0734} }
+    // ]
 
     $scope.getMapZoomLevel = function() {
       return $scope.map.getZoom();
