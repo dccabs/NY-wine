@@ -6933,13 +6933,13 @@
         "region": "Long Island",
         "sub_region": "North Fork",
         "name": "Bouké Wines / Bouquet Wines",
-        "address": null,
-        "city": "Brooklyn",
+        "address": "35 Cox Neck Road",
+        "city": "Mattituck",
         "state": "NY",
-        "zip_code": "11201",
+        "zip_code": "11952",
         "phone_number": "877-877-0752",
         "url": "http://www.boukewines.com",
-        "coordinates": []
+        "coordinates": [40.9884949,-72.554657]
     },
     {
         "type": "Winery",
