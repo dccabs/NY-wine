@@ -16,16 +16,49 @@
         </shape>
 
         <marker 
-          ng-repeat="venue in venues"
+          ng-repeat="venue in wineries"
           on-click="showVenueOverlay(event,{{venue}})"
           ng-if="getMapZoomLevel() >= 10"  
           position="{{venue.coordinates}}" 
-          title="{{venue.name}}">
+          title="{{venue.name}}"
+          icon="/images/marker-winery.png"
+          >
+        </marker>
+
+        <marker 
+          ng-repeat="venue in restaurants"
+          on-click="showVenueOverlay(event,{{venue}})"
+          ng-if="getMapZoomLevel() >= 10"  
+          position="{{venue.coordinates}}" 
+          title="{{venue.name}}"
+          icon="/images/marker-restaurant.png"
+          >
+        </marker>
+
+        <marker 
+          ng-repeat="venue in attractions"
+          on-click="showVenueOverlay(event,{{venue}})"
+          ng-if="getMapZoomLevel() >= 10"  
+          position="{{venue.coordinates}}" 
+          title="{{venue.name}}"
+          icon="/images/marker-attraction.png"
+          >
+        </marker>
+
+        <marker 
+          ng-repeat="venue in hotels"
+          on-click="showVenueOverlay(event,{{venue}})"
+          ng-if="getMapZoomLevel() >= 10"  
+          position="{{venue.coordinates}}" 
+          title="{{venue.name}}"
+          icon="/images/marker-hotel.png"
+          >
         </marker>
 
     </map>
 
     <div ng-include="'/views/map-overlay.html'"></div>
+  }
 
 </div>
 

@@ -21,11 +21,24 @@ angular.module('nyWineApp')
     $http.get('/data/venues.json').
       success(function(data, status, headers, config) {
         $scope.venues = data;
+        $scope.attractions = _.filter($scope.venues, function(venue) { 
+          return venue.type=="Attraction"; 
+        });
+        $scope.hotels = _.filter($scope.venues, function(venue) { 
+          return venue.type=="Hotel"; 
+        });
+        $scope.restaurants = _.filter($scope.venues, function(venue) { 
+          return venue.type=="Restaurant"; 
+        });
+        $scope.wineries = _.filter($scope.venues, function(venue) { 
+          return venue.type=="Winery"; 
+        });
       }).
       error(function(data, status, headers, config) {
         // called asynchronously if an error occurs
         // or server returns response with an error status.
       });
+
 
     $scope.$watch('bookmarkedVenue', function() {
       var match = _.filter($scope.venues, function(ven){ return ven.name==$scope.bookmarkedVenue; });
@@ -33,7 +46,7 @@ angular.module('nyWineApp')
 
       match = match[0];
       $scope.mapZoom = 10;
-      $scope.mapCoordinates = [match.pos.lat, match.pos.lng];
+      $scope.mapCoordinates = [match.coordinates];
       $scope.activeVenue = match;
       $scope.showMapOverlay = true;
     });
@@ -121,7 +134,6 @@ angular.module('nyWineApp')
     };*/
 
     $scope.showVenueOverlay = function(e,venue) {
-      console.log(venue);
       $scope.activeVenue = venue;
       $scope.toggleMapOverlay();
     }
