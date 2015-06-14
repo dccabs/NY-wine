@@ -1,0 +1,41 @@
+.map-controls {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  width: 32px;
+  height: 70px;
+  margin: 0;
+  padding: 0;
+}
+
+.map-controls-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-zoom-in,
+.btn-zoom-out {
+  height: 32px;
+  width: 32px;
+  background-color: white;
+  font-size: 24px;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.33);
+  display: table-cell;
+  margin: 3px 0;
+  position: absolute;
+
+  .no-touch &:hover {
+    cursor: pointer;
+    background-color: #efefef;
+    color: #333;
+  }
+}
+
+.btn-zoom-in { top: 0 }
+.btn-zoom-out { top: 38px }
+
+
