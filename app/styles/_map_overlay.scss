@@ -13,9 +13,7 @@
 }
 
 .map-overlay-background {
-  @include filter(blur(4px));
-  background-color: rgba(0,0,0,0.88);
-  background-image: url($map-overlay-background-img);
+  background-color: rgba(0,0,0,0.75);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -23,19 +21,115 @@
 }
 
 .map-overlay-content {
-  position: relative;
-  padding: 15% 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   z-index: $zindex-map-overlay-content;
-
-  .title {
-    color: white;
-    font: 300 72px 'Helvetica Neue', Helvetica, Arial;
-    text-align: center;
-  }
 
   .btn-overlay-close {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+
+    .glyphicon { top: 7px }
+
+    .no-touch &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.venue-card {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 310px;
+  height: 340px;
+  background-color: #F7F6F3;
+  background-repeat: no-repeat;
+  background-size: 310px 200px;
+  border-radius: 5px;
+}
+
+.venue-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.venue-card-header {
+  @include background-image(linear-gradient(transparent, rgba(0,0,0,0.66)));
+  position: relative;
+  height: 200px;
+}
+
+.venue-name {
+  position: absolute;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 1;
+  color: #fff;
+  width: 190px;
+  bottom: 15px;
+  left: 25px;
+}
+
+.venue-badge {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #8E4068;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.33);
+  position: absolute;
+  right: 15px;
+  bottom: -40px;
+}
+
+.venue-location {
+  padding: 25px 25px 0;
+  font-size: 12px;
+  color: #333;
+}
+
+.venue-address,
+.venue-city,
+.venue-zip,
+.venue-telephone { display: block }
+
+.venue-telephone a,
+.no-touch .venue-telephone a:hover {
+  color: #333;
+  text-decoration: none;
+  pointer: default;
+}
+
+.venue-card-footer {
+  @include clearfix;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #8E4068;
+}
+
+.venue-directions,
+.venue-website {
+  float: left;
+  width: 50%;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-align: center;
+
+  a {
+    color: rgba(255,255,255,0.88);
+    display: block;
+    padding: 5px 0;
   }
 }

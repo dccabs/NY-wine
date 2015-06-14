@@ -2,10 +2,8 @@
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-// Compass mixins and helpers
-@import "compass/css3/filter";
-
 // Core includes
+@import "compass";
 @import "variables";
 @import "images";
 

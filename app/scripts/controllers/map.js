@@ -60,6 +60,7 @@ angular.module('nyWineApp')
     $scope.mapCoordinates = [42.7534979, -75.8092041];
     $scope.showMapOverlay = false;
     $scope.activeVenue = null;
+    $scope.placeholderVenueImageUrl = 'https://placeholdit.imgix.net/~text?txtsize=66&txt=620×400&w=620&h=400';
 
     $scope.regions = {
       longIsland: {
@@ -117,18 +118,13 @@ angular.module('nyWineApp')
     };
 
     $scope.showVenueOverlay = function(e,venue) {
+      // $scope.overlayBackgroundImage = $scope.getMatchingStaticMapImage();
       $scope.activeVenue = venue;
       $scope.toggleMapOverlay();
     };
 
     $scope.toggleMapOverlay = function() {
       $scope.showMapOverlay = !$scope.showMapOverlay;
-    };
-
-    $scope.getStaticMapImage = function() {
-      return 'https://maps.googleapis.com/maps/api/staticmap?parameters' +
-             '&' + $scope.mapCoordinates +
-             '&' + $scope.mapZoom;
     };
 
     $scope.regionClick = function() {
@@ -410,4 +406,10 @@ angular.module('nyWineApp')
       [42.5146, -79.7621],
     ]
 
-  })
+  }).filter('plusify',function() {
+    return function(input) {
+        if (input) {
+            return input.replace(/\s+/g, '+');
+        }
+    }
+});
