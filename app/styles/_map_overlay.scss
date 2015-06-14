@@ -85,7 +85,7 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #8E4068;
+  background-color: #aaa;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.33);
   position: absolute;
   right: 15px;
@@ -116,7 +116,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #8E4068;
+  background-color: #aaa;
 }
 
 .venue-directions,
@@ -132,4 +132,25 @@
     display: block;
     padding: 5px 0;
   }
+}
+
+[data-venue-type="Winery"] {
+  .venue-badge,
+  .venue-card-footer { background-color: $winery-color }
+}
+
+[data-venue-type="Restaurant"] {
+  .venue-badge,
+  .venue-card-footer { background-color: $restaurant-color }
+}
+
+[data-venue-type="Hotel"],
+[data-venue-type="Accomodation"] {
+  .venue-badge,
+  .venue-card-footer { background-color: #8B95A2; }
+}
+
+[data-venue-type="Attraction"] {
+  .venue-badge,
+  .venue-card-footer { background-color: $attraction-color }
 }
