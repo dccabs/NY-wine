@@ -132,6 +132,13 @@ body {
     text-align: center;
   }
 
+  .phone, .address, .url {
+    color:white;
+    font: 300 42px 'Helvetica Neue', Helvetica, Arial;
+    text-align:center;
+    display:block;
+  }
+
   .btn-overlay-close {
     position: absolute;
     top: 15px;

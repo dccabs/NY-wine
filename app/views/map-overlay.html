@@ -1,6 +1,9 @@
 <div id="map-overlay" class="map-overlay" ng-if="showMapOverlay">
   <div class="map-overlay-content">
 		<div class="title">{{activeVenue.name}}</div>
+		<div class="phone" ng-bind-html="activeVenue.phone_number"></div>
+		<div class="address">{{activeVenue.city}}, {{activeVenue.state}} </div>
+		<a target="_blank" href="{{activeVenue.url}}" class="url">{{activeVenue.url}}</a>
 		<button class="btn-overlay-close" ng-click="toggleMapOverlay()">Close</button>
    </div>
 </div>

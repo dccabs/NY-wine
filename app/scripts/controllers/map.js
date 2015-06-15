@@ -9,11 +9,20 @@
  */
 
 angular.module('nyWineApp')
-  .controller('MapCtrl', function ($scope,$location,$rootScope,$http) {
+  .controller('MapCtrl', function ($scope,$location,$rootScope,$http,$timeout) {
 
     $scope.wineries = null;
     $scope.hotels = null;
     $scope.restaurants = null;
+    $scope.markers = [];
+    $scope.mapZoom = 7;
+    $scope.mapCoordinates = [42.7534979, -75.8092041];
+    $scope.showMapOverlay = false;
+    $scope.activeVenue = null;
+    $scope.hideAttractions = false;
+    $scope.hideHotels = false;
+    $scope.hideRestaurants = false;
+    $scope.hideWineries = false;
 
     $rootScope.device = "desktop";
     $scope.bookmarkedVenue = $location.search().venue;
@@ -39,13 +48,22 @@ angular.module('nyWineApp')
         // or server returns response with an error status.
       });
 
+    $scope.toggleMarkers = function(type) {
+      console.log(type)
+      if (type=='attractions') $scope.hideAttractions = !$scope.hideAttractions;
+      if (type=='hotels') $scope.hideHotels = !$scope.hideHotels;
+      if (type=='restaurants') $scope.hideRestaurants = !$scope.hideRestaurants;
+      if (type=='wineries') $scope.hideWineries = !$scope.hideWineries;
+
+    }
+
 
     $scope.$watch('bookmarkedVenue', function() {
       var match = _.filter($scope.venues, function(ven){ return ven.name==$scope.bookmarkedVenue; });
       if (!match.length) return;
 
       match = match[0];
-      $scope.mapZoom = 10;
+      $scope.mapZoom = 7;
       $scope.mapCoordinates = [match.coordinates];
       $scope.activeVenue = match;
       $scope.showMapOverlay = true;
@@ -54,12 +72,6 @@ angular.module('nyWineApp')
     $scope.changeLoc = function() {
       $location.search().venue = 'Whisper Vineyards'
     }
-
-    $scope.markers = [];
-    $scope.mapZoom = 7;
-    $scope.mapCoordinates = [42.7534979, -75.8092041];
-    $scope.showMapOverlay = false;
-    $scope.activeVenue = null;
 
     $scope.regions = {
       longIsland: {
@@ -96,9 +108,13 @@ angular.module('nyWineApp')
     };
 
     $scope.onMapZoomChange = function() {
-      if ($scope.getMapZoomLevel() >= 10) {
-        angular.forEach($scope.regions, $scope.setMarkers);
-      }
+      console.log('zoom changed')
+      console.log($scope.map.getZoom())
+
+      $timeout(function() {
+        console.log('zoom changed');
+        $scope.mapZoom = $scope.map.getZoom();
+      })
     };
 
     $scope.onMarkerClick = function() {
@@ -143,11 +159,11 @@ angular.module('nyWineApp')
     }
 
     $scope.regionClick = function() {
-      $scope.mapZoom = 10;
+      $scope.map.setZoom(10);
       $scope.mapCoordinates = [this.center.A, this.center.F];
     };
 
-    // $scope.$on('mapInitialized', $scope.onMapInit);
+    $scope.$on('mapInitialized', $scope.onMapInit);
 
     $scope.mapStyles = [
       {
