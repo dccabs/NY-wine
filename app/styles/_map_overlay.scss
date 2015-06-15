@@ -1,0 +1,156 @@
+.map-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: $zindex-map-overlay;
+
+  &.is-visible { display: block }
+}
+
+.map-overlay-background {
+  background-color: rgba(0,0,0,0.75);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: $zindex-map-overlay-background;
+}
+
+.map-overlay-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: $zindex-map-overlay-content;
+
+  .btn-overlay-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+
+    .glyphicon { top: 7px }
+
+    .no-touch &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.venue-card {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 310px;
+  height: 340px;
+  background-color: #F7F6F3;
+  background-repeat: no-repeat;
+  background-size: 310px 200px;
+  border-radius: 5px;
+}
+
+.venue-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.venue-card-header {
+  @include background-image(linear-gradient(transparent, rgba(0,0,0,0.66)));
+  position: relative;
+  height: 200px;
+}
+
+.venue-name {
+  position: absolute;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 1;
+  color: #fff;
+  width: 190px;
+  bottom: 15px;
+  left: 25px;
+}
+
+.venue-badge {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #aaa;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.33);
+  position: absolute;
+  right: 15px;
+  bottom: -40px;
+}
+
+.venue-location {
+  padding: 25px 25px 0;
+  font-size: 12px;
+  color: #333;
+}
+
+.venue-address,
+.venue-city,
+.venue-zip,
+.venue-telephone { display: block }
+
+.venue-telephone a,
+.no-touch .venue-telephone a:hover {
+  color: #333;
+  text-decoration: none;
+  pointer: default;
+}
+
+.venue-card-footer {
+  @include clearfix;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #aaa;
+}
+
+.venue-directions,
+.venue-website {
+  float: left;
+  width: 50%;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-align: center;
+
+  a {
+    color: rgba(255,255,255,0.88);
+    display: block;
+    padding: 5px 0;
+  }
+}
+
+[data-venue-type="Winery"] {
+  .venue-badge,
+  .venue-card-footer { background-color: $winery-color }
+}
+
+[data-venue-type="Restaurant"] {
+  .venue-badge,
+  .venue-card-footer { background-color: $restaurant-color }
+}
+
+[data-venue-type="Hotel"],
+[data-venue-type="Accomodation"] {
+  .venue-badge,
+  .venue-card-footer { background-color: #8B95A2; }
+}
+
+[data-venue-type="Attraction"] {
+  .venue-badge,
+  .venue-card-footer { background-color: $attraction-color }
+}

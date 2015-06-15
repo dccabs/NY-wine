@@ -1,0 +1,26 @@
+//
+// NY-Wine Variables (override Bootstrap default variables)
+// --------------------------------------------------
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:  "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// $zindex-navbar:            1000;
+// $zindex-dropdown:          1000;
+// $zindex-popover:           1060;
+// $zindex-tooltip:           1070;
+// $zindex-navbar-fixed:      1030;
+// $zindex-modal-background:  1040;
+// $zindex-modal:             1050;
+$zindex-map-overlay:                        1060;
+$zindex-map-overlay-background:             1070;
+$zindex-map-overlay-content:                1080;
+
+$winery-color: #76154A;
+$restaurant-color: #63BB7F;
+$accomodation-color: #B7D5EF;
+$attraction-color: #F4A515;

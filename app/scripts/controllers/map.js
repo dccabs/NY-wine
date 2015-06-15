@@ -9,20 +9,11 @@
  */
 
 angular.module('nyWineApp')
-  .controller('MapCtrl', function ($scope,$location,$rootScope,$http,$timeout) {
+  .controller('MapCtrl', function ($scope,$location,$rootScope,$http) {
 
     $scope.wineries = null;
     $scope.hotels = null;
     $scope.restaurants = null;
-    $scope.markers = [];
-    $scope.mapZoom = 7;
-    $scope.mapCoordinates = [42.7534979, -75.8092041];
-    $scope.showMapOverlay = false;
-    $scope.activeVenue = null;
-    $scope.hideAttractions = false;
-    $scope.hideHotels = false;
-    $scope.hideRestaurants = false;
-    $scope.hideWineries = false;
 
     $rootScope.device = "desktop";
     $scope.bookmarkedVenue = $location.search().venue;
@@ -30,17 +21,17 @@ angular.module('nyWineApp')
     $http.get('/data/venues.json').
       success(function(data, status, headers, config) {
         $scope.venues = data;
-        $scope.attractions = _.filter($scope.venues, function(venue) { 
-          return venue.type=="Attraction"; 
+        $scope.attractions = _.filter($scope.venues, function(venue) {
+          return venue.type=="Attraction";
         });
-        $scope.hotels = _.filter($scope.venues, function(venue) { 
-          return venue.type=="Hotel"; 
+        $scope.hotels = _.filter($scope.venues, function(venue) {
+          return venue.type=="Hotel";
         });
-        $scope.restaurants = _.filter($scope.venues, function(venue) { 
-          return venue.type=="Restaurant"; 
+        $scope.restaurants = _.filter($scope.venues, function(venue) {
+          return venue.type=="Restaurant";
         });
-        $scope.wineries = _.filter($scope.venues, function(venue) { 
-          return venue.type=="Winery"; 
+        $scope.wineries = _.filter($scope.venues, function(venue) {
+          return venue.type=="Winery";
         });
       }).
       error(function(data, status, headers, config) {
@@ -48,22 +39,13 @@ angular.module('nyWineApp')
         // or server returns response with an error status.
       });
 
-    $scope.toggleMarkers = function(type) {
-      console.log(type)
-      if (type=='attractions') $scope.hideAttractions = !$scope.hideAttractions;
-      if (type=='hotels') $scope.hideHotels = !$scope.hideHotels;
-      if (type=='restaurants') $scope.hideRestaurants = !$scope.hideRestaurants;
-      if (type=='wineries') $scope.hideWineries = !$scope.hideWineries;
-
-    }
-
 
     $scope.$watch('bookmarkedVenue', function() {
       var match = _.filter($scope.venues, function(ven){ return ven.name==$scope.bookmarkedVenue; });
       if (!match.length) return;
 
       match = match[0];
-      $scope.mapZoom = 7;
+      $scope.mapZoom = 10;
       $scope.mapCoordinates = [match.coordinates];
       $scope.activeVenue = match;
       $scope.showMapOverlay = true;
@@ -72,6 +54,13 @@ angular.module('nyWineApp')
     $scope.changeLoc = function() {
       $location.search().venue = 'Whisper Vineyards'
     }
+
+    $scope.markers = [];
+    $scope.mapZoom = 7;
+    $scope.mapCoordinates = [42.7534979, -75.8092041];
+    $scope.showMapOverlay = false;
+    $scope.activeVenue = null;
+    $scope.placeholderVenueImageUrl = 'https://placeholdit.imgix.net/~text?txtsize=66&txt=620×400&w=620&h=400';
 
     $scope.regions = {
       longIsland: {
@@ -83,11 +72,6 @@ angular.module('nyWineApp')
       hudsonRiver: { position: [41.630632, -73.959698]}
     };
 
-    // $scope.venues = [
-    //   { name: 'Whisper Vineyards', pos: {lat:40.870819, lng:-73.179245} },
-    //   { name: 'Loughlin Vineyard', pos: {lat:40.735756, lng:-73.0734} }
-    // ]
-
     $scope.getMapZoomLevel = function() {
       return $scope.map.getZoom();
     };
@@ -97,25 +81,9 @@ angular.module('nyWineApp')
     };
 
     $scope.onMapInit = function(event, map) {
-      $scope.google.maps.event.addListener(map, 'zoom_changed', $scope.onMapZoomChange);
-      $scope.google.maps.event.addListener(map, 'center_changed', $scope.onMapCenterChange);
       console.log('mapInitialized!');
-
     };
 
-    $scope.onMapCenterChange = function() {
-      console.log('center_changed');
-    };
-
-    $scope.onMapZoomChange = function() {
-      console.log('zoom changed')
-      console.log($scope.map.getZoom())
-
-      $timeout(function() {
-        console.log('zoom changed');
-        $scope.mapZoom = $scope.map.getZoom();
-      })
-    };
 
     $scope.onMarkerClick = function() {
       $('#map-overlay')
@@ -142,25 +110,34 @@ angular.module('nyWineApp')
       $scope.markers.push(marker);
     };
 
-    /*$scope.setMarkers = function(region) {
+    $scope.setMarkers = function(region) {
       angular.forEach(region.venues, function(venue) {
         console.log(venue.pos);
         $scope.setMarker(venue);
       });
-    };*/
+    };
 
     $scope.showVenueOverlay = function(e,venue) {
+      // $scope.overlayBackgroundImage = $scope.getMatchingStaticMapImage();
       $scope.activeVenue = venue;
       $scope.toggleMapOverlay();
-    }
+    };
 
     $scope.toggleMapOverlay = function() {
       $scope.showMapOverlay = !$scope.showMapOverlay;
-    }
+    };
 
     $scope.regionClick = function() {
-      $scope.map.setZoom(10);
+      $scope.mapZoom = 10;
       $scope.mapCoordinates = [this.center.A, this.center.F];
+    };
+
+    $scope.mapZoomIn = function() {
+      $scope.map.setZoom($scope.map.getZoom() + 1);
+    };
+
+    $scope.mapZoomOut = function() {
+      $scope.map.setZoom($scope.map.getZoom() - 1);
     };
 
     $scope.$on('mapInitialized', $scope.onMapInit);
@@ -429,4 +406,10 @@ angular.module('nyWineApp')
       [42.5146, -79.7621],
     ]
 
-  })
+  }).filter('plusify',function() {
+    return function(input) {
+        if (input) {
+            return input.replace(/\s+/g, '+');
+        }
+    }
+});

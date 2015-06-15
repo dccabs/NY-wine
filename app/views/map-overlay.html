@@ -1,9 +1,35 @@
 <div id="map-overlay" class="map-overlay" ng-if="showMapOverlay">
+  <div class="map-overlay-background"></div>
   <div class="map-overlay-content">
-		<div class="title">{{activeVenue.name}}</div>
-		<div class="phone" ng-bind-html="activeVenue.phone_number"></div>
-		<div class="address">{{activeVenue.city}}, {{activeVenue.state}} </div>
-		<a target="_blank" href="{{activeVenue.url}}" class="url">{{activeVenue.url}}</a>
-		<button class="btn-overlay-close" ng-click="toggleMapOverlay()">Close</button>
+
+    <div class="venue-card" data-venue-type="{{activeVenue.type}}" style="background-image:url({{placeholderVenueImageUrl}})">
+      <div class="venue-card-inner">
+        <header class="venue-card-header">
+          <div class="venue-name">{{activeVenue.name}}</div>
+          <div class="venue-badge"></div>
+          <div class="btn-overlay-close" ng-click="toggleMapOverlay()">
+            <span class="glyphicon glyphicon-remove"></span>
+          </div>
+        </header>
+        <div class="venue-location">
+          <span class="venue-address">{{activeVenue.address}}</span>
+          <span class="venue-city">{{activeVenue.city}}</span>
+          <span class="venue-state">{{activeVenue.state}}</span>
+          <span class="venue-zip-code">{{activeVenue.zip_code}}</span>
+          <span class="venue-telephone">
+            <a href="tel:{{activeVenue.phone_number}}">{{activeVenue.phone_number}}</a>
+          </span>
+        </div>
+        <footer class="venue-card-footer">
+          <div class="venue-directions">
+            <a href="https://maps.google.com?daddr={{activeVenue.address|plusify}}+{{activeVenue.city|plusify}}+{{activeVenue.state}}+{{activeVenue.zip_code}}">Get Directions</a>
+          </div>
+          <div class="venue-website">
+            <a href="{{activeVenue.url}}">Visit Website</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+    
    </div>
 </div>
