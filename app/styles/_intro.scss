@@ -1,0 +1,50 @@
+.intro {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+.intro-cover-image {
+  background: url('/images/intro-bg-image.png') no-repeat;
+  background-size: contain;
+  min-height: 280px;
+  height: 33%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+
+.intro-start {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 66%;
+  width: 100%;
+  background: url('/images/intro-wineglass.png') bottom right no-repeat;
+  background-size: 403px 527px;
+
+  .hed {
+    color: $site-text-color;
+    font-weight: 200;
+    font-size: 64px;
+    margin: 60px 0 0 60px;
+  }
+
+  .btn-start {
+    display: inline-block;
+    color: $site-text-color;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #fff;
+    margin: 30px 0 0 60px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+}
