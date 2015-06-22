@@ -14,6 +14,10 @@ angular.module('nyWineApp')
     $scope.wineries = null;
     $scope.hotels = null;
     $scope.restaurants = null;
+    $scope.hideWineries = false;
+    $scope.hideHotels = false;
+    $scope.hideAttrations = false;
+    $scope.hideRestaurants = false;
 
     $rootScope.device = "desktop";
     $scope.bookmarkedVenue = $location.search().venue;
@@ -61,6 +65,14 @@ angular.module('nyWineApp')
     $scope.showMapOverlay = false;
     $scope.activeVenue = null;
     $scope.placeholderVenueImageUrl = 'https://placeholdit.imgix.net/~text?txtsize=66&txt=620×400&w=620&h=400';
+
+    $scope.toggleMarkers = function(type) {
+      if (type=='wineries') $scope.hideWineries = !$scope.hideWineries;
+      if (type=='restaurants') $scope.hideRestaurants = !$scope.hideRestaurants;
+      if (type=='attractions') $scope.hideAttrations = !$scope.hideAttrations;
+      if (type=='hotels') $scope.hideHotels = !$scope.hideHotels;
+
+    }
 
     $scope.regions = {
       longIsland: {
