@@ -11,6 +11,7 @@
 angular.module('nyWineApp')
   .controller('MapCtrl', function ($scope,$location,$rootScope,$http) {
 
+    $scope.attractions = null;
     $scope.wineries = null;
     $scope.hotels = null;
     $scope.restaurants = null;
@@ -82,6 +83,7 @@ angular.module('nyWineApp')
 
     $scope.onMapInit = function(event, map) {
       console.log('mapInitialized!');
+      console.log($scope.wineries);
     };
 
 

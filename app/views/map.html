@@ -1,3 +1,6 @@
+
+<div ng-include="'/views/map-region.html'"></div>
+
 <map id="map" class="map"
     center="{{mapCoordinates}}"
     zoom="{{mapZoom}}"
@@ -23,6 +26,7 @@
   </shape>
 
   <marker
+    class="marker-winery"
     ng-repeat="venue in wineries"
     on-click="showVenueOverlay(event,{{venue}})"
     ng-if="getMapZoomLevel() >= 10"
