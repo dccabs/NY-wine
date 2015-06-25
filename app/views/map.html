@@ -5,7 +5,7 @@ Toggle: <span ng-click="toggleMarkers('attractions')">Attractions</span>
  <span ng-click="toggleMarkers('hotels')">Hotels</span>
  <span ng-click="toggleMarkers('restaurants')">Restaurants</span>
  <span ng-click="toggleMarkers('wineries')">Wineries</span>
-
+<!-- {{mapBounds}} -->
 
 <map id="map" class="map"
     center="{{mapCoordinates}}"
@@ -16,9 +16,29 @@ Toggle: <span ng-click="toggleMarkers('attractions')">Attractions</span>
     street-view-control="false"
     zoom-control="false">
 
-  <shape name="polygon" ng-if="getMapZoomLevel() < 10" on-click="showArrays()"
-  paths="{{nyShape}}" stroke-color="#000000" stroke-opacity="0.8" stroke-weight="2" fill-color="#d0bea0" fill-opacity="0.6">
+<!--   <marker
+    position="{{bottomBounds}}"
+    on-mouseup="changeBottomBounds()"
+    draggable="true"
+    />
+
+  <marker
+    position="{{topBounds}}"
+    on-mouseup="changeTopBounds()"
+    draggable="true"
+    /> -->
+
+
+
+  <shape ng-if="getMapZoomLevel() < 10" name="image"
+   id="foo" url="/images/NY_state.svg" 
+   bounds="{{mapBounds}}"
+   width="1000">
   </shape>
+
+<!--   <shape name="polygon" ng-if="getMapZoomLevel() < 10" on-click="showArrays()"
+  paths="{{nyShape}}" stroke-color="#000000" stroke-opacity="0.8" stroke-weight="2" fill-color="#d0bea0" fill-opacity="0.6">
+  </shape> -->
 
   <shape on-click="regionClick()" name="circle" ng-repeat="region in regions"
     stroke-color="#FF0000"
