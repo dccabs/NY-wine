@@ -9,38 +9,14 @@
  */
 
 angular.module('nyWineApp')
-  .controller('MobileMapCtrl', function ($scope,$location,$rootScope,$timeout,$http) {
+  .controller('MobileMapCtrl', function ($scope,$location,$rootScope,$timeout,$http,sharedProperties) {
 
     $rootScope.device = "mobile";
-    $scope.bookmarkedVenue = $location.search().venue;
-
-		$scope.wineries = null;
-    $scope.hotels = null;
-    $scope.restaurants = null;
-    $scope.hideWineries = false;
-    $scope.hideHotels = false;
-    $scope.hideAttractions = false;
-    $scope.hideRestaurants = false;
-
-    $rootScope.device = "desktop";
     $scope.bookmarkedVenue = $location.search().venue;
 
     $http.get('/data/venues.json').
       success(function(data, status, headers, config) {
         $scope.venues = data;
-        $scope.attractions = _.filter($scope.venues, function(venue) {
-          return venue.type=="Attraction";
-        });
-        $scope.hotels = _.filter($scope.venues, function(venue) {
-          return venue.type=="Hotel";
-        });
-        $scope.restaurants = _.filter($scope.venues, function(venue) {
-          return venue.type=="Restaurant";
-        });
-        $scope.wineries = _.filter($scope.venues, function(venue) {
-          return venue.type=="Winery";
-        });
-
         $scope.regions = [];
 
 	      angular.forEach($scope.venues, function(venue) {
@@ -51,8 +27,28 @@ angular.module('nyWineApp')
 	      })
       });
 
+    $scope.selectRegion = function(region) {
+      console.log(region);
+      sharedProperties.setRegion(region);
+      $location.path('/region');
+    }
 
 
- }); //end controller
+ })
 
+  //end controller
+
+  .service('sharedProperties', function() {
+    var objValue = [];
+    return {
+      setRegion: function(region) {
+        objValue = region;
+      },
+      getRegion: function() {
+        return objValue;
+      }
+    }
+});
+
+  // end sharedProperties
 		

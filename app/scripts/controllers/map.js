@@ -469,11 +469,12 @@ angular.module('nyWineApp')
       [42.5146, -79.7621],
     ]
 
-  }).filter('plusify',function() {
+  })
+  .filter('plusify',function() {
     return function(input) {
         if (input) {
             return input.replace(/\s+/g, '+');
         }
     }
-});
+  })
 
