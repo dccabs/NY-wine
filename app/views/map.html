@@ -1,11 +1,12 @@
 
 <div id="map-container">
-
-Toggle: <span ng-click="toggleMarkers('attractions')">Attractions</span>
- <span ng-click="toggleMarkers('hotels')">Hotels</span>
- <span ng-click="toggleMarkers('restaurants')">Restaurants</span>
- <span ng-click="toggleMarkers('wineries')">Wineries</span>
-<!-- {{mapBounds}} -->
+  <div>
+    Toggle: <span ng-click="toggleMarkers('attractions')">Attractions</span>
+     <span ng-click="toggleMarkers('hotels')">Hotels</span>
+     <span ng-click="toggleMarkers('restaurants')">Restaurants</span>
+     <span ng-click="toggleMarkers('wineries')">Wineries</span>
+    <!-- {{mapBounds}} -->
+  </div>
 
 <map id="map" class="map" map-type-id="roadmap"
     center="{{mapCoordinates}}"
@@ -65,7 +66,6 @@ Toggle: <span ng-click="toggleMarkers('attractions')">Attractions</span>
     position="{{venue.coordinates}}"
     title="{{venue.name}}"
     icon="/images/marker-winery.png"
-    animation="DROP"
     >
   </marker>
 

@@ -16,7 +16,7 @@ angular.module('nyWineApp')
     $scope.restaurants = null;
     $scope.hideWineries = false;
     $scope.hideHotels = false;
-    $scope.hideAttrations = false;
+    $scope.hideAttractions = false;
     $scope.hideRestaurants = false;
 
     $rootScope.device = "desktop";
@@ -69,7 +69,7 @@ angular.module('nyWineApp')
     $scope.toggleMarkers = function(type) {
       if (type=='wineries') $scope.hideWineries = !$scope.hideWineries;
       if (type=='restaurants') $scope.hideRestaurants = !$scope.hideRestaurants;
-      if (type=='attractions') $scope.hideAttrations = !$scope.hideAttrations;
+      if (type=='attractions') $scope.hideAttractions = !$scope.hideAttractions;
       if (type=='hotels') $scope.hideHotels = !$scope.hideHotels;
 
     }
@@ -190,7 +190,8 @@ angular.module('nyWineApp')
     $scope.regionClick = function(e) {
       //console.log(e)
       //console.log(this)
-      $scope.mapZoom = 10;
+      console.log(e)
+      $scope.map.setZoom(10);
       $scope.mapCoordinates = [e.latLng.A, e.latLng.F];
     };
 
@@ -240,7 +241,7 @@ angular.module('nyWineApp')
                   "lightness": 51
               },
               {
-                  "visibility": "simplified"
+                  "visibility": "off"
               }
           ]
       },
@@ -267,7 +268,7 @@ angular.module('nyWineApp')
                   "lightness": 30
               },
               {
-                  "visibility": "on"
+                  "visibility": "off"
               }
           ]
       },
@@ -294,7 +295,7 @@ angular.module('nyWineApp')
                   "saturation": -100
               },
               {
-                  "visibility": "simplified"
+                  "visibility": "off"
               }
           ]
       },
@@ -327,7 +328,7 @@ angular.module('nyWineApp')
           "elementType": "labels",
           "stylers": [
               {
-                  "visibility": "on"
+                  "visibility": "off"
               },
               {
                   "lightness": -25
