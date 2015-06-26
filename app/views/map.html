@@ -7,7 +7,7 @@ Toggle: <span ng-click="toggleMarkers('attractions')">Attractions</span>
  <span ng-click="toggleMarkers('wineries')">Wineries</span>
 <!-- {{mapBounds}} -->
 
-<map id="map" class="map"
+<map id="map" class="map" map-type-id="roadmap"
     center="{{mapCoordinates}}"
     zoom="{{mapZoom}}"
     styles="{{mapStyles}}"
@@ -28,19 +28,26 @@ Toggle: <span ng-click="toggleMarkers('attractions')">Attractions</span>
     draggable="true"
     /> -->
 
+<!--   <marker
+    position="{{otherBounds}}"
+    on-mouseup="changeOtherBounds()"
+    draggable="true"
+    /> -->
 
 
-  <shape ng-if="getMapZoomLevel() < 10" name="image"
-   id="foo" url="/images/NY_state.svg" 
-   bounds="{{mapBounds}}"
-   width="1000">
+
+  <shape ng-if="getMapZoomLevel() < 8" name="image"
+    url="/images/NY_state.svg" 
+    bounds="{{mapBounds}}"
+    on-click="regionClick(event)"
+   >
   </shape>
 
 <!--   <shape name="polygon" ng-if="getMapZoomLevel() < 10" on-click="showArrays()"
   paths="{{nyShape}}" stroke-color="#000000" stroke-opacity="0.8" stroke-weight="2" fill-color="#d0bea0" fill-opacity="0.6">
   </shape> -->
 
-  <shape on-click="regionClick()" name="circle" ng-repeat="region in regions"
+<!--   <shape on-click="regionClick()" name="circle" ng-repeat="region in regions"
     stroke-color="#FF0000"
     stroke-opacity="0.8"
     stroke-weight="2"
@@ -49,12 +56,12 @@ Toggle: <span ng-click="toggleMarkers('attractions')">Attractions</span>
     center="{{region.position}}"
     region="{{region}}"
     radius="20000">
-  </shape>
+  </shape> -->
 
   <marker
     ng-repeat="venue in wineries"
     on-click="showVenueOverlay(event,{{venue}})"
-    ng-if="getMapZoomLevel() >= 10 && !hideWineries"
+    ng-if="getMapZoomLevel() >= 8 && !hideWineries"
     position="{{venue.coordinates}}"
     title="{{venue.name}}"
     icon="/images/marker-winery.png"
@@ -65,7 +72,7 @@ Toggle: <span ng-click="toggleMarkers('attractions')">Attractions</span>
   <marker
     ng-repeat="venue in restaurants"
     on-click="showVenueOverlay(event,{{venue}})"
-    ng-if="getMapZoomLevel() >= 10 && !hideRestaurants"
+    ng-if="getMapZoomLevel() >= 8 && !hideRestaurants"
     position="{{venue.coordinates}}"
     title="{{venue.name}}"
     icon="/images/marker-restaurant.png"
@@ -75,7 +82,7 @@ Toggle: <span ng-click="toggleMarkers('attractions')">Attractions</span>
   <marker
     ng-repeat="venue in attractions"
     on-click="showVenueOverlay(event,{{venue}})"
-    ng-if="getMapZoomLevel() >= 10 && !hideAttractions"
+    ng-if="getMapZoomLevel() >= 8 && !hideAttractions"
     position="{{venue.coordinates}}"
     title="{{venue.name}}"
     icon="/images/marker-attraction.png"

@@ -94,15 +94,6 @@ angular.module('nyWineApp')
 
     $scope.onMapInit = function(event, map) {
       console.log('mapInitialized!');
-
-      var imageBounds = new google.maps.LatLngBounds(
-      new google.maps.LatLng(40.712216, -74.22655),
-      new google.maps.LatLng(40.7795455, -74.023751));
-
-      var historicalOverlay = new google.maps.GroundOverlay(
-        '/images/NY_state.svg',
-        imageBounds);
-      historicalOverlay.setMap(map);
     };
 
 
@@ -144,12 +135,14 @@ angular.module('nyWineApp')
       $scope.toggleMapOverlay();
     };
 
-    $scope.bottomBounds =  [39.92018679650801, -77.92956542812499]
-    $scope.topBounds = [48.75476866538089, -69.53601074062499]
+    $scope.bottomBounds =  [39.59925664861572,-82.04943847499999]
+    $scope.topBounds = [47.48605739947106,-68.71203613124999]
+    $scope.otherBounds = [45.23470067711225, -81.17053222499999]
 
     //$scope.mapBounds = [$scope.bottomBounds, $scope.topBounds];
 
-    $scope.mapBounds = [[39.59925664861572,-82.04943847499999],[47.48605739947106,-68.71203613124999]];
+    $scope.mapBounds = [[39.59925664861572,-82.04943847499999],[47.48605739947106,-68.71203613124999],
+                        [45.23470067711225, -81.17053222499999]];
     $scope.hideMap = false;
 
     $scope.changeBottomBounds = function() {
@@ -157,6 +150,17 @@ angular.module('nyWineApp')
       $scope.hideMap = true;
       $scope.bottomBounds = [this.position.A, this.position.F];
       $scope.mapBounds = [$scope.bottomBounds, $scope.topBounds];
+      $timeout(function() {
+        $scope.hideMap = false;
+      }, 1000)
+      //$scope.hideMap = false;
+    }
+
+    $scope.changeOtherBounds = function() {
+      console.log(this.position)
+      $scope.hideMap = true;
+      $scope.otherBounds = [this.position.A, this.position.F];
+      $scope.mapBounds = [$scope.bottomBounds, $scope.topBounds, $scope.otherBounds];
       $timeout(function() {
         $scope.hideMap = false;
       }, 1000)
@@ -174,13 +178,20 @@ angular.module('nyWineApp')
       //$scope.hideMap = false;
     }
 
+    $scope.showCoord = function() {
+      console.log(this.position)
+      //$scope.hideMap = false;
+    }
+
     $scope.toggleMapOverlay = function() {
       $scope.showMapOverlay = !$scope.showMapOverlay;
     };
 
-    $scope.regionClick = function() {
+    $scope.regionClick = function(e) {
+      //console.log(e)
+      //console.log(this)
       $scope.mapZoom = 10;
-      $scope.mapCoordinates = [this.center.A, this.center.F];
+      $scope.mapCoordinates = [e.latLng.A, e.latLng.F];
     };
 
     $scope.mapZoomIn = function() {
@@ -465,23 +476,3 @@ angular.module('nyWineApp')
     }
 });
 
-  var bounds = {
-    17: [[20969, 20970], [50657, 50658]],
-    18: [[41939, 41940], [101315, 101317]],
-    19: [[83878, 83881], [202631, 202634]],
-    20: [[167757, 167763], [405263, 405269]]
-  };
-
-  var imageMapType = new google.maps.ImageMapType({
-    getTileUrl: function(coord, zoom) {
-      if (zoom < 17 || zoom > 20 ||
-          bounds[zoom][0][0] > coord.x || coord.x > bounds[zoom][0][1] ||
-          bounds[zoom][1][0] > coord.y || coord.y > bounds[zoom][1][1]) {
-        return null;
-      }
-
-      return ['http://www.gstatic.com/io2010maps/tiles/5/L2_',
-          zoom, '_', coord.x, '_', coord.y, '.png'].join('');
-    },
-    tileSize: new google.maps.Size(256, 256)
-  });
