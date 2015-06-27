@@ -9,12 +9,16 @@
  */
 
 angular.module('nyWineApp')
-  .controller('MapCtrl', function ($scope,$location,$rootScope,$http) {
+  .controller('MapCtrl', function ($scope,$location,$rootScope,$http,$timeout) {
 
     $scope.attractions = null;
     $scope.wineries = null;
     $scope.hotels = null;
     $scope.restaurants = null;
+    $scope.hideWineries = false;
+    $scope.hideHotels = false;
+    $scope.hideAttractions = false;
+    $scope.hideRestaurants = false;
 
     $rootScope.device = "desktop";
     $scope.bookmarkedVenue = $location.search().venue;
@@ -62,6 +66,14 @@ angular.module('nyWineApp')
     $scope.showMapOverlay = false;
     $scope.activeVenue = null;
     $scope.placeholderVenueImageUrl = 'https://placeholdit.imgix.net/~text?txtsize=66&txt=620×400&w=620&h=400';
+
+    $scope.toggleMarkers = function(type) {
+      if (type=='wineries') $scope.hideWineries = !$scope.hideWineries;
+      if (type=='restaurants') $scope.hideRestaurants = !$scope.hideRestaurants;
+      if (type=='attractions') $scope.hideAttractions = !$scope.hideAttractions;
+      if (type=='hotels') $scope.hideHotels = !$scope.hideHotels;
+
+    }
 
     $scope.regions = {
       longIsland: {
@@ -125,13 +137,64 @@ angular.module('nyWineApp')
       $scope.toggleMapOverlay();
     };
 
+    $scope.bottomBounds =  [39.59925664861572,-82.04943847499999]
+    $scope.topBounds = [47.48605739947106,-68.71203613124999]
+    $scope.otherBounds = [45.23470067711225, -81.17053222499999]
+
+    //$scope.mapBounds = [$scope.bottomBounds, $scope.topBounds];
+
+    $scope.mapBounds = [[39.59925664861572,-82.04943847499999],[47.48605739947106,-68.71203613124999],
+                        [45.23470067711225, -81.17053222499999]];
+    $scope.hideMap = false;
+
+    $scope.changeBottomBounds = function() {
+      console.log(this.position)
+      $scope.hideMap = true;
+      $scope.bottomBounds = [this.position.A, this.position.F];
+      $scope.mapBounds = [$scope.bottomBounds, $scope.topBounds];
+      $timeout(function() {
+        $scope.hideMap = false;
+      }, 1000)
+      //$scope.hideMap = false;
+    }
+
+    $scope.changeOtherBounds = function() {
+      console.log(this.position)
+      $scope.hideMap = true;
+      $scope.otherBounds = [this.position.A, this.position.F];
+      $scope.mapBounds = [$scope.bottomBounds, $scope.topBounds, $scope.otherBounds];
+      $timeout(function() {
+        $scope.hideMap = false;
+      }, 1000)
+      //$scope.hideMap = false;
+    }
+
+    $scope.changeTopBounds = function() {
+      console.log(this.position)
+      $scope.hideMap = true;
+      $scope.topBounds = [this.position.A, this.position.F];
+      $scope.mapBounds = [$scope.bottomBounds, $scope.topBounds];
+      $timeout(function() {
+        $scope.hideMap = false;
+      }, 1000)
+      //$scope.hideMap = false;
+    }
+
+    $scope.showCoord = function() {
+      console.log(this.position)
+      //$scope.hideMap = false;
+    }
+
     $scope.toggleMapOverlay = function() {
       $scope.showMapOverlay = !$scope.showMapOverlay;
     };
 
-    $scope.regionClick = function() {
-      $scope.mapZoom = 10;
-      $scope.mapCoordinates = [this.center.A, this.center.F];
+    $scope.regionClick = function(e) {
+      //console.log(e)
+      //console.log(this)
+      console.log(e)
+      $scope.map.setZoom(10);
+      $scope.mapCoordinates = [e.latLng.A, e.latLng.F];
     };
 
     $scope.mapZoomIn = function() {
@@ -180,7 +243,7 @@ angular.module('nyWineApp')
                   "lightness": 51
               },
               {
-                  "visibility": "simplified"
+                  "visibility": "off"
               }
           ]
       },
@@ -207,7 +270,7 @@ angular.module('nyWineApp')
                   "lightness": 30
               },
               {
-                  "visibility": "on"
+                  "visibility": "off"
               }
           ]
       },
@@ -234,7 +297,7 @@ angular.module('nyWineApp')
                   "saturation": -100
               },
               {
-                  "visibility": "simplified"
+                  "visibility": "off"
               }
           ]
       },
@@ -267,7 +330,7 @@ angular.module('nyWineApp')
           "elementType": "labels",
           "stylers": [
               {
-                  "visibility": "on"
+                  "visibility": "off"
               },
               {
                   "lightness": -25
@@ -408,10 +471,12 @@ angular.module('nyWineApp')
       [42.5146, -79.7621],
     ]
 
-  }).filter('plusify',function() {
+  })
+  .filter('plusify',function() {
     return function(input) {
         if (input) {
             return input.replace(/\s+/g, '+');
         }
     }
-});
+  })
+

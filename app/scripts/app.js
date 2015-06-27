@@ -38,6 +38,10 @@ angular
         templateUrl: (isMobile )? 'views/mobile/map.html':'views/map.html',
         controller: (isMobile )?'MobileMapCtrl':'MapCtrl'
       })
+      .when('/region', {
+        templateUrl: (isMobile )? 'views/mobile/region.html':'views/map.html',
+        controller: (isMobile )?'MobileRegionCtrl':'MapCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
