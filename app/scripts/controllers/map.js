@@ -72,21 +72,44 @@ angular.module('nyWineApp')
       if (type=='restaurants') $scope.hideRestaurants = !$scope.hideRestaurants;
       if (type=='attractions') $scope.hideAttractions = !$scope.hideAttractions;
       if (type=='hotels') $scope.hideHotels = !$scope.hideHotels;
-
     }
 
-    $scope.regions = {
-      longIsland: {
-        position: [40.868282, -72.842895]
+    $scope.regions = [
+      {
+        name: 'Long Island',
+        pos: { lat: 40.868282, lng: -72.842895 }
       },
-      fingerLakes: { position: [42.727274, -76.836426]},
-      lakeErie: { position: [42.419645, -79.436646]},
-      niagraEscarpment: { position: [43.168962, -79.005821]},
-      hudsonRiver: { position: [41.630632, -73.959698]}
-    };
+      {
+        name: 'Finger Lakes',
+        pos: { lat: 42.8159758, lng: -76.9312001 }
+      },
+      {
+        name: 'Lake Erie',
+        pos: { lat: 42.419645, lng: -79.436646 }
+      },
+      {
+        name: 'Niagra Escarpment',
+        pos: { lat: 43.168962, lng: -79.005821 }
+      },
+      {
+        name: 'Hudson River',
+        pos: { lat: 41.630632, lng: -73.959698 }
+      }
+    ];
 
     $scope.getMapZoomLevel = function() {
       return $scope.map.getZoom();
+    };
+
+    $scope.getCurrentRegion = function() {
+      var currentRegion;
+      angular.forEach($scope.regions, function(region) {
+        var latLng = new $scope.google.maps.LatLng(region.pos.lat,region.pos.lng);
+        if ($scope.map.getBounds().contains(latLng)) {
+          currentRegion = region;
+        }
+      });
+      return currentRegion;
     };
 
     $scope.isMarkerInMapBounds = function(marker) {
@@ -95,9 +118,17 @@ angular.module('nyWineApp')
 
     $scope.onMapInit = function(event, map) {
       console.log('mapInitialized!');
-      console.log($scope.wineries);
+      $scope.google.maps.event.addListener(map, 'center_changed',
+        $scope.onMapCenterChange);
     };
 
+    $scope.onMapCenterChange = function() {
+      var region = $scope.getCurrentRegion();
+      if (region) {
+        $('#map-region-name')
+          .html(region.name);
+      }
+    };
 
     $scope.onMarkerClick = function() {
       $('#map-overlay')

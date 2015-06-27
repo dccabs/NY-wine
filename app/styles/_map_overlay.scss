@@ -1,16 +1,21 @@
 .map-overlay {
-  width: 80%;
+  width: 75%;
   height: 100%;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
   overflow: hidden;
   z-index: $zindex-map-overlay;
 
   &.is-visible { display: block }
 }
+
+// .map-overlay-inner {
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+// }
 
 .map-overlay-background {
   background-color: rgba(0,0,0,0.75);
@@ -23,7 +28,7 @@
 .map-overlay-content {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 25%;
   bottom: 0;
   right: 0;
   z-index: $zindex-map-overlay-content;
