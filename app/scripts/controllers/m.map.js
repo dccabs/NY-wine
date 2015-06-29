@@ -9,7 +9,7 @@
  */
 
 angular.module('nyWineApp')
-  .controller('MobileMapCtrl', function ($scope,$location,$rootScope,$timeout,$http,sharedProperties) {
+  .controller('MobileMapCtrl', function ($scope,$location,$rootScope,$timeout,$http) {
 
     $rootScope.device = "mobile";
     $scope.bookmarkedVenue = $location.search().venue;
@@ -26,29 +26,7 @@ angular.module('nyWineApp')
 	      	}
 	      })
       });
-
-    $scope.selectRegion = function(region) {
-      console.log(region);
-      sharedProperties.setRegion(region);
-      $location.path('/region');
-    }
-
-
- })
+ });
 
   //end controller
-
-  .service('sharedProperties', function() {
-    var objValue = [];
-    return {
-      setRegion: function(region) {
-        objValue = region;
-      },
-      getRegion: function() {
-        return objValue;
-      }
-    }
-});
-
-  // end sharedProperties
 		
