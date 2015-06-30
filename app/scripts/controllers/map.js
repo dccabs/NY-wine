@@ -26,6 +26,11 @@ angular.module('nyWineApp')
     $rootScope.device = "desktop";
     $scope.bookmarkedVenue = $location.search().venue;
 
+    $scope.resetMap = function() {
+      $scope.map.setZoom(7);
+      $scope.mapCoordinates = [42.7534979, -75.8092041];
+    }
+
     $http.get('/data/venues.json').
       success(function(data, status, headers, config) {
         $scope.venues = data;
@@ -263,7 +268,7 @@ angular.module('nyWineApp')
       $timeout(function() {
         $scope.map.setZoom(10);
         $scope.mapCoordinates = [e.latLng.A, e.latLng.F];
-      },100);
+      },50);
     };
 
     $scope.mapZoomIn = function() {

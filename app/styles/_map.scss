@@ -80,3 +80,26 @@
     }
   }
 }
+
+nav.menu {
+  position: absolute;
+  top:35px;
+  left:58px;
+  background: $site-background-color;
+  background: rgba(37, 49, 62, 0.5);
+  width: 200px;
+  height: 48px;
+  border-radius: 4px;
+  z-index: 1051;
+
+  button {
+    height: 48px;
+    width: 48px;
+    background: $site-background-color;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 30px;
+    outline: none;
+  }
+}

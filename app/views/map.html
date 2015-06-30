@@ -1,4 +1,3 @@
-<div class="loading" ng-show="loading"><i class="fa fa-circle-o-notch fa-spin"></i></div>
 <div id="map-container" ng-class="(getMapZoomLevel() < 9) ? 'map-zoomed-out' : 'map-zoomed-in'">
  <div ng-include="'/views/map-region.html'"></div>
 
@@ -95,11 +94,8 @@
 </map>
 <div ng-include="'/views/map-controls.html'"></div>
 <div ng-include="'/views/map-overlay.html'"></div>
+<div ng-include="'/views/map-filters.html'"></div>
+<div ng-include="'/views/map-loading.html'"></div>
+<div ng-include="'/views/map-menu.html'"></div>
 
-<div class="map-filters">
-  <button ng-class="{active:!hideWineries}" class="wineries" type="button" ng-click="toggleMarkers('wineries')">Wineries</button>
-  <button ng-class="{active:!hideHotels}" class="hotels" type="button" ng-click="toggleMarkers('hotels')">Hotels</button>
-  <button ng-class="{active:!hideRestaurants}" class="restaurants" type="button" ng-click="toggleMarkers('restaurants')">Restaurants</button>
-  <button ng-class="{active:!hideAttractions}" class="attractions" type="button" ng-click="toggleMarkers('attractions')">Attractions</button>
-</div>
 
