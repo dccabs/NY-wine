@@ -1,0 +1,7 @@
+<div id="navbar">
+	<ul class="nav nav-tabs nav-justified">
+		<li>
+			<a ng-repeat="venue in venues | orderBy: 'name'" href="#/venue?name={{venue.name}}">{{venue.name}}</a>
+		</li>
+	</ul>
+</div>

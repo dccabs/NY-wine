@@ -1,0 +1,8 @@
+<div id="navbar">
+	<ul class="nav nav-tabs nav-justified">
+		<li>
+			<a href="#/venues?r={{region}}">All Regions</a>
+			<a ng-repeat="subRegion in subRegions" href="#/venues?sr={{subRegion}}">{{subRegion}}</a>
+		</li>
+	</ul>
+</div>
