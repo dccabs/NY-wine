@@ -1,4 +1,4 @@
-<div ng-show="loading" style="position:absolute;top:0;right:0;width:100%;height:100%;background:#000;z-index:10000;opacity:.5;"></div>
+<div class="loading" ng-show="loading"><i class="fa fa-circle-o-notch fa-spin"></i></div>
 <div id="map-container" ng-class="(getMapZoomLevel() < 9) ? 'map-zoomed-out' : 'map-zoomed-in'">
  <div ng-include="'/views/map-region.html'"></div>
 
