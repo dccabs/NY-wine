@@ -1,8 +1,8 @@
-<div class="map-region">
+<div class="map-region" ng-if="showMapRegion">
   <div class="map-region-inner">
     <header class="map-region-header">
       <h2 class="map-region-label">
-        <span id="map-region-name" class="map-region-name">Lake Erie</span> Region
+        <span id="map-region-name" class="map-region-name">{{mapRegion.name}}</span> Region
       </h2>
     </header>
     <div class="back-to-state">

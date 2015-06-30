@@ -9,11 +9,6 @@
   z-index: $zindex-map-region;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
   overflow: hidden;
-  display: none;
-
-  .map-zoomed-in & {
-    display: block;
-  }
 }
 
 .map-region-inner {

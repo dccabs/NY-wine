@@ -1,7 +1,7 @@
 <div id="map-overlay" ng-style="{width:getMapWidth()}" class="map-overlay" ng-if="showMapOverlay">
   <div class="map-overlay-inner">
     <div class="map-overlay-background"></div>
-    <div class="map-overlay-content">
+    <div class="map-overlay-content" ng-class="{full:!showMapRegion}">
 
       <div class="venue-card" data-venue-type="{{activeVenue.type}}" style="background-image:url({{placeholderVenueImageUrl}})">
         <div class="venue-card-inner">

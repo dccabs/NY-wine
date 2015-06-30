@@ -19,6 +19,9 @@ angular.module('nyWineApp')
     $scope.hideHotels = false;
     $scope.hideAttractions = false;
     $scope.hideRestaurants = false;
+    $scope.mapRegion = null;
+    $scope.showMapRegion = false;
+    $scope.loading = false;
 
     $rootScope.device = "desktop";
     $scope.bookmarkedVenue = $location.search().venue;
@@ -121,19 +124,23 @@ angular.module('nyWineApp')
       $scope.google.maps.event.addListener(map, 'center_changed',
         $scope.onMapCenterChange);
 
-      $scope.google.maps.event.addListener(map, 'center_changed', function() {
-        $timeout(function() {
+      $scope.google.maps.event.addListener(map, 'zoom_changed', function() {
+          var zoom = map.getZoom()
+          if (zoom > 9) {
+            $scope.showMapRegion = true;
+          }
+          else {
+            $scope.showMapRegion = false;
+          }
           $scope.resizeMap();
-        },500)
       });
     };
 
     $scope.onMapCenterChange = function() {
-      var region = $scope.getCurrentRegion();
-      if (region) {
-        $('#map-region-name')
-          .html(region.name);
-      }
+      $timeout(function() {
+        $scope.mapRegion = $scope.getCurrentRegion();
+        $scope.$apply();
+      });
     };
 
     $scope.onMarkerClick = function() {
@@ -213,7 +220,6 @@ angular.module('nyWineApp')
       $timeout(function() {
         $scope.hideMap = false;
       }, 1000)
-      //$scope.hideMap = false;
     }
 
     $scope.showCoord = function() {
@@ -231,45 +237,41 @@ angular.module('nyWineApp')
     }
 
     $scope.resizeMap = function() {
-      // if (!$scope.showMapOverlay)
-      //   $('.map-zoomed-in').removeAttr('style');
-      //   $('.map-overlay-content').removeAttr('style');
-      //   return; 
-      var regionPanel = $('#map-container').hasClass('map-zoomed-in');
-      console.log(regionPanel)
-      if (!regionPanel) {
-        console.log('fullsize')
+      console.log('resize')
+      if (!$scope.showMapRegion) {
         $('#map-container').find('.map').removeAttr('style');
-        $('.map-overlay-content').removeAttr('style');
+        $('.map-overlay').removeAttr('style');
+        $timeout(function() {
+          $scope.loading = false;
+        },100);
         return;
       }
 
-      console.log('small')
       var w = window.innerWidth;
       var mapWidth = w - 315;
-
+      console.log('small resize')
       $('#map-container').find('.map').width(mapWidth);
-      $('.map-overlay-content').width(mapWidth);
+      $('.map-overlay').width(mapWidth);
       console.log('resize!');
+      $timeout(function() {
+          $scope.loading = false;
+        });
     };
 
     $scope.regionClick = function(e) {
-      $scope.map.setZoom(9);
-      $scope.mapCoordinates = [e.latLng.A, e.latLng.F];
+      $scope.loading = true;
+      $timeout(function() {
+        $scope.map.setZoom(10);
+        $scope.mapCoordinates = [e.latLng.A, e.latLng.F];
+      },100);
     };
 
     $scope.mapZoomIn = function() {
       $scope.map.setZoom($scope.map.getZoom() + 1);
-      $timeout(function() {
-        $scope.resizeMap();
-      },300);
     };
 
     $scope.mapZoomOut = function() {
       $scope.map.setZoom($scope.map.getZoom() - 1);
-      $timeout(function() {
-        $scope.resizeMap();
-      },200);
     };
 
     $scope.$on('mapInitialized', $scope.onMapInit);
