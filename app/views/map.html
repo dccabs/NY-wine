@@ -1,8 +1,7 @@
-
-<div id="map-container" ng-class="(getMapZoomLevel() < 10) ? 'map-zoomed-out' : 'map-zoomed-in'">
+<div id="map-container" ng-class="(getMapZoomLevel() < 9) ? 'map-zoomed-out' : 'map-zoomed-in'">
  <div ng-include="'/views/map-region.html'"></div>
 
-<map id="map" class="map" map-type-id="roadmap"
+<map resizeMap id="map" class="map" map-type-id="roadmap"
     center="{{mapCoordinates}}"
     zoom="{{mapZoom}}"
     styles="{{mapStyles}}"
@@ -95,4 +94,11 @@
 </map>
 <div ng-include="'/views/map-controls.html'"></div>
 <div ng-include="'/views/map-overlay.html'"></div>
+
+<div class="map-filters">
+  <button ng-class="{active:!hideWineries}" class="wineries" type="button" ng-click="toggleMarkers('wineries')">Wineries</button>
+  <button ng-class="{active:!hideHotels}" class="hotels" type="button" ng-click="toggleMarkers('hotels')">Hotels</button>
+  <button ng-class="{active:!hideRestaurants}" class="restaurants" type="button" ng-click="toggleMarkers('restaurants')">Restaurants</button>
+  <button ng-class="{active:!hideAttractions}" class="attractions" type="button" ng-click="toggleMarkers('attractions')">Attractions</button>
+</div>
 

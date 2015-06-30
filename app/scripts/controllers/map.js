@@ -120,6 +120,12 @@ angular.module('nyWineApp')
       console.log('mapInitialized!');
       $scope.google.maps.event.addListener(map, 'center_changed',
         $scope.onMapCenterChange);
+
+      $scope.google.maps.event.addListener(map, 'center_changed', function() {
+        $timeout(function() {
+          $scope.resizeMap();
+        },500)
+      });
     };
 
     $scope.onMapCenterChange = function() {
@@ -157,7 +163,6 @@ angular.module('nyWineApp')
 
     $scope.setMarkers = function(region) {
       angular.forEach(region.venues, function(venue) {
-        console.log(venue.pos);
         $scope.setMarker(venue);
       });
     };
@@ -220,20 +225,51 @@ angular.module('nyWineApp')
       $scope.showMapOverlay = !$scope.showMapOverlay;
     };
 
+    $scope.getMapWidth = function() {
+      var w = $('#map').width();
+      return w;
+    }
+
+    $scope.resizeMap = function() {
+      // if (!$scope.showMapOverlay)
+      //   $('.map-zoomed-in').removeAttr('style');
+      //   $('.map-overlay-content').removeAttr('style');
+      //   return; 
+      var regionPanel = $('#map-container').hasClass('map-zoomed-in');
+      console.log(regionPanel)
+      if (!regionPanel) {
+        console.log('fullsize')
+        $('#map-container').find('.map').removeAttr('style');
+        $('.map-overlay-content').removeAttr('style');
+        return;
+      }
+
+      console.log('small')
+      var w = window.innerWidth;
+      var mapWidth = w - 315;
+
+      $('#map-container').find('.map').width(mapWidth);
+      $('.map-overlay-content').width(mapWidth);
+      console.log('resize!');
+    };
+
     $scope.regionClick = function(e) {
-      //console.log(e)
-      //console.log(this)
-      console.log(e)
-      $scope.map.setZoom(10);
+      $scope.map.setZoom(9);
       $scope.mapCoordinates = [e.latLng.A, e.latLng.F];
     };
 
     $scope.mapZoomIn = function() {
       $scope.map.setZoom($scope.map.getZoom() + 1);
+      $timeout(function() {
+        $scope.resizeMap();
+      },300);
     };
 
     $scope.mapZoomOut = function() {
       $scope.map.setZoom($scope.map.getZoom() - 1);
+      $timeout(function() {
+        $scope.resizeMap();
+      },200);
     };
 
     $scope.$on('mapInitialized', $scope.onMapInit);
@@ -510,4 +546,9 @@ angular.module('nyWineApp')
         }
     }
   })
+  .directive('resizemap', function() {
+    return function(scope, element, attrs) {
+      $(window).on('resize', scope.resizeMap);
+    }
+  });
 
