@@ -9,8 +9,8 @@
     pan-control="false"
     street-view-control="false"
     zoom-control="false">
-
-<!--   <marker
+<!-- 
+  <marker
     position="{{bottomBounds}}"
     on-mouseup="changeBottomBounds()"
     draggable="true"
@@ -31,9 +31,10 @@
 
 
   <shape ng-if="getMapZoomLevel() < 8" name="image"
-    url="/images/NY_state.svg"
+    url="/images/NY_state.png"
     bounds="{{mapBounds}}"
     on-click="regionClick(event)"
+    background="#000000"
    >
   </shape>
 

@@ -26,7 +26,7 @@
               <a target="_blank" href="https://maps.google.com?daddr={{activeVenue.address|plusify}}+{{activeVenue.city|plusify}}+{{activeVenue.state}}+{{activeVenue.zip_code}}">Get Directions</a>
             </div>
             <div class="venue-website">
-              <a target="_blank" href="{{activeVenue.url}}">Visit Website</a>
+              <a ng-show="activeVenue.url.length" target="_blank" href="{{activeVenue.url}}">Visit Website</a>
             </div>
           </footer>
         </div>

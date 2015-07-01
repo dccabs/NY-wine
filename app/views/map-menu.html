@@ -1,14 +1,17 @@
 <nav class="menu">
-	<button class="menu-icon fa fa-bars"></button>
-	<div class="title">
-		<span>New York</span>
-		<span>Wineries</span>
+	<button ng-click="toggleMenu()" class="menu-icon fa fa-bars"></button>
+	<div>
+		<span class="title">NEW YORK {{showMenu}}</span>
+		<span class="sub-title">WINERIES</span>
 	</div>
 
-	<ul>
-		<li>Region 1</li>
-		<li>Region 2</li>
-		<li>Region 3</li>
-		<li>Region 4</li>
+	<ul ng-click="$event.stopPropagation()" ng-show="showMenu">
+		<li class="menu-title">Official Wine Regions</li>
+		<li ng-click="menuRegionClick(region)" ng-repeat="region in regions">
+			{{region.name}}
+			<ul ng-if="region.subRegions.length" class="sub-region">
+				<li ng-repeat="subRegion in region.subRegions">{{subRegion}}</li>
+			</ul>
+		</li>
 	</ul>
 </nav>
