@@ -39,6 +39,20 @@
   display: block;
 }
 
+.back-to-state {
+  position: relative;
+
+  span {
+    top: 10px;
+    left: 25px;
+    font-size: 11px;
+    font-weight: 500;
+    position: absolute;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+}
+
 
 .map-region-category-menu {
   position: absolute;

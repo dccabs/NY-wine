@@ -21,6 +21,7 @@ angular.module('nyWineApp')
     $scope.hideAttractions = false;
     $scope.hideRestaurants = false;
     $scope.mapRegion = null;
+    $scope.mapRegionClass = null;
     $scope.showMapRegion = false;
     $scope.loading = false;
     $scope.showMenu = false;
@@ -176,6 +177,7 @@ angular.module('nyWineApp')
           currentRegion = region;
         }
       });
+      if (currentRegion) $scope.mapRegionClassName = currentRegion.name.toLowerCase().replace(" ", "-");
       return currentRegion;
     };
 

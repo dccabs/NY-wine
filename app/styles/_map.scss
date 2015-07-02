@@ -28,13 +28,12 @@
 
   button {
     display: inline-block;
-    border: 3px solid rgba(255, 255, 255, 0.3);
+    border: 3px solid rgba(255, 255, 255, 0.2);
     border-width: 0 0 5px;
     border-radius: 4px 4px 0 0;
     background: $site-background-color;
     width: 32px;
-    height: 42px;
-    margin: 0 2px;
+    height: 37px;
     background-image: url(/images/filter-icon-sprite.png);
     background-repeat: no-repeat;
     background-position: 11px 11px;
@@ -42,10 +41,6 @@
     text-indent: -1000px;
     box-sizing: content-box;
     outline: none;
-
-    &.active {
-      border-color:red;
-    }
 
     &.wineries {
       background-position: 11px 11px;

@@ -1,13 +1,13 @@
 <div class="map-region" ng-if="showMapRegion">
   <div class="map-region-inner">
-    <header class="map-region-header">
+    <header class="map-region-header {{mapRegionClassName}}">
       <h2 class="map-region-label">
         <span id="map-region-name" class="map-region-name">{{mapRegion.name}}</span> Region
       </h2>
     </header>
     <div class="back-to-state">
       <span class="icon"></span>
-      <span ng-click="resetMap()" class="name">Back to State View</span>
+      <span ng-click="resetMap()" class="map-region-back"><i class="fa fa-chevron-circle-left"/> Back to State View</span>
     </div>
     <div class="map-region-description"></div>
   </div>
