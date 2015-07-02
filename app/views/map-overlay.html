@@ -5,7 +5,7 @@
 
       <div class="venue-card" data-venue-type="{{activeVenue.type}}" style="background-image:url({{placeholderVenueImageUrl}})">
         <div class="venue-card-inner">
-          <header class="venue-card-header">
+          <header class="venue-card-header {{activeVenue.type}}">
             <div class="venue-name">{{activeVenue.name}}</div>
             <div class="venue-badge"></div>
             <div class="btn-overlay-close" ng-click="toggleMapOverlay()">
