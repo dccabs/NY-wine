@@ -353,7 +353,7 @@
     {
         "type": "Attraction",
         "region": "Long Island",
-        "sub_region": "Hamptons",
+        "sub_region": "The Hamptons",
         "name": "Montauk Point State Park",
         "address": "2000 State Route 27",
         "coordinates" : [41.0056801, -72.0217819],
@@ -366,7 +366,7 @@
     {
         "type": "Attraction",
         "region": "Long Island",
-        "sub_region": "Hamptons",
+        "sub_region": "The Hamptons",
         "name": "Parrish Art Museum",
         "address": "279 Montauk Highway",
         "coordinates" : [40.9038169, -72.3642953],

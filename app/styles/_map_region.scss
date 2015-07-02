@@ -3,17 +3,12 @@
   left: 0;
   top: 0;
   bottom: 0;
-  width: 25%;
+  width: 315px;
   height: 100%;
   background-color: #F6F7F3;
   z-index: $zindex-map-region;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
   overflow: hidden;
-  display: none;
-
-  .map-zoomed-in & {
-    display: block;
-  }
 }
 
 .map-region-inner {
@@ -27,6 +22,23 @@
   position: relative;
   height: 310px;
   width: 100%;
+  background-repeat: no-repeat;
+
+  &.niagra {
+    background-image: url(/images/region-niagra.jpg);
+  }
+  &.lake-erie {
+    background-image: url(/images/region-lake-erie.jpg);
+  }
+  &.long-island {
+    background-image: url(/images/region-long-island.jpg);
+  }
+  &.finger-lakes {
+    background-image: url(/images/region-finger-lakes.jpg);
+  }
+  &.hudson-river {
+    background-image: url(/images/region-hudson-river.jpg);
+  }
 }
 
 .map-region-label {
@@ -42,6 +54,20 @@
 .map-region-name {
   font-size: 36px;
   display: block;
+}
+
+.back-to-state {
+  position: relative;
+
+  span {
+    top: 10px;
+    left: 25px;
+    font-size: 11px;
+    font-weight: 500;
+    position: absolute;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
 }
 
 

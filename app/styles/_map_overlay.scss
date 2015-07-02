@@ -11,11 +11,11 @@
   &.is-visible { display: block }
 }
 
-// .map-overlay-inner {
-//   position: relative;
-//   width: 100%;
-//   height: 100%;
-// }
+.map-overlay-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 
 .map-overlay-background {
   background-color: rgba(0,0,0,0.75);
@@ -32,6 +32,10 @@
   bottom: 0;
   right: 0;
   z-index: $zindex-map-overlay-content;
+
+  &.full {
+    left: 0;
+  }
 
   .btn-overlay-close {
     position: absolute;
@@ -73,6 +77,23 @@
   @include background-image(linear-gradient(transparent, rgba(0,0,0,0.66)));
   position: relative;
   height: 200px;
+  background-repeat: no-repeat;
+
+  &.Winery {
+    background-image: url(/images/overlay-winery.jpg)
+  }
+
+  &.Attraction {
+    background-image: url(/images/overlay-attraction.jpg)
+  }
+
+  &.Hotel {
+    background-image: url(/images/overlay-hotel.jpg)
+  }
+
+  &.Restaurant {
+    background-image: url(/images/overlay-restaurant.jpg)
+  }
 }
 
 .venue-name {

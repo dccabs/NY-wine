@@ -16,7 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ngMap'
+    'ngMap',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
       var isMobile = (function() {
@@ -41,6 +42,14 @@ angular
       .when('/region', {
         templateUrl: (isMobile )? 'views/mobile/region.html':'views/map.html',
         controller: (isMobile )?'MobileRegionCtrl':'MapCtrl'
+      })
+      .when('/venues', {
+        templateUrl: (isMobile )? 'views/mobile/venues.html':'views/map.html',
+        controller: (isMobile )?'MobileVenuesCtrl':'MapCtrl'
+      })
+      .when('/venue', {
+        templateUrl: (isMobile )? 'views/mobile/venue.html':'views/map.html',
+        controller: (isMobile )?'MobileVenueCtrl':'MapCtrl'
       })
       .otherwise({
         redirectTo: '/'

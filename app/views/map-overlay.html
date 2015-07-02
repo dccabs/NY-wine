@@ -1,11 +1,11 @@
-<div id="map-overlay" class="map-overlay" ng-if="showMapOverlay">
+<div id="map-overlay" ng-style="{width:getMapWidth()}" class="map-overlay" ng-if="showMapOverlay">
   <div class="map-overlay-inner">
     <div class="map-overlay-background"></div>
-    <div class="map-overlay-content">
+    <div class="map-overlay-content" ng-class="{full:!showMapRegion}">
 
       <div class="venue-card" data-venue-type="{{activeVenue.type}}" style="background-image:url({{placeholderVenueImageUrl}})">
         <div class="venue-card-inner">
-          <header class="venue-card-header">
+          <header class="venue-card-header {{activeVenue.type}}">
             <div class="venue-name">{{activeVenue.name}}</div>
             <div class="venue-badge"></div>
             <div class="btn-overlay-close" ng-click="toggleMapOverlay()">
@@ -23,10 +23,10 @@
           </div>
           <footer class="venue-card-footer">
             <div class="venue-directions">
-              <a href="https://maps.google.com?daddr={{activeVenue.address|plusify}}+{{activeVenue.city|plusify}}+{{activeVenue.state}}+{{activeVenue.zip_code}}">Get Directions</a>
+              <a target="_blank" href="https://maps.google.com?daddr={{activeVenue.address|plusify}}+{{activeVenue.city|plusify}}+{{activeVenue.state}}+{{activeVenue.zip_code}}">Get Directions</a>
             </div>
             <div class="venue-website">
-              <a href="{{activeVenue.url}}">Visit Website</a>
+              <a ng-show="activeVenue.url.length" target="_blank" href="{{activeVenue.url}}">Visit Website</a>
             </div>
           </footer>
         </div>
