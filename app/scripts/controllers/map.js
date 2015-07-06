@@ -107,8 +107,6 @@ angular.module('nyWineApp')
           });
 
         });
-
-        console.log($scope.regions)
         /* end build regions object */
       });
 
