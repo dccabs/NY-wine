@@ -1,0 +1,109 @@
+[
+      {
+        "name": "Long Island",
+        "description": "About 75 miles east of New York City, Long Island Wine Country benefits from a maritime climate created by the Atlantic Ocean, Long Island Sound, and Great Peconic  Bay between the North Fork and South Fork, known as The Hamptons.",
+        "pos": { "lat": 40.736132, "lng": -73.077927 },
+        "sub_regions" : [
+          {
+            "name": "The Hamptons",
+            "pos": { "lat": 40.901891, "lng": -72.366950 }
+          },
+          {
+            "name": "North Fork",
+            "pos": { "lat": 41.045646, "lng": -72.439966 }
+          },
+          {
+            "name": "Central",
+            "pos": { "lat": 40.806777, "lng": -73.246613 }
+          }
+        ]
+      },
+      {
+        "name": "New York City",
+        "description": "One of the world's top cities for great food and wine, New York City now has many leading restaurants which feature \"local\" New York wines from various regions, often paired with local foods.",
+        "pos": { "lat": 40.71448, "lng": -74.00598 },
+        "sub_regions": [
+          {
+            "name": "Bronx",
+            "pos": { "lat": 40.828187, "lng": -73.911692 }
+          },
+          {
+            "name": "Manhattan",
+            "pos": { "lat": 40.719065, "lng": -74.009969 }
+          },
+          {
+            "name": "Queens",
+            "pos": { "lat": 40.717947, "lng": -73.835466 }
+          },
+          {
+            "name": "Brooklyn",
+            "pos": { "lat": 40.665027, "lng": -73.945215 }
+          }
+        ]
+      },
+      {
+        "name": "Hudson River",
+        "description": "One of America's oldest wine producers with wineries on both sides of the majestic waterway, the Hudson River Region benefits from warm maritime air from the Atlantic Ocean funneled through the steep palisades.",
+        "pos": { "lat": 41.857170, "lng": -73.970232 }
+      },
+      {
+        "name": "Finger Lakes",
+        "description": "The breathtakingly beautiful Finger Lakes region has 11 lakes carved out by Ice Age glaciers, though \"wine country\" is concentrated around four in the center of the region: Cayuga, Seneca, Keuka, and Canandaigua.",
+        "pos": { "lat": 42.627888, "lng": -76.867026 },
+        "sub_regions" : [
+          {
+            "name": "Canandaigua Lake",
+            "pos": { "lat": 42.875957, "lng": -77.273387 }
+          },
+          {
+            "name": "Cayuga Lake",
+            "pos": { "lat": 42.754504, "lng": -76.702667 }
+          },
+          {
+            "name": "Conesus & Hemlock Lakes",
+            "pos": { "lat": 42.822945, "lng": -77.718852 }
+          },
+          {
+            "name": "Keuka Lake",
+            "pos": { "lat": 42.485131, "lng": -77.138742 }
+          },
+          {
+            "name": "Owasco Lake",
+            "pos": { "lat": 42.662386, "lng": -76.393007 }
+          },
+          {
+            "name": "Seneca Lake",
+            "pos": { "lat": 42.617262, "lng": -76.921993 }
+          },
+          {
+            "name": "Skaneateles Lake",
+            "pos": { "lat": 42.888487, "lng": -76.418161 }
+          }
+        ]
+      },
+      {
+        "name": "Lake Erie",
+        "description": "The largest grape growing region outside of California parallels the south shore of Lake Erie, benefiting from its temperature-moderating effects for over 20,000 acres of grapes for juice and wine.",
+        "pos": { "lat": 42.188784, "lng": -79.723930 }
+      },
+      {
+        "name": "Niagra",
+        "description": "Niagra description",
+        "pos": { "lat": 43.296409, "lng": -78.715268 }
+      },
+      {
+        "name": "Other Western Counties",
+        "description": "New York State now has wineries in 59 of its 62 counties, including many places never before considered to be \"wine country\" but now are.",
+        "pos": { "lat": 42.305448, "lng": -78.017090 }
+      },
+      {
+        "name": "Lake Ontario",
+        "description": "The easternmost of the Great Lakes, Lake Ontario’s expansive waters moderate the temperatures allyear, allowing the production of apples, grapes and wine.",
+        "pos": { "lat": 43.116777, "lng": -77.314405 }
+      },
+      {
+        "name": "Central New York",
+        "description": "Though not located in any traditionally defined wine region, Central New York has experienced significant growth in the number of wineries.",
+        "pos": { "lat": 42.583077, "lng": -74.591432 }
+      }
+    ]

@@ -31,101 +31,11 @@ angular.module('nyWineApp')
     $scope.bookmarkedVenue = $location.search().venue;
 
     /* region data */
-    $scope.regions = [
-      {
-        name: 'Long Island',
-        pos: { lat: 40.736132, lng: -73.077927 },
-        sub_regions : [{
-          name: 'The Hamptons',
-          pos: { lat: 40.901891, lng: -72.366950 }
-        },
-        {
-          name: 'North Fork',
-          pos: { lat: 41.045646, lng: -72.439966 }
-        },
-        {
-          name: 'Central',
-          pos: { lat: 40.806777, lng: -73.246613 }
-        }]
-      },
-      {
-        name: 'New York City',
-        pos: { lat: 40.71448, lng: -74.00598 },
-        sub_regions: [{
-          name : 'Bronx',
-          pos: { lat: 40.828187, lng: -73.911692 }
-        },
-        {
-          name : 'Manhattan',
-          pos: { lat: 40.719065, lng: -74.009969 }
-        },
-        {
-          name : 'Queens',
-          pos: { lat: 40.717947, lng: -73.835466 }
-        },
-        {
-          name : 'Brooklyn',
-          pos: { lat: 40.665027, lng: -73.945215 }
-        }]
-      },
-      {
-        name: 'Hudson River',
-        pos: { lat: 41.857170, lng: -73.970232 }
-      },
-      {
-        name: 'Finger Lakes',
-        pos: { lat: 42.627888, lng: -76.867026 },
-        sub_regions : [{
-          name: 'Canandaigua Lake',
-          pos: { lat: 42.875957, lng: -77.273387 }
-        },
-        {
-          name: 'Cayuga Lake',
-          pos: { lat: 42.754504, lng: -76.702667 }
-        },
-        {
-          name: 'Conesus & Hemlock Lakes',
-          pos: { lat: 42.822945, lng: -77.718852 }
-        },
-        {
-          name: 'Keuka Lake',
-          pos: { lat: 42.485131, lng: -77.138742 }
-        },
-        {
-          name: 'Owasco Lake',
-          pos: { lat: 42.662386, lng: -76.393007 }
-        },
-        {
-          name: 'Seneca Lake',
-          pos: { lat: 42.617262, lng: -76.921993 }
-        },
-        {
-          name: 'Skaneateles Lake',
-          pos: { lat: 42.888487, lng: -76.418161 }
-        }]
-      },
-      {
-        name: 'Lake Erie',
-        pos: { lat: 42.188784, lng: -79.723930 }
-      },
-      {
-        name: 'Niagra',
-        pos: { lat: 43.296409, lng: -78.715268 }
-      },
-      {
-        name: 'Other Western Counties',
-        pos: { lat: 42.305448, lng: -78.017090 }
-      },
-      {
-        name: 'Lake Ontario',
-        pos: { lat: 43.116777, lng: -77.314405 }
-      },
-      {
-        name: 'Central New York',
-        pos: { lat: 42.583077, lng: -74.591432 }
-      },
-    ];
 
+    $http.get('/data/regions.json').
+      success(function(data, status, headers, config) {
+        $scope.regions = data;
+    });
 
     /* get venue data */
 
