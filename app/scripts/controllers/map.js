@@ -21,7 +21,7 @@ angular.module('nyWineApp')
     $scope.hideAttractions = false;
     $scope.hideRestaurants = false;
     $scope.mapRegion = null;
-    $scope.mapRegionClass = null;
+    $scope.mapRegionClassName = null;
     $scope.showMapRegion = false;
     $scope.loading = false;
     $scope.showMenu = false;
@@ -34,41 +34,98 @@ angular.module('nyWineApp')
     $scope.regions = [
       {
         name: 'Long Island',
-        pos: { lat: 40.868282, lng: -72.842895 }
+        pos: { lat: 40.736132, lng: -73.077927 },
+        sub_regions : [{
+          name: 'The Hamptons',
+          pos: { lat: 40.901891, lng: -72.366950 }
+        },
+        {
+          name: 'North Fork',
+          pos: { lat: 41.045646, lng: -72.439966 }
+        },
+        {
+          name: 'Central',
+          pos: { lat: 40.806777, lng: -73.246613 }
+        }]
       },
       {
         name: 'New York City',
-        pos: { lat: 40.71448, lng: -74.00598 }
+        pos: { lat: 40.71448, lng: -74.00598 },
+        sub_regions: [{
+          name : 'Bronx',
+          pos: { lat: 40.828187, lng: -73.911692 }
+        },
+        {
+          name : 'Manhattan',
+          pos: { lat: 40.719065, lng: -74.009969 }
+        },
+        {
+          name : 'Queens',
+          pos: { lat: 40.717947, lng: -73.835466 }
+        },
+        {
+          name : 'Brooklyn',
+          pos: { lat: 40.665027, lng: -73.945215 }
+        }]
       },
       {
         name: 'Hudson River',
-        pos: { lat: 41.630632, lng: -73.959698 }
+        pos: { lat: 41.857170, lng: -73.970232 }
       },
       {
         name: 'Finger Lakes',
-        pos: { lat: 42.8159758, lng: -76.9312001 }
+        pos: { lat: 42.627888, lng: -76.867026 },
+        sub_regions : [{
+          name: 'Canandaigua Lake',
+          pos: { lat: 42.875957, lng: -77.273387 }
+        },
+        {
+          name: 'Cayuga Lake',
+          pos: { lat: 42.754504, lng: -76.702667 }
+        },
+        {
+          name: 'Conesus & Hemlock Lakes',
+          pos: { lat: 42.822945, lng: -77.718852 }
+        },
+        {
+          name: 'Keuka Lake',
+          pos: { lat: 42.485131, lng: -77.138742 }
+        },
+        {
+          name: 'Owasco Lake',
+          pos: { lat: 42.662386, lng: -76.393007 }
+        },
+        {
+          name: 'Seneca Lake',
+          pos: { lat: 42.617262, lng: -76.921993 }
+        },
+        {
+          name: 'Skaneateles Lake',
+          pos: { lat: 42.888487, lng: -76.418161 }
+        }]
       },
       {
         name: 'Lake Erie',
-        pos: { lat: 42.419645, lng: -79.436646 }
+        pos: { lat: 42.188784, lng: -79.723930 }
       },
       {
         name: 'Niagra',
-        pos: { lat: 43.168962, lng: -79.005821 }
+        pos: { lat: 43.296409, lng: -78.715268 }
       },
       {
         name: 'Other Western Counties',
-        pos: { lat: 42.295065, lng: -78.387863 }
+        pos: { lat: 42.305448, lng: -78.017090 }
       },
       {
         name: 'Lake Ontario',
-        pos: { lat: 43.275033, lng: -77.229369 }
+        pos: { lat: 43.116777, lng: -77.314405 }
       },
       {
         name: 'Central New York',
-        pos: { lat: 42.674451, lng: -74.432814 }
+        pos: { lat: 42.583077, lng: -74.591432 }
       },
     ];
+
 
     /* get venue data */
 
@@ -88,26 +145,6 @@ angular.module('nyWineApp')
           return venue.type=="Winery";
         });
 
-        /* build regions object */
-
-        angular.forEach($scope.regions, function(region) {
-          var name = region.name;
-
-          region.venues = _.filter($scope.venues, function(venue) {
-            return venue.region==region.name;
-          });
-
-          region.subRegions = []
-
-          angular.forEach(region.venues, function(venue) {
-
-            if (region.subRegions.indexOf(venue.sub_region)==-1 && venue.sub_region !=null && venue.sub_region !="") {
-              region.subRegions.push(venue.sub_region);
-            }
-          });
-
-        });
-        /* end build regions object */
       });
 
     /* map functions */
@@ -150,8 +187,7 @@ angular.module('nyWineApp')
 
       var w = window.innerWidth;
       var mapWidth = w - 315;
-      console.log('small resize')
-      $('#map-container').find('.map').width(mapWidth);
+      //$('#map-container').find('.map').width(mapWidth);
       $('.map-overlay').width(mapWidth);
       $timeout(function() {
           $scope.loading = false;
@@ -176,7 +212,7 @@ angular.module('nyWineApp')
         }
       });
       if (currentRegion) $scope.mapRegionClassName = currentRegion.name.toLowerCase().replace(" ", "-");
-      return currentRegion;
+        return currentRegion;
     };
 
     $scope.isMarkerInMapBounds = function(marker) {
@@ -191,9 +227,12 @@ angular.module('nyWineApp')
     }
 
     $scope.onMapCenterChange = function() {
+      //return;
       $timeout(function() {
-        $scope.mapRegion = $scope.getCurrentRegion();
-        $scope.$apply();
+        if ($scope.getCurrentRegion()) {
+          $scope.mapRegion = $scope.getCurrentRegion();
+          $scope.$apply();
+        }
       });
     };
 
@@ -227,9 +266,22 @@ angular.module('nyWineApp')
     $scope.menuRegionClick = function(region) {
       $scope.loading = true;
       $scope.toggleMenu();
+      $scope.showMapOverlay = false;
       $timeout(function() {
         $scope.map.setZoom(10);
         $scope.mapCoordinates = [region.pos.lat, region.pos.lng];
+      },50);
+    }
+
+    $scope.menuSubRegionClick = function(sub_region, region) {
+      $scope.loading = true;
+      $scope.toggleMenu();
+      $scope.showMapOverlay = false;
+      $timeout(function() {
+        $scope.mapCoordinates = [sub_region.pos.lat, sub_region.pos.lng];
+        $scope.map.setZoom(12);
+        $scope.mapRegion = region;
+        $scope.mapRegionClassName = region.name.toLowerCase().replace(" ", "-");
       },50);
     }
 
@@ -260,6 +312,7 @@ angular.module('nyWineApp')
 
     $scope.getMapWidth = function() {
       var w = $('#map').width();
+      if ($scope.showMapRegion) w = w -315;
       return w;
     }
 
