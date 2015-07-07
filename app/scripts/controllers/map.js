@@ -9,7 +9,7 @@
  */
 
 angular.module('nyWineApp')
-  .controller('MapCtrl', function ($scope,$location,$rootScope,$http,$timeout) {
+  .controller('MapCtrl', function ($scope,$location,$rootScope,$http,$timeout,$sce) {
     /* init variables */
 
     $scope.attractions = null;
@@ -250,6 +250,12 @@ angular.module('nyWineApp')
         $scope.mapCoordinates = [e.latLng.A, e.latLng.F];
       },50);
     };
+
+    $scope.sanitize = function(val) {
+      val = val.split("&#40;").join("(");
+      val = val.split("&#41;").join(")");
+      return $sce.trustAsHtml(val);
+    }
 
     /* end map functions */
 

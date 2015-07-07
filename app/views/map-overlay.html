@@ -6,19 +6,19 @@
       <div class="venue-card" data-venue-type="{{activeVenue.type}}" style="background-image:url({{placeholderVenueImageUrl}})">
         <div class="venue-card-inner">
           <header class="venue-card-header {{activeVenue.type}}">
-            <div class="venue-name">{{activeVenue.name}}</div>
+            <div class="venue-name" ng-bind-html="activeVenue.name"></div>
             <div class="venue-badge"></div>
             <div class="btn-overlay-close" ng-click="toggleMapOverlay()">
               <span class="glyphicon glyphicon-remove"></span>
             </div>
           </header>
           <div class="venue-location">
-            <span class="venue-address">{{activeVenue.address}}</span>
-            <span class="venue-city">{{activeVenue.city}}</span>
-            <span class="venue-state">{{activeVenue.state}}</span>
-            <span class="venue-zip-code">{{activeVenue.zip_code}}</span>
+            <span class="venue-address" ng-bind-html="activeVenue.address"></span>
+            <span class="venue-city" ng-bind-html="activeVenue.city"></span>
+            <span class="venue-state" ng-bind-html="activeVenue.state"></span>
+            <span class="venue-zip-code" ng-bind-html="activeVenue.zip_code"></span>
             <span class="venue-telephone">
-              <a href="tel:{{activeVenue.phone_number}}">{{activeVenue.phone_number}}</a>
+              <a href="tel:{{sanitize(activeVenue.phone_number)}}" ng-bind-html="activeVenue.phone_number"></a>
             </span>
           </div>
           <footer class="venue-card-footer">
