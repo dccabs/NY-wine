@@ -23,25 +23,6 @@
   height: 310px;
   width: 100%;
   background-repeat: no-repeat;
-
-  &.niagra {
-    background-image: url(/images/region-niagra.jpg);
-  }
-  &.lake-erie {
-    background-image: url(/images/region-lake-erie.jpg);
-  }
-  &.long-island {
-    background-image: url(/images/region-long-island.jpg);
-  }
-  &.finger-lakes {
-    background-image: url(/images/region-finger-lakes.jpg);
-  }
-  &.hudson-river {
-    background-image: url(/images/region-hudson-river.jpg);
-  }
-  &.new-york-city {
-    background-image: url(/images/region-new-york-city.jpg);
-  }
 }
 
 .map-region-label {
