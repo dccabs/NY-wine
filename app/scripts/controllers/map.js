@@ -204,15 +204,9 @@ angular.module('nyWineApp')
     };
 
     $scope.getCurrentRegion = function() {
-      var currentRegion;
-      angular.forEach($scope.regions, function(region) {
-        var latLng = new $scope.google.maps.LatLng(region.pos.lat,region.pos.lng);
-        if ($scope.map.getBounds().contains(latLng)) {
-          currentRegion = region;
-        }
-      });
-      if (currentRegion) $scope.mapRegionClassName = currentRegion.name.toLowerCase().replace(" ", "-");
-        return currentRegion;
+      var currentRegion = $scope.findClosesetRegion()
+      $scope.mapRegionClassName = currentRegion.name.toLowerCase().split(" ").join("-");
+      return currentRegion;
     };
 
     $scope.isMarkerInMapBounds = function(marker) {
@@ -229,10 +223,8 @@ angular.module('nyWineApp')
     $scope.onMapCenterChange = function() {
       //return;
       $timeout(function() {
-        if ($scope.getCurrentRegion()) {
-          $scope.mapRegion = $scope.getCurrentRegion();
-          $scope.$apply();
-        }
+        $scope.mapRegion = $scope.getCurrentRegion();
+        $scope.$apply();
       });
     };
 
@@ -280,8 +272,8 @@ angular.module('nyWineApp')
       $timeout(function() {
         $scope.mapCoordinates = [sub_region.pos.lat, sub_region.pos.lng];
         $scope.map.setZoom(12);
-        $scope.mapRegion = region;
-        $scope.mapRegionClassName = region.name.toLowerCase().replace(" ", "-");
+        // $scope.mapRegion = region;
+        // $scope.mapRegionClassName = region.name.toLowerCase().split(" ").join("-");
       },50);
     }
 
@@ -469,6 +461,36 @@ angular.module('nyWineApp')
     ];
 
     /* end map styles */
+
+
+  $scope.rad = function(x) {
+      return x*Math.PI/180;
+  }
+
+  $scope.findClosesetRegion = function () {
+    var center = $scope.map.getCenter();
+    var lat = center.lat();
+    var lng = center.lng();
+    var R = 6371; // radius of earth in km
+    var distances = [];
+    var closest = -1;
+    var i;
+    for( i=0;i<$scope.regions.length; i++ ) {
+        var mlat = $scope.regions[i].pos.lat;
+        var mlng = $scope.regions[i].pos.lng;
+        var dLat  = $scope.rad(mlat - lat);
+        var dLong = $scope.rad(mlng - lng);
+        var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+            Math.cos($scope.rad(lat)) * Math.cos($scope.rad(lat)) * Math.sin(dLong/2) * Math.sin(dLong/2);
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+        var d = R * c;
+        distances[i] = d;
+        if ( closest == -1 || d < distances[closest] ) {
+            closest = i;
+        }
+    }
+    return $scope.regions[closest]
+  }
 
   })
   .filter('plusify',function() {

@@ -2,6 +2,7 @@
  <div ng-include="'/views/map-region.html'"></div>
 
 <map resizeMap id="map" class="map" map-type-id="roadmap"
+    on-click="findClosesetRegion()"
     center="{{mapCoordinates}}"
     zoom="{{mapZoom}}"
     styles="{{mapStyles}}"
