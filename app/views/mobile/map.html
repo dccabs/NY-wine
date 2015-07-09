@@ -1,5 +1,10 @@
+<div ng-include="'/views/mobile/mobile-nav.html'"></div>
+
 <div id="navbar">
 	<ul class="nav nav-tabs nav-justified">
-		<li><a ng-repeat="region in regions" href="#/region?r={{region}}">{{region}}</a></li>
+		<li ng-repeat="region in regions">
+			<a ng-if="region.sub_regions" href="#/region?r={{getUrlName(region.name)}}">{{region.name}}</a>
+			<a ng-if="!region.sub_regions" href="#/venues?r={{getUrlName(region.name)}}">{{region.name}}</a>
+		</li>
 	</ul>
 </div>

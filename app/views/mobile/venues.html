@@ -1,7 +1,9 @@
+<div ng-include="'/views/mobile/mobile-nav.html'"></div>
+
 <div id="navbar">
 	<ul class="nav nav-tabs nav-justified">
-		<li>
-			<a ng-repeat="venue in venues | orderBy: 'name'" href="#/venue?name={{venue.name}}">{{venue.name}}</a>
+		<li ng-repeat="venue in venues | orderBy: 'name'" class="{{venue.type.toLowerCase()}} venue">
+			<a href="#/venue?name={{getUrlName(venue.name)}}">{{venue.name}}</a>
 		</li>
 	</ul>
 </div>

@@ -12,15 +12,17 @@ angular.module('nyWineApp')
   .controller('MobileVenueCtrl', function ($scope,$location,$rootScope,$timeout,$http) {
 
     $rootScope.device = "mobile";
-    $scope.venueName = $location.search().name;
+    $scope.vn = $location.search().name;
+    $scope.venueName = $scope.vn.split("-").join(" ");
+
+    console.log($scope.venueName)
 
 		$http.get('/data/venues.json').
       success(function(data, status, headers, config) {
 				$scope.venue= _.filter(data, function(venue) {
-          return venue.name==$scope.venueName;
+          return venue.name.toLowerCase()==$scope.venueName;
         });
         $scope.venue = $scope.venue[0];
-        console.log($scope.venue+ "aa")
       });
 
     // $scope.selectRegion = function(region) {

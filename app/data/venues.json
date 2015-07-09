@@ -378,7 +378,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Cold Spring Farmers Market at Boscobel House & Gardens",
         "address": "1601 Route 9D",
@@ -391,7 +391,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Home of Franklin D. Roosevelt National Historic Site",
         "address": "4097 Albany Post Road",
@@ -404,7 +404,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Olana State Historic Site",
         "address": "5720 State Route 9G",
@@ -417,7 +417,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Omi International Art Center",
         "address": "1405 County Route 22",
@@ -430,7 +430,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Pleasantville Farmers Market",
         "address": "Memorial Plaza &#40;next to Metro North train station&#41;",
@@ -443,7 +443,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "The Culinary Institute of America",
         "address": "1946 Campus Dr",
@@ -456,7 +456,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Bellvale Farms Creamery",
         "address": "1390 Route 17A",
@@ -469,7 +469,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Harriman State Park",
         "address": "Seven Lakes Dr / Bear Mountain Circle",
@@ -482,7 +482,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Mohonk Preserve",
         "address": "3197 State Rte 55",
@@ -495,7 +495,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Ochs Orchard",
         "address": "4 Ochs Lane",
@@ -508,7 +508,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Pennings Farm",
         "address": "161 State Rte 94 S",
@@ -521,7 +521,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Soons Orchards",
         "address": "23 Soons Circle",
@@ -534,7 +534,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Sterling Forest State Park",
         "address": "116 Old Forge Road",
@@ -547,7 +547,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Storm King Art Center",
         "address": "1 Museum Road",
@@ -560,7 +560,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Thomas Cole Historic Site",
         "address": "218 Spring Street",
@@ -573,7 +573,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Walkway Over the Hudson",
         "address": "87 Haviland Road",
@@ -1054,7 +1054,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Becker Farms",
         "address": "3724 Quaker Road",
@@ -1210,7 +1210,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Lockport Cave & Underground Boat Ride",
         "address": "5 Gooding Street",
@@ -1223,7 +1223,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Lockport Locks & Erie Canal Cruises",
         "address": "210 Market Street",
@@ -1262,7 +1262,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Maid of the Mist",
         "address": "1 Prospect Street",
@@ -1301,7 +1301,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Niagara Falls State Park",
         "address": "332 Prospect Street",
@@ -1314,7 +1314,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Olcott Carousel Park",
         "address": "5979 Main Street",
@@ -1327,7 +1327,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Old Fort Niagara",
         "address": "",
@@ -1379,7 +1379,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Whirlpool Jet Boat Tours",
         "address": "115 South Water Street",
@@ -1561,7 +1561,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Inn at Silver Maple Farm",
         "address": "1871 State Route 295",
@@ -1574,7 +1574,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Mount Merino Manor Bed and Breakfast",
         "address": "4317 State Route 23",
@@ -1587,7 +1587,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "The Barlow",
         "address": "542 Warren Street",
@@ -1600,7 +1600,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "The Inn at Ca'Mea",
         "address": "333 Warren Street",
@@ -1613,7 +1613,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "The Inn at Green River",
         "address": "9 Nobletown Road",
@@ -1626,7 +1626,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Thyme in the Country",
         "address": "671 Fish and Game Road",
@@ -1639,7 +1639,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Bear Mountain Inn and Overlook Lodge",
         "address": "3020 Seven Lakes Drive",
@@ -1652,7 +1652,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Buttermilk Falls Inn",
         "address": "220 North Road",
@@ -1665,7 +1665,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Glenmere Mansion",
         "address": "634 Pine Hill Road",
@@ -1678,7 +1678,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Inn at Stony Creek",
         "address": "34 Spanktown Rd.",
@@ -1691,7 +1691,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Minnewaska Lodge",
         "address": "3116 State Route 55",
@@ -1704,7 +1704,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Mohonk Mountain House",
         "address": "1000 Mountain Rest Road",
@@ -1717,7 +1717,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Sleepy Valley Inn",
         "address": "117 Sleepy Valley Road",
@@ -1730,7 +1730,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "The Inn at Orchard Heights",
         "address": "20 Church St",
@@ -2094,7 +2094,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Barton Hill Hotel & Spa",
         "address": "100 Center Street",
@@ -2120,7 +2120,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Brookins Inn & Suites",
         "address": "2697 Maple Avenue",
@@ -2133,7 +2133,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "DeFlippo’s Bed & Breakfast",
         "address": "326 West Avenue",
@@ -2159,7 +2159,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Four Points by Sheraton",
         "address": "7001 Buffalo Ave",
@@ -2172,7 +2172,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Hart House Hotel",
         "address": "113 W Center Street",
@@ -2185,7 +2185,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Holiday Inn Niagara Falls",
         "address": "114 Buffalo Avenue",
@@ -2224,7 +2224,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Red Coach Inn",
         "address": "2 Buffalo Ave",
@@ -2237,7 +2237,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Sheraton at the Falls",
         "address": "300 Third Street",
@@ -2289,7 +2289,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "The Giacomo",
         "address": "222 First Street",
@@ -2367,7 +2367,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Wilson House Restaurant & Inn",
         "address": "300 Lake St",
@@ -2692,7 +2692,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Local 111",
         "address": "111 Main Street",
@@ -2705,7 +2705,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "RiverMarket Bar & Kitchen",
         "address": "127 W Main St",
@@ -2718,7 +2718,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "The Winery at St. George",
         "address": "1715 E. Main Street",
@@ -2731,7 +2731,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "X2O",
         "address": "71 Water Grant Street",
@@ -2744,7 +2744,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Eddie's Roadhouse",
         "address": "18 Main Street",
@@ -2757,7 +2757,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Iron Forge Inn",
         "address": "38 Iron Forge Rd",
@@ -2770,7 +2770,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Pané Café/Black Dirt® at Warwick Valley Winery",
         "address": "114 Little York Road",
@@ -2783,7 +2783,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Restaurant X",
         "address": "117 North Route 303",
@@ -2796,7 +2796,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "The Landmark Inn",
         "address": "526 Route 94 North",
@@ -2809,7 +2809,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "The Village Tea Room",
         "address": "10 Plattekill Ave",
@@ -2822,7 +2822,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Vinum Café at Brotherhood Winery",
         "address": "84 Brotherhood Plaza Drive",
@@ -3485,7 +3485,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Becker Farms",
         "address": "3724 Quaker Road",
@@ -3511,7 +3511,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "DeFlippo’s Italian Restaurant and Bed & Breakfast",
         "address": "326 West Avenue",
@@ -3602,7 +3602,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Mericana",
         "address": "80 Main St",
@@ -3615,7 +3615,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Red Coach Inn Restaurant",
         "address": "2 Buffalo Ave",
@@ -3628,7 +3628,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Savor at Niagara Falls Culinary Institute",
         "address": "28 Old Falls Street",
@@ -3641,7 +3641,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Shamus Restaurant",
         "address": "98 West Ave",
@@ -3693,7 +3693,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Wilson Boat House",
         "address": "57 Harbor Streer",
@@ -3706,7 +3706,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Wilson House Restaurant & Inn",
         "address": "300 Lake St",
@@ -3719,7 +3719,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "",
         "name": "Zambistro",
         "address": "408 Main Street",
@@ -5734,7 +5734,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Cascade Mountain Winery",
         "address": "835 Cascade Mountain Road",
@@ -5747,7 +5747,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Brookview Station Winery",
         "address": "1297 Brookview Station Road",
@@ -5760,7 +5760,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Clermont Vineyards & Winery",
         "address": "241 County Route 6",
@@ -5773,7 +5773,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Clinton Vineyards, Inc.",
         "address": "450 Schultzville Road",
@@ -5786,7 +5786,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Tousey Winery",
         "address": "1774 Route 9",
@@ -5799,7 +5799,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Hudson-Chatham Winery",
         "address": "1900 State Route 66",
@@ -5812,7 +5812,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Millbrook Vineyards & Winery",
         "address": "26 Wing Rd",
@@ -5825,7 +5825,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "The Winery at St. George",
         "address": "1715 East Main St.",
@@ -5838,7 +5838,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Brothers Covino",
         "address": "130 Hardscrabble Rd.",
@@ -5851,7 +5851,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Prospero Winery",
         "address": "134 Marble Ave",
@@ -5864,7 +5864,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Hetta Glögg LLC",
         "address": "2 Charles St., Suite 1",
@@ -5877,7 +5877,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR East",
         "name": "Breezy Hill Orchard & Cider Mill",
         "address": "828 Centre Road",
@@ -5890,7 +5890,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Altamont Vineyard & Winery",
         "address": "3001 Furbeck Rd.",
@@ -5903,7 +5903,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Windham Vineyards and Winery",
         "address": "11 Mountain View Estates",
@@ -5916,7 +5916,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Woodstock Winery",
         "address": "403 Wittenberg Rd.",
@@ -5929,7 +5929,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Cereghino Smith",
         "address": "2583 Route 32",
@@ -5942,7 +5942,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Enlightenment Wines",
         "address": null,
@@ -5955,7 +5955,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Helderberg Meadworks LLC",
         "address": "990 W. Duane Lake Rd.",
@@ -5968,7 +5968,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Tuthilltown Spirits",
         "address": "14 Gristmill Lane",
@@ -5981,7 +5981,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Whitecliff Vineyard and Winery",
         "address": "331 McKinstry Road",
@@ -5994,7 +5994,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Palaia Vineyards Inc.",
         "address": "20 Sweet Clover Road",
@@ -6007,7 +6007,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Torne Valley Vineyards LLC",
         "address": "1 Torne Brook Rd.",
@@ -6020,7 +6020,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Benmarl Winery at Slate Hill Vineyards",
         "address": "156 Highland Ave.",
@@ -6033,7 +6033,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Brunel & Rafael Winery",
         "address": "180 South St.",
@@ -6046,7 +6046,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Glorie Farm Winery",
         "address": "40 Mountain Road",
@@ -6059,7 +6059,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Royal Kedem Winery",
         "address": "1519 Route 9W",
@@ -6072,7 +6072,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Stoutridge Vineyard",
         "address": "10 Ann Kaley Lane",
@@ -6085,7 +6085,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Weed Orchards & Winery",
         "address": "43 Mt. Zion Rd.",
@@ -6098,7 +6098,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Nostrano Vineyards",
         "address": "14 Gala Lane",
@@ -6111,7 +6111,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Orchard Hill Cider Mill",
         "address": "29 Soons Cir.",
@@ -6124,7 +6124,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Adair Vineyards",
         "address": "52 Allhusen Road",
@@ -6137,7 +6137,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Kettleborough Cider House LLC",
         "address": "277 State Route 208",
@@ -6150,7 +6150,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Robibero Family Vineyards",
         "address": "714 Albany Post Rd.",
@@ -6163,7 +6163,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Yankee Folly Cidery",
         "address": "69 Yankee Folly Rd.",
@@ -6176,7 +6176,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Capoccia Vineyards & Winery",
         "address": "2820 Balltown Rd.",
@@ -6189,7 +6189,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Baldwin Vineyards",
         "address": "176 Hardenburgh Road",
@@ -6202,7 +6202,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Brimstone Hill Vineyard",
         "address": "61 Brimstone Hill Road",
@@ -6215,7 +6215,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Christopher Jacobs Winery at Pennings Vineyards",
         "address": "320 Crawford St.",
@@ -6228,7 +6228,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Pazdar Winery",
         "address": "6 Laddie Road",
@@ -6241,7 +6241,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "El Paso Winery",
         "address": "742 Broadway, Route 9W",
@@ -6254,7 +6254,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Magnanini Farm Winery, Inc.",
         "address": "172 Strawridge Road",
@@ -6267,7 +6267,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Applewood Winery",
         "address": "82 Four Corners Road",
@@ -6280,7 +6280,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Clearview Vineyard",
         "address": "35 Clearview Lane",
@@ -6293,7 +6293,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Demarest Hill Winery",
         "address": "81 Pine Island Turnpike",
@@ -6306,7 +6306,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Warwick Valley Winery & Distillery",
         "address": "114 Little York Road",
@@ -6319,7 +6319,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Brotherhood, America's Oldest Winery",
         "address": "100 Brotherhood Plaza Drive",
@@ -6332,7 +6332,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Shier Winery",
         "address": "439 Floyd Ackert Rd.",
@@ -6345,7 +6345,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "Aaron Burr Cider",
         "address": "2251 State Route 209",
@@ -6358,7 +6358,7 @@
     },
     {
         "type": "Winery",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River",
         "sub_region": "HR West",
         "name": "BashaKill Vineyards",
         "address": "1131 South Rd.",
@@ -7866,7 +7866,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "Salamaca Estate Winery",
         "address": "2660 Hindsburg Road",
@@ -7879,7 +7879,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "The Winery at Marjim Manor",
         "address": "7171 East Lake Road",
@@ -7892,7 +7892,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "BlackBird Cider Works",
         "address": "8503 Lower Lake Rd.",
@@ -7905,7 +7905,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "Autumn Moon Farm Winery",
         "address": "7585 W. Bergen Rd.",
@@ -7918,7 +7918,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "Black Willow Winery",
         "address": "5565 West Lake Rd.",
@@ -7931,7 +7931,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "Schulze Vineyards and Winery",
         "address": "2090 Coomer Road",
@@ -7944,7 +7944,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "Schwenk Wine Cellars",
         "address": "1456 Bills Road",
@@ -7957,7 +7957,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "Honeymoon Trail Winery",
         "address": "4120 Ridge Road",
@@ -7970,7 +7970,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "810 Meadworks LLC",
         "address": "113 West Center St.",
@@ -7983,7 +7983,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "Leonard Oakes Estate Winery",
         "address": "10609 Ridge Rd.",
@@ -7996,7 +7996,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "Chateau Niagara Winery",
         "address": "2466 West Creek Rd.",
@@ -8009,7 +8009,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "A Gust of Sun",
         "address": "4515 Baer Rd.",
@@ -8022,7 +8022,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "Midnight Run Wine Cellars",
         "address": "3301 Braley Rd",
@@ -8035,7 +8035,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "Long Cliff Vineyard & Winery",
         "address": "3617 Lower Mountain Rd.",
@@ -8048,7 +8048,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Greater Niagara Area",
         "name": "Victorianbourg Wine Estate",
         "address": "4402 East Lake Road",
@@ -8061,7 +8061,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Niagara Escarpment",
         "name": "Vizcarra Vineyards at Becker Farms",
         "address": "3724 Quaker Road",
@@ -8074,7 +8074,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Niagara Escarpment",
         "name": "Arrowhead Spring Vineyards",
         "address": "4746 Townline Road",
@@ -8087,7 +8087,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Niagara Escarpment",
         "name": "Eveningside Vineyards",
         "address": "4794 Lower Mountain Rd.",
@@ -8100,7 +8100,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Niagara Escarpment",
         "name": "Flight of Five",
         "address": "2 Pine St.",
@@ -8113,7 +8113,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Niagara Escarpment",
         "name": "Freedom Run Winery",
         "address": "5138 Lower Mountain Road",
@@ -8126,7 +8126,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Niagara Escarpment",
         "name": "Niagara Landing Wine Cellars",
         "address": "4434 Van Dusen Road",
@@ -8139,7 +8139,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagra",
         "sub_region": "Niagara Escarpment",
         "name": "Spring Lake Winery",
         "address": "7373 Rochester Road",
