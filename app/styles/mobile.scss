@@ -1,0 +1,57 @@
+@import "variables";
+
+body.mobile {
+	background: $mobile-primary;
+	color: $site-background-color;
+	overflow:hidden;
+
+	.main {
+		top: 50px;
+		overflow: scroll;
+	}
+
+	.navbar-header {
+		background-color: $site-background-color;
+		color: #fff;
+
+		a {
+			color: #fff;
+		}
+	}
+
+	#navbar {
+		li {
+			border: 1px solid #ebe3cf;
+			border-width: 1px 0;
+			font-size: 13px;
+
+			&.venue {
+				background:url(/images/mobile/icons.png);
+				background-repeat: no-repeat;
+				background-position: right 7px top 2px;
+
+				&.restaurant {
+					background-position: right 7px top -66px;
+				}
+				&.attraction {
+					background-position: right 7px top -128px;
+				}
+				&.hotel {
+					background-position: right 7px top -203px;
+				}
+
+				a {
+					text-align:left;
+					margin-left: 10px;
+				}
+			}
+
+
+			a {
+				margin-bottom: 0;
+				color: $site-background-color;
+			}
+		}
+	}
+
+}
