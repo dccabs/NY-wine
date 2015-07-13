@@ -7,10 +7,11 @@ body.mobile {
 
 	.main {
 		top: 50px;
-		overflow: scroll;
+		overflow-y: scroll;
+  	-webkit-overflow-scrolling: touch;
 	}
 
-	.navbar-header {
+	.navbar.navbar-default {
 		background-color: $site-background-color;
 		color: #fff;
 
@@ -42,7 +43,6 @@ body.mobile {
 
 				a {
 					text-align:left;
-					margin-left: 10px;
 				}
 			}
 

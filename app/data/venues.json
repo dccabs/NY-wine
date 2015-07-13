@@ -6699,19 +6699,6 @@
         "region": "Lake Ontario",
         "sub_region": null,
         "name": "Ashley Lynn Winery",
-        "address": "114 Potter Rd.",
-        "city": "Mexico",
-        "state": "NY",
-        "zip_code": "13114",
-        "phone_number": null,
-        "url": "http://www.ashleywines.com",
-        "coordinates": [43.4950714,-76.2618103]
-    },
-    {
-        "type": "Winery",
-        "region": "Lake Ontario",
-        "sub_region": null,
-        "name": "Ashley Lynn Winery",
         "address": "4142 State Route 104",
         "city": "Mexico",
         "state": "NY",
@@ -6771,19 +6758,6 @@
         "phone_number": "315-947-2069",
         "url": "http://www.colloca.com",
         "coordinates": [43.3223319,-76.7207439]
-    },
-    {
-        "type": "Winery",
-        "region": "Lake Ontario",
-        "sub_region": null,
-        "name": "Mayers Lake Ontario Winery",
-        "address": "699 Five Mile Line Road",
-        "city": "Webster",
-        "state": "NY",
-        "zip_code": "14580",
-        "phone_number": "&#40;585&#41; 671-1979",
-        "url": "http://www.lakeontariowinery.com",
-        "coordinates": [43.2276154,-77.4772644]
     },
     {
         "type": "Winery",
