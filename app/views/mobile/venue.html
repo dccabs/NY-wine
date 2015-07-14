@@ -1,6 +1,32 @@
 <div ng-include="'/views/mobile/mobile-nav.html'"></div>
 
-<div class="container">
+
+<div class="wide venue-header {{venue.type}}">
+  <div class="banner">
+    <div class="badge"></div>
+    <div class="name">{{venue.name}}</div>
+  </div>
+</div>
+
+<div class="wide venue-info">
+  <div ng-bind-html="venue.address"></div>
+  <div ng-bind-html="venue.city"></div>
+  <div><span ng-bind-html="venue.state"></span> <span ng-bind-html="venue.zip_code"></span></div>
+  <div ng-bind-html="venue.phone_number"></div>
+</div>
+
+
+
+<footer class="footer {{venue.type}}">
+  <div class="col">
+    <a target="_blank" href="https://maps.google.com?daddr={{venue.address|plusify}}+{{venue.city|plusify}}+{{venue.state}}+{{venue.zip_code}}">Get Directions</a>
+  </div>
+  <div class="col">
+    <a>Visit Website</a>
+  </div>
+</footer>
+
+<!-- <div class="container">
   <div class="row">
     <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
@@ -14,4 +40,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->

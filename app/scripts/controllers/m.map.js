@@ -35,7 +35,12 @@ angular.module('nyWineApp')
         region.expanded = false;
       })
     }
- });
-
-  //end controller
+ }) //end controller
+  .filter('plusify',function() {
+    return function(input) {
+        if (input) {
+            return input.replace(/\s+/g, '+');
+        }
+    }
+  });
 		

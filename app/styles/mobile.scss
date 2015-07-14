@@ -54,6 +54,7 @@ body.mobile {
 
 				a {
 					text-align:left;
+					width: 90%;
 				}
 			}
 
@@ -140,12 +141,12 @@ body.mobile {
 				span.icon {
 				  display: block;
 				  margin: auto;
-				  width: 50%;
+				  width: 40px;
 				  height: 50%;
 				  margin-top: 10%;
 				  background: url(/images/filter-icon-sprite.png);
 				  background-repeat: no-repeat;
-				  background-position: 15px -2px;
+				  background-position: 11px -2px;
 				  text-align: center;
 				}
 
@@ -161,7 +162,7 @@ body.mobile {
 
 				&.winery {
 					span.icon {
-						background-position: 15px -2px;
+						background-position: 11px -2px;
 					}
 					&.active span.border {
 						background: $winery-color;
@@ -170,7 +171,7 @@ body.mobile {
 
 				&.hotel {
 					span.icon {
-						background-position: -34px -2px;
+						background-position: -38px -2px;
 					}
 					&.active span.border {
 						background: $accomodation-color;
@@ -179,7 +180,7 @@ body.mobile {
 
 				&.restaurant {
 					span.icon {
-						background-position: -83px -2px;
+						background-position: -86px -2px;
 					}
 					&.active span.border {
 						background: $restaurant-color;
@@ -188,7 +189,7 @@ body.mobile {
 
 				&.attraction {
 					span.icon {
-						background-position: -130px -2px;
+						background-position: -134px -2px;
 					}
 					&.active span.border {
 						background: $attraction-color;
@@ -199,6 +200,121 @@ body.mobile {
 					border-right:none;
 				}
 			}
+		}
+	}
+
+	.wide.venue-header {
+		background-image: url(/images/overlay-winery.jpg);
+		height: 68%;
+		background-size: cover;
+		position: relative;
+
+		.banner {
+			height: 75px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+
+			.badge {
+				display: block;
+				width: 70px;
+				height: 70px;
+				position: absolute;
+				top: -35px;
+				right: 20px;
+				border-radius: 50%;
+				box-shadow: 2px 2px 2px #222;
+			}
+
+			.name {
+				color: #fff;
+				font-size: 20px;
+				font-weight: 300;
+				margin-top: 18px;
+				margin-left: 10px;
+				line-height: 20px;
+				width: 80%;
+			}
+		}
+
+		&.Winery {
+			background-image: url(/images/overlay-winery.jpg);
+			.badge,.banner {
+				background-color: $winery-color;
+			}
+		}
+
+		&.Hotel {
+			background-image: url(/images/overlay-hotel.jpg);
+			.badge, .banner {
+				background-color: $accomodation-color;
+			}
+		}
+
+		&.Attraction {
+			background-image: url(/images/overlay-attraction.jpg);
+			.badge, .banner {
+				background-color: $attraction-color;
+			}
+		}
+
+		&.Restaurant {
+			background-image: url(/images/overlay-restaurant.jpg);
+			.badge, .banner {
+				background-color: $restaurant-color;
+			}
+		}
+	}
+
+	.wide.venue-info {
+		font-size: 12px;
+		margin-top: 13%;
+		margin-left: 20px;
+	}
+
+	.footer {
+		position: absolute;
+		color: #fff;
+		bottom: 0;
+		width: 100%;
+		height: 30px;
+		background-color: $winery-color;
+
+		.col {
+			float: left;
+			width: 50%;
+			border-right: 1px solid #fff;
+			height: 30px;
+			padding: 6px 0;
+			text-align: center;
+			font-weight: 400;
+			font-size: 12px;
+
+			&:last-child {
+				border-right:none;
+			}
+
+			a {
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+
+		&.Winery {
+			background-color: $winery-color;
+		}
+
+		&.Hotel {
+			background-color: $accomodation-color;
+		}
+
+		&.Attraction {
+			background-color: $attraction-color;
+		}
+
+		&.Restaurant {
+			background-color: $restaurant-color;
 		}
 	}
 
