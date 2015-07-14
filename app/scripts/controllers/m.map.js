@@ -24,6 +24,11 @@ angular.module('nyWineApp')
     	urlName = urlName.toLowerCase();
     	return urlName;
     }
+
+    $scope.getClass = function(val) {
+      val = val.toLowerCase().split(" ").join("-");
+      return val;
+    }
  });
 
   //end controller

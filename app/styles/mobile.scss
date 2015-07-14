@@ -3,17 +3,11 @@
 body.mobile {
 	background: $mobile-primary;
 	color: $site-background-color;
-	overflow:hidden;
 
-	.main {
-		top: 50px;
-		overflow-y: scroll;
-  	-webkit-overflow-scrolling: touch;
-	}
-
-	.navbar.navbar-default {
+	.navbar-default {
 		background-color: $site-background-color;
 		color: #fff;
+		border: none;
 
 		a {
 			color: #fff;
@@ -22,9 +16,26 @@ body.mobile {
 
 	#navbar {
 		li {
-			border: 1px solid #ebe3cf;
-			border-width: 1px 0;
+			border-bottom: 1px solid #ebe3cf;
 			font-size: 13px;
+
+			ul {
+				border-bottom: none;
+			}
+
+			&.region {
+				max-height: 40px;
+				overflow: hidden;
+				transition: max-height .5s;
+			}
+
+			&.region.expanded {
+				border-bottom: none;
+				border: 2px solid $site-background-color;
+				border-width: 2px 0;
+				transition: max-height 1s;
+				max-height: 800px;
+			}
 
 			&.venue {
 				background:url(/images/mobile/icons.png);
@@ -46,11 +57,54 @@ body.mobile {
 				}
 			}
 
+			ul.subregion {
+				width: 60%;
+				margin: auto;
+				text-align: center;
+
+				li {
+					border-top: 1px solid #fff;
+					border-bottom: none;
+					font-size: 11px;
+				}
+			}
+
 
 			a {
 				margin-bottom: 0;
 				color: $site-background-color;
 			}
+		}
+	}
+
+	.wide.state {
+		background: url(/images/mobile/state.jpg);
+		background-repeat:no-repeat;
+		background-size: 100%;
+		width: 100%;
+		height: 278px;
+		margin-top: 50px;
+	}
+
+	.wide.region-image {
+		background: url(/images/mobile/region-fingerlakes.png);
+		background-repeat:no-repeat;
+		background-size: 100%;
+		width: 100%;
+		height: 136px;
+		border: 1px solid $site-background-color;
+
+		span {
+			position: relative;
+			top: 38%;
+			text-align: center;
+			color: #fff;
+			font-size: 17px;
+			color: #fff;
+			text-shadow: 2px 2px 2px #222;
+			display: block;
+			margin: auto;
+
 		}
 	}
 
