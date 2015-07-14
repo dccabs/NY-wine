@@ -23,6 +23,7 @@ angular.module('nyWineApp')
     $scope.mapRegion = null;
     $scope.mapRegionClassName = null;
     $scope.showMapRegion = false;
+    $scope.showMapIntroOverlay = false;
     $scope.loading = false;
     $scope.showMenu = false;
     $scope.mapBounds = [[40.49909910896527,-79.79724120937499],[45.0409560293262,-71.82116699062499]];
@@ -68,6 +69,9 @@ angular.module('nyWineApp')
 
     $scope.onMapInit = function(event, map) {
       console.log('mapInitialized!');
+
+      $scope.showMapIntroOverlay = true;
+
       $scope.google.maps.event.addListener(map, 'center_changed',
         $scope.onMapCenterChange);
 
@@ -225,6 +229,10 @@ angular.module('nyWineApp')
     }
 
     /* end Overlay functions */
+
+    $scope.toggleMapIntroOverlay = function() {
+      $scope.showMapIntroOverlay = !$scope.showMapIntroOverlay;
+    };
 
     /* venu specific link function */
 
