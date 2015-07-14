@@ -15,12 +15,13 @@
   position: relative;
   height: 100%;
   width: 100%;
+  background-repeat: no-repeat;
 }
 
 .map-region-header {
-  @include background-image(linear-gradient(transparent, rgba(0,0,0,0.66)));
+  @include background-image(linear-gradient(transparent, rgba(0,0,0,0.50)));
   position: relative;
-  height: 310px;
+  height: 320px;
   width: 100%;
   background-repeat: no-repeat;
 }
@@ -44,16 +45,38 @@
 
 .back-to-state {
   position: relative;
+  margin: 25px 0 15px 35px;
+  cursor: pointer;
 
-  span {
-    top: 10px;
-    left: 25px;
-    font-size: 11px;
+  .glyphicon {
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 8px;
+    position: relative;
+    top: -1px;
+  }
+
+  .txt {
+    font-size: 12px;
     font-weight: 500;
-    position: absolute;
-    cursor: pointer;
     text-transform: uppercase;
   }
+}
+
+.back-to-state:active,
+.no-touch .back-to-state:hover {
+  .glyphicon {
+    color: #F6F7F3;
+    background-color: #000;
+  }
+  .txt { text-decoration: underline }
+}
+
+.map-region-description {
+  padding: 0 35px;
+  font-size: 13px;
+  text-align: justify;
 }
 
 
