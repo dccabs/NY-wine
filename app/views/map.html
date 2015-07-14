@@ -1,5 +1,5 @@
 <div id="map-container" ng-class="(getMapZoomLevel() < 9) ? 'map-zoomed-out' : 'map-zoomed-in'">
- <div ng-include="'/views/map-region.html'"></div>
+<div ng-include="'/views/map-region.html'"></div>
 
 <map resizeMap id="map" class="map" map-type-id="roadmap"
     on-click="findClosesetRegion()"
@@ -10,7 +10,7 @@
     pan-control="false"
     street-view-control="false"
     zoom-control="false">
-<!-- 
+<!--
   <marker
     position="{{bottomBounds}}"
     on-mouseup="changeBottomBounds()"
@@ -99,5 +99,5 @@
 <div ng-include="'/views/map-filters.html'"></div>
 <div ng-include="'/views/map-loading.html'"></div>
 <div ng-include="'/views/map-menu.html'"></div>
-
+<div ng-include="'/views/map-intro-overlay.html'"></div>
 

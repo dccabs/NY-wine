@@ -17,6 +17,7 @@
   top: 0;
   right: 0;
   left: 0;
+  z-index: 2;
 }
 
 
@@ -28,7 +29,8 @@
   height: 66%;
   width: 100%;
   background: url('/images/intro-wineglass.png') bottom right no-repeat;
-  background-size: 403px 527px;
+  background-size: 335px 455px;
+  z-index: 1;
 
   .hed {
     color: $site-text-color;

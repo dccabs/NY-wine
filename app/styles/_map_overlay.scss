@@ -164,20 +164,40 @@
 [data-venue-type="Winery"] {
   .venue-badge,
   .venue-card-footer { background-color: $winery-color }
+
+  .venue-badge {
+    background: url('/images/overlay-icon-grapes.png') no-repeat;
+    background-size: contain;
+  }
 }
 
 [data-venue-type="Restaurant"] {
   .venue-badge,
   .venue-card-footer { background-color: $restaurant-color }
+
+  .venue-badge {
+    background: url('/images/overlay-icon-fork.png') no-repeat;
+    background-size: contain;
+  }
 }
 
 [data-venue-type="Hotel"],
 [data-venue-type="Accomodation"] {
   .venue-badge,
   .venue-card-footer { background-color: #8B95A2; }
+
+  .venue-badge {
+    background: url('/images/overlay-icon-bed.png') no-repeat;
+    background-size: contain;
+  }
 }
 
 [data-venue-type="Attraction"] {
   .venue-badge,
   .venue-card-footer { background-color: $attraction-color }
+
+  .venue-badge {
+    background: url('/images/overlay-icon-camera.png') no-repeat;
+    background-size: contain;
+  }
 }
