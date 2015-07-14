@@ -1,8 +1,33 @@
 <div ng-include="'/views/mobile/mobile-nav.html'"></div>
+<div class="wide region-image" style="background:url(/images/region-{{getUrlName(region)}}.jpg);background-position:20% 45%;background-size:100%;">
+	<div class="region-name stroke">{{region}}</div>
+	<div ng-show="subRegion" class="subregion-name">{{subRegion}}</div>
+</div>
+
+<div class="wide filters">
+	<ul>
+		<li ng-class="{active:hideWineries==false}" ng-click="hideWineries=!hideWineries" class="winery">
+			<span class="icon"></span>
+			<span class="border"></span>
+		</li>
+		<li ng-class="{active:hideHotels==false}" ng-click="hideHotels = !hideHotels" class="hotel">
+			<span class="icon"></span>
+			<span class="border"></span>
+		</li>
+		<li ng-class="{active:hideRestaurants==false}" ng-click="hideRestaurants = !hideRestaurants" class="restaurant">
+			<span class="icon"></span>
+			<span class="border"></span>
+		</li>
+		<li ng-class="{active:hideAttractions==false}" ng-click="hideAttractions = !hideAttractions" class="attraction">
+			<span class="icon"></span>
+			<span class="border"></span>
+		</li>
+	</ul>
+</div>
 
 <div id="navbar">
 	<ul class="nav nav-tabs nav-justified">
-		<li ng-repeat="venue in venues | orderBy: 'name'" class="{{venue.type.toLowerCase()}} venue">
+		<li ng-hide="isFiltered(venue)" ng-repeat="venue in venues | orderBy: 'name'" class="{{venue.type.toLowerCase()}} venue">
 			<a href="#/venue?name={{getUrlName(venue.name)}}">{{venue.name}}</a>
 		</li>
 	</ul>

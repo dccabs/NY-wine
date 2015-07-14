@@ -29,6 +29,12 @@ angular.module('nyWineApp')
       val = val.toLowerCase().split(" ").join("-");
       return val;
     }
+
+    $scope.closeExpandedRegions = function() {
+      angular.forEach($scope.regions,function(region) {
+        region.expanded = false;
+      })
+    }
  });
 
   //end controller

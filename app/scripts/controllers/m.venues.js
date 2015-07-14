@@ -14,6 +14,10 @@ angular.module('nyWineApp')
     $rootScope.device = "mobile";
     $scope.sr = $location.search().sr;
     $scope.r = $location.search().r;
+    $scope.hideWineries = false;
+    $scope.hideHotels = false;
+    $scope.hideRestaurants = false;
+    $scope.hideAttractions = false;
 
     if ($scope.r) $scope.region = $scope.r.split("-").join(" ");
     if ($scope.sr) $scope.subRegion = $scope.sr.split("-").join(" ")
@@ -43,6 +47,26 @@ angular.module('nyWineApp')
       urlName = urlName.toLowerCase();
       return urlName;
     }
+
+    $scope.isFiltered = function(venue) {
+      var type = venue.type;
+      if (type=='Attraction' && $scope.hideAttractions) {
+        return true;
+      }
+
+      if (type=='Hotel' && $scope.hideHotels) {
+        return true;
+      }
+
+      if (type=='Winery' && $scope.hideWineries) {
+        return true;
+      }
+
+      if (type=='Restaurant' && $scope.hideRestaurants) {
+        return true;
+      }
+    }
+
 
  }); //end controller
 

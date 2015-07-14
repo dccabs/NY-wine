@@ -1,25 +1,11 @@
 <div ng-include="'/views/mobile/mobile-nav.html'"></div>
 <div class="wide state"></div>
+
 <div id="navbar">
 	<ul class="nav nav-tabs nav-justified">
 		<li class="region" ng-repeat="region in regions" ng-class="{expanded:region.expanded}">
-			<!-- <a ng-if="region.sub_regions" href="#/region?r={{getUrlName(region.name)}}">{{region.name}}</a> -->
-			<!-- <a ng-if="!region.sub_regions" href="#/venues?r={{getUrlName(region.name)}}">{{region.name}}</a> -->
-			<a ng-if="region.sub_regions" ng-click="region.expanded=!region.expanded" href="javascript:void(0);">{{region.name}}</a>
-
+			<a ng-if="region.sub_regions" href="#/region?r={{getUrlName(region.name)}}">{{region.name}}</a>
 			<a ng-if="!region.sub_regions" href="#/venues?r={{getUrlName(region.name)}}">{{region.name}}</a>
-
-			<div class="wide region-image {{getClass(region.name)}}">
-				<span>{{region.name}}</span>
-			</div>
-			<ul class="subregion nav nav-tabs nav-justified">
-				<li>
-					<a>All of {{region.name}}</a>
-				</li>
-				<li ng-repeat="subregion in region.sub_regions">
-					<a>{{subregion.name}}</a>
-				</li>
-			</ul>
 		</li>
 	</ul>
 </div>

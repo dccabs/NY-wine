@@ -1,4 +1,6 @@
 <div ng-include="'/views/mobile/mobile-nav.html'"></div>
+<div class="wide state">
+</div>
 
 <div id="navbar">
 	<ul class="nav nav-tabs nav-justified">
@@ -6,7 +8,7 @@
 			<a href="#/venues?r={{getUrlName(region)}}">All Regions</a>
 		</li>
 		<li ng-repeat="subRegion in subRegions">
-			<a href="#/venues?sr={{getUrlName(subRegion.name)}}">{{subRegion.name}}</a>
+			<a href="#/venues?sr={{getUrlName(subRegion.name)}}&r={{getUrlName(region)}}">{{subRegion.name}}</a>
 		</li>
 	</ul>
 </div>
