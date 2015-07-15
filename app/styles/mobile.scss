@@ -9,8 +9,41 @@ body.mobile {
 		color: #fff;
 		border: none;
 
+		h1 {
+			font-size: 12px;
+		  line-height: 12px;
+		  text-transform: uppercase;
+		  padding: 0;
+		  margin: 0;
+		  margin-left: 10px;
+		  margin-top: 20px;
+		  margin-top: 12px;
+		}
+
+		h2 {
+			font-size: 18px;
+		  line-height: 18px;
+		  text-transform: uppercase;
+		  padding: 0;
+		  margin: 0;
+		  margin-left: 10px;
+		}
+
 		a {
 			color: #fff;
+		}
+
+		.back {
+			font-size: 9px;
+		  text-transform: uppercase;
+		  position: absolute;
+		  top: 20px;
+		  right: 10px;
+
+		  span.fa {
+		  	font-size: 10px;
+		  	margin-left: 2px;
+		  }
 		}
 	}
 
@@ -78,6 +111,54 @@ body.mobile {
 		}
 	}
 
+	.wide.intro {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: $site-background-color;
+		background-image: url(/images/mobile/wine-cup.png);
+		background-position: bottom 25px right -72px;
+		background-repeat: no-repeat;
+		background-size: 50%;
+		color: #fff;
+
+		h1 {
+			margin: 5% 5%;
+			font-weight: 200;
+			font-size: 40px;
+			width: 275px;
+			text-shadow: 2px 2px 2px #000;
+		}
+
+		h2 {
+			margin: 0;
+			font-size: 11px;
+			color: #fff;
+			border: 2px solid #fff;
+			display: inline-block;
+			padding: 7px 10px 6px;
+			font-weight: 300;
+			text-transform: uppercase;
+			position: absolute;
+			bottom: 10%;
+			left: 5%;
+
+			a {
+				color: #fff;
+			}
+		}
+
+		.jumbotron.banner {
+			background: url(/images/mobile/home-banner.jpg);
+			height: 190px;
+			background-size: 100%;
+			background-position: bottom center;
+			margin-bottom: 0;
+		}
+	}
+
 	.wide.state {
 		background: url(/images/mobile/state.jpg);
 		background-repeat:no-repeat;
@@ -97,6 +178,32 @@ body.mobile {
 		margin-top:50px;
 		background-position: 20% 44%;
 
+		&.fixed {
+			position: fixed;
+			height: 30px;
+			top: 50px;
+			z-index: 100;
+			width: 100%;
+			margin: 0;
+			overflow: hidden;
+
+			.region-name {
+				margin-top: 0;
+				font-size: 13px;
+				display: inline-block;
+			}
+
+			.subregion-name {
+				display: inline-block;
+				margin-left: 5px;
+				font-size: 12px;
+
+				span {
+					display: inline;
+				}
+			}
+		}
+
 		.region-name {
 			font-size: 25px;
 			color: #fff;
@@ -108,19 +215,31 @@ body.mobile {
 		}
 
 		.subregion-name {
-			font-size: 17px;
-			line-height: 17px;
+			font-size: 14px;
+			line-height: 14px;
 			color: #fff;
 			text-shadow: 0px -1px 23px #000;
 			margin-top: 5px;
 			margin-left: 10px;
-			text-transform: capitalize;
+			text-transform: uppercase;
+
+			span {
+				display: none;
+			}
 		}
 	}
 
 	.wide.filters {
 		background: $site-background-color;
 		height: 44px;
+
+		&.fixed {
+			position: fixed;
+			top: 80px;
+			left: 0;
+			z-index: 100;
+			width: 100%;
+		}
 
 		ul {
 			margin: 0;
@@ -234,7 +353,7 @@ body.mobile {
 				margin-top: 18px;
 				margin-left: 10px;
 				line-height: 20px;
-				width: 80%;
+				width: 76%;
 			}
 		}
 
@@ -243,12 +362,21 @@ body.mobile {
 			.badge,.banner {
 				background-color: $winery-color;
 			}
+			.badge {
+				background: url(/images/overlay-icon-grapes.png);
+				background-size:contain;
+			}
 		}
 
 		&.Hotel {
 			background-image: url(/images/overlay-hotel.jpg);
 			.badge, .banner {
 				background-color: $accomodation-color;
+			}
+
+			.badge {
+				background: url(/images/overlay-icon-bed.png);
+				background-size:contain;
 			}
 		}
 
@@ -257,6 +385,11 @@ body.mobile {
 			.badge, .banner {
 				background-color: $attraction-color;
 			}
+
+			.badge {
+				background: url(/images/overlay-icon-camera.png);
+				background-size:contain;
+			}
 		}
 
 		&.Restaurant {
@@ -264,12 +397,17 @@ body.mobile {
 			.badge, .banner {
 				background-color: $restaurant-color;
 			}
+
+			.badge {
+				background: url(/images/overlay-icon-fork.png);
+				background-size:contain;
+			}
 		}
 	}
 
 	.wide.venue-info {
 		font-size: 12px;
-		margin-top: 13%;
+		margin-top: 10%;
 		margin-left: 20px;
 	}
 

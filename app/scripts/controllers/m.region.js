@@ -10,11 +10,10 @@
 
 angular.module('nyWineApp')
   .controller('MobileRegionCtrl', function ($scope,$location,$rootScope,$timeout,$http) {
-
+    $scope.page = "region";
     $rootScope.device = "mobile";
     $scope.r = $location.search().r;
     $scope.region = $scope.r.split("-").join(" ");
-    console.log($scope.r)
 
 		$http.get('/data/regions.json').
       success(function(data, status, headers, config) {

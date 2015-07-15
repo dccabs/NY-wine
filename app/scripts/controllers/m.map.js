@@ -10,7 +10,7 @@
 
 angular.module('nyWineApp')
   .controller('MobileMapCtrl', function ($scope,$location,$rootScope,$timeout,$http) {
-
+    $scope.page = "map";
     $rootScope.device = "mobile";
     $scope.bookmarkedVenue = $location.search().venue;
 
@@ -36,11 +36,36 @@ angular.module('nyWineApp')
       })
     }
  }) //end controller
+  .directive('scrolling', function() {
+    return function(scope, element, attrs) {
+      // $(window).scroll(function(e) {
+      //   var top = $('body').scrollTop();
+      //   console.log(top)
+      //   if (top > 95) {
+      //     $('.region-image, .filters').addClass("fixed");
+      //   } else {
+      //     $('.region-image, .filters').removeClass("fixed");
+      //   }
+      // });
+
+      var touchMove = function() {
+        var top = $('body').scrollTop();
+        console.log(top)
+        if (top > 95) {
+          $('.region-image, .filters').addClass("fixed");
+        } else {
+          $('.region-image, .filters').removeClass("fixed");
+        }
+      }
+
+      window.addEventListener("scroll", touchMove, false);
+    }
+  })
   .filter('plusify',function() {
     return function(input) {
         if (input) {
             return input.replace(/\s+/g, '+');
         }
     }
-  });
+  })
 		

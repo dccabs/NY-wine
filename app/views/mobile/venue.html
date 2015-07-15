@@ -9,6 +9,7 @@
 </div>
 
 <div class="wide venue-info">
+  {{venues}}
   <div ng-bind-html="venue.address"></div>
   <div ng-bind-html="venue.city"></div>
   <div><span ng-bind-html="venue.state"></span> <span ng-bind-html="venue.zip_code"></span></div>
@@ -22,7 +23,7 @@
     <a target="_blank" href="https://maps.google.com?daddr={{venue.address|plusify}}+{{venue.city|plusify}}+{{venue.state}}+{{venue.zip_code}}">Get Directions</a>
   </div>
   <div class="col">
-    <a>Visit Website</a>
+    <a ng-if="venue.url" target="_blank" href="{{venue.url}}">Visit Website</a>
   </div>
 </footer>
 

@@ -1,7 +1,7 @@
 <div ng-include="'/views/mobile/mobile-nav.html'"></div>
 <div class="wide region-image" style="background:url(/images/region-{{getUrlName(region)}}.jpg);background-position:20% 45%;background-size:100%;">
 	<div class="region-name stroke">{{region}}</div>
-	<div ng-show="subRegion" class="subregion-name">{{subRegion}}</div>
+	<div ng-show="subRegion" class="subregion-name"><span class="fa fa-caret-right"></span> Subregion {{subRegion}}</div>
 </div>
 
 <div class="wide filters">
@@ -28,7 +28,7 @@
 <div id="navbar">
 	<ul class="nav nav-tabs nav-justified">
 		<li ng-hide="isFiltered(venue)" ng-repeat="venue in venues | orderBy: 'name'" class="{{venue.type.toLowerCase()}} venue">
-			<a href="#/venue?name={{getUrlName(venue.name)}}">{{venue.name}}</a>
+			<a ng-if="r" href="#/venue?id={{venue.id}}&r={{r}}&sr={{sr}}">{{venue.name}}</a>
 		</li>
 	</ul>
 </div>

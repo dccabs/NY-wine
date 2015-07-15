@@ -1,7 +1,14 @@
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#/map">New York Wineries</a>
+			<h1><a href="#/map">New York</a></h1>
+			<h2><a href="#/map">Wineries</a></h2>
 		</div>
+
+		<div ng-if="page=='region'" class="back"><a href="/#/map">Back To Start <span class="fa fa-times"></span></a></div>
+		<div ng-if="page=='venues'" class="back"><a href="/#/map">Back To Start <span class="fa fa-times"></span></a></div>
+		<div ng-if="page=='venue'" class="back"><a ng-click="backToList()" href="javascript:void(0)">Back To List <span class="fa fa-times"></span></a></div>
+<!-- 		<div class="back">Back To Region <span class="fa fa-times"></span></div> -->
+		<!-- <div class="back">Back To List <span class="fa fa-times"></span></div> -->
 	</div>
 </nav>

@@ -43,8 +43,8 @@ angular
 
     $routeProvider
       .when('/', {
-        templateUrl: 'views/intro.html',
-        controller: 'MainCtrl'
+        templateUrl: (isMobile )? 'views/mobile/intro.html':'views/intro.html',
+        controller: (isMobile )?'MobileMainCtrl':'MainCtrl'
       })
       .when('/about', {
         templateUrl: 'views/about.html',

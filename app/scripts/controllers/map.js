@@ -68,7 +68,7 @@ angular.module('nyWineApp')
     $scope.placeholderVenueImageUrl = 'https://placeholdit.imgix.net/~text?txtsize=66&txt=620×400&w=620&h=400';
 
     $scope.onMapInit = function(event, map) {
-      console.log('mapInitialized!');
+      // console.log('mapInitialized!');
 
       $scope.google.maps.event.addListener(map, 'center_changed',
         $scope.onMapCenterChange);

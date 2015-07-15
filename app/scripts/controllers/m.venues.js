@@ -10,7 +10,7 @@
 
 angular.module('nyWineApp')
   .controller('MobileVenuesCtrl', function ($scope,$location,$rootScope,$timeout,$http) {
-
+    $scope.page = "venues";
     $rootScope.device = "mobile";
     $scope.sr = $location.search().sr;
     $scope.r = $location.search().r;
@@ -44,6 +44,7 @@ angular.module('nyWineApp')
 
     $scope.getUrlName = function(name) {
       var urlName = name.split(" ").join("-");
+      urlName = urlName.split("&").join("and");
       urlName = urlName.toLowerCase();
       return urlName;
     }
