@@ -32,7 +32,7 @@
     border-width: 0 0 5px;
     border-radius: 4px 4px 0 0;
     background: $site-background-color;
-    width: 32px;
+    width: 43px;
     height: 37px;
     background-image: url(/images/filter-icon-sprite.png);
     background-repeat: no-repeat;
@@ -41,6 +41,7 @@
     text-indent: -1000px;
     box-sizing: content-box;
     outline: none;
+    padding: 0;
 
     &.wineries {
       background-position: 11px 11px;
