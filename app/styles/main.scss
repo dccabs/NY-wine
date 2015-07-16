@@ -12,9 +12,11 @@
 @import "map";
 @import "map_intro_overlay";
 @import "map_region";
+@import "map_filters";
 @import "map_controls";
 @import "map_overlay";
 @import "map_menu";
+@import "map_legend";
 
 body {
   padding: 0;

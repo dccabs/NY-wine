@@ -1,6 +1,10 @@
 <div class="map-filters">
-  <button ng-class="{active:!hideWineries}" class="wineries" type="button" ng-click="toggleMarkers('wineries')">Wineries</button>
-  <button ng-class="{active:!hideHotels}" class="hotels" type="button" ng-click="toggleMarkers('hotels')">Hotels</button>
-  <button ng-class="{active:!hideRestaurants}" class="restaurants" type="button" ng-click="toggleMarkers('restaurants')">Restaurants</button>
-  <button ng-class="{active:!hideAttractions}" class="attractions" type="button" ng-click="toggleMarkers('attractions')">Attractions</button>
+  <button ng-class="{active:!hideWineries}" class="wineries" type="button"
+    ng-click="toggleMarkers('wineries')" tooltip="Toggle Winery visibility on the map">Wineries</button>
+  <button ng-class="{active:!hideHotels}" class="hotels" type="button"
+    ng-click="toggleMarkers('hotels')" tooltip="Toggle Hotel visibility on the map">Hotels</button>
+  <button ng-class="{active:!hideRestaurants}" class="restaurants" type="button"
+    ng-click="toggleMarkers('restaurants')" tooltip="Toggle Restaurant visibility on the map">Restaurants</button>
+  <button ng-class="{active:!hideAttractions}" class="attractions" type="button"
+    ng-click="toggleMarkers('attractions')" tooltip="Toggle Attraction visibility on the map">Attractions</button>
 </div>
