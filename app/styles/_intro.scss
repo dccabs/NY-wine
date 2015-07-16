@@ -9,7 +9,7 @@
 
 .intro-cover-image {
   background: url('/images/intro-bg-image.png') no-repeat;
-  background-size: contain;
+  background-size: cover;
   min-height: 280px;
   height: 33%;
   width: 100%;
@@ -29,7 +29,6 @@
   height: 66%;
   width: 100%;
   background: url('/images/wine-cup.png') bottom right no-repeat;
-  background-size: 999px 421px;
   z-index: 1;
 
   .hed {

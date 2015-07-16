@@ -18,6 +18,16 @@
   background-repeat: no-repeat;
 }
 
+.subregion-help {
+  position: absolute;
+  top: 91px;
+  color: #fff;
+  z-index: 999;
+  width: 220px;
+  left: 61px;
+  text-shadow: 2px 2px 2px #000; 
+}
+
 .map-region-header {
   @include background-image(linear-gradient(transparent, rgba(0,0,0,0.50)));
   position: relative;
