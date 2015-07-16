@@ -262,13 +262,13 @@ angular.module('nyWineApp')
           "elementType": "all",
           "stylers": [
               {
-                  "saturation": -100
+                  "saturation": 100
               },
               {
-                  "lightness": 65
+                  "lightness": 90
               },
               {
-                  "visibility": "on"
+                  "visibility": "off"
               }
           ]
       },
