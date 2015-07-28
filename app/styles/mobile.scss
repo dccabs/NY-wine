@@ -4,6 +4,13 @@ body.mobile {
 	background: $mobile-primary;
 	color: $site-background-color;
 
+	.main {
+
+		.content {
+			min-height: auto;
+		}
+	}
+
 	.navbar-default {
 		background-color: $site-background-color;
 		color: #fff;
