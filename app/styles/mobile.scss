@@ -126,7 +126,7 @@ body.mobile {
 		height: 100%;
 		background-color: $site-background-color;
 		background-image: url(/images/mobile/wine-cup.png);
-		background-position: bottom 25px right -72px;
+		background-position: bottom 96px right -72px;
 		background-repeat: no-repeat;
 		background-size: 50%;
 		color: #fff;
@@ -149,7 +149,7 @@ body.mobile {
 			font-weight: 300;
 			text-transform: uppercase;
 			position: absolute;
-			bottom: 10%;
+			bottom: 152px;
 			left: 5%;
 
 			a {
@@ -460,6 +460,73 @@ body.mobile {
 
 		&.Restaurant {
 			background-color: $restaurant-color;
+		}
+	}
+
+	footer.sponsored {
+		position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    color: #000;
+
+    span {
+    	display: inline-block;
+    	width: 25%;
+    	padding: 10px;
+    }
+
+    .logos {
+    	display: inline-block;
+    	width: 72%;
+
+    	div {
+    		margin-left: 5%;
+    	}
+    }
+
+    .uncork-logo {
+			background: url(/images/mobile-uncork-logo.png);
+	    width: 36%;
+	    background-size: contain;
+	    height: 48px;
+	    background-repeat: no-repeat;
+	    display: inline-block;
+	    position: relative;
+			top: 18px;
+    }
+
+    .ny-logo {
+			background: url(/images/mobile-ny-partner-logo.png);
+	    width: 10%;
+	    background-size: contain;
+	    height: 31px;
+	    background-repeat: no-repeat;
+	    display: inline-block;
+    }
+
+    .we-logo {
+			background: url(/images/mobile-wine-enthusiast-logo.png);
+	    width: 25%;
+	    background-size: contain;
+	    height: 22px;
+	    background-repeat: no-repeat;
+	    display: inline-block;
+    }
+	}
+
+	.share-tools {
+		position: absolute;
+		bottom: 115px;
+		left: 16px;
+
+		.fa {
+			font-size: 21px;
+	    position: relative;
+	    top: 3px;
+	    margin-left: 10px;
 		}
 	}
 
