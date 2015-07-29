@@ -7,7 +7,7 @@ body.mobile {
 	.main {
 
 		.content {
-			min-height: auto;
+			min-height: 0 !important;
 		}
 	}
 
@@ -126,9 +126,9 @@ body.mobile {
 		height: 100%;
 		background-color: $site-background-color;
 		background-image: url(/images/mobile/wine-cup.png);
-		background-position: bottom 96px right -72px;
+		background-position: bottom 96px right -55px;
 		background-repeat: no-repeat;
-		background-size: 50%;
+		background-size: 45%;
 		color: #fff;
 
 		h1 {
@@ -149,7 +149,7 @@ body.mobile {
 			font-weight: 300;
 			text-transform: uppercase;
 			position: absolute;
-			bottom: 152px;
+			bottom: 125px;
 			left: 5%;
 
 			a {
@@ -159,7 +159,7 @@ body.mobile {
 
 		.jumbotron.banner {
 			background: url(/images/mobile/home-banner.jpg);
-			height: 190px;
+			height: 37%;
 			background-size: 100%;
 			background-position: bottom center;
 			margin-bottom: 0;
@@ -519,7 +519,7 @@ body.mobile {
 
 	.share-tools {
 		position: absolute;
-		bottom: 115px;
+		bottom: 90px;
 		left: 16px;
 
 		.fa {
