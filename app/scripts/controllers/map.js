@@ -152,11 +152,11 @@ angular.module('nyWineApp')
       $scope.map.setZoom($scope.map.getZoom() - 1);
     };
 
-    $scope.regionClick = function(e) {
+    $scope.regionClick = function(e,val) {
       $scope.loading = true;
       $timeout(function() {
         $scope.map.setZoom(10);
-        $scope.mapCoordinates = [e.latLng.A, e.latLng.F];
+        $scope.mapCoordinates = [e.latLng.G, e.latLng.K];
       },50);
     };
 

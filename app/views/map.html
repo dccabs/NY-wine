@@ -34,7 +34,7 @@
   <shape ng-if="getMapZoomLevel() < 8" name="image"
     url="/images/NY_state.png"
     bounds="{{mapBounds}}"
-    on-click="regionClick(event)"
+    on-click="regionClick(event, this)"
     background="#000000"
    >
   </shape>
