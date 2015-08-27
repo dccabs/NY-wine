@@ -6,9 +6,16 @@
   left: 0;
 }
 
+.share-tools {
+  a {
+    color: #333333;
+    cursor: pointer;
+  }
+}
+
 
 .intro-cover-image {
-  background: url('/images/banner.jpg') no-repeat;
+  background: url('../images/banner.jpg') no-repeat;
   background-size: cover;
   min-height: 280px;
   height: 33%;
@@ -28,7 +35,7 @@
   left: 0;
   height: 66%;
   width: 100%;
-  background: url(/images/wine-cup.png) bottom 81px right 0 no-repeat;
+  background: url(../images/wine-cup.png) bottom 81px right 0 no-repeat;
   z-index: 1;
   background-size: 18%;
 
@@ -80,7 +87,7 @@ footer.sponsorship {
     right: 0;
     width: 40%;
     height: 75px;
-    z-index: 9;
+    z-index: 100;
 
     .share-bg {
       border-top: 75px solid #e6e6e6;
@@ -103,11 +110,16 @@ footer.sponsorship {
         font-weight: 300;
       }
 
-      i {
+      .fa {
         font-size: 30px;
         margin-left: 12px;
         top: 4px;
         position: relative;
+
+        &:hover {
+          background-repeat: no-repeat;
+          text-decoration: none;
+        }
       }
     }
   }

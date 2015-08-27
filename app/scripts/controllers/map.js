@@ -34,14 +34,14 @@ angular.module('nyWineApp')
 
     /* region data */
 
-    $http.get('/data/regions.json').
+    $http.get('data/regions.json').
       success(function(data, status, headers, config) {
         $scope.regions = data;
     });
 
     /* get venue data */
 
-    $http.get('/data/venues.json').
+    $http.get('data/venues.json').
       success(function(data, status, headers, config) {
         $scope.venues = data;
         $scope.attractions = _.filter($scope.venues, function(venue) {

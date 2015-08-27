@@ -11,6 +11,13 @@ body.mobile {
 		}
 	}
 
+	.share-tools {
+		a {
+			color: #ffffff;
+			cursor: pointer;
+		}
+	}
+
 	.navbar-default {
 		background-color: $site-background-color;
 		color: #fff;
@@ -78,7 +85,7 @@ body.mobile {
 			}
 
 			&.venue {
-				background:url(/images/mobile/icons.png);
+				background:url(../images/mobile/icons.png);
 				background-repeat: no-repeat;
 				background-position: right 7px top 2px;
 
@@ -125,7 +132,7 @@ body.mobile {
 		width: 100%;
 		height: 100%;
 		background-color: $site-background-color;
-		background-image: url(/images/mobile/wine-cup.png);
+		background-image: url(../images/mobile/wine-cup.png);
 		background-position: bottom 96px right -55px;
 		background-repeat: no-repeat;
 		background-size: 45%;
@@ -158,7 +165,7 @@ body.mobile {
 		}
 
 		.jumbotron.banner {
-			background: url(/images/mobile/home-banner.jpg);
+			background: url(../images/mobile/home-banner.jpg);
 			height: 37%;
 			background-size: 100%;
 			background-position: bottom center;
@@ -167,7 +174,7 @@ body.mobile {
 	}
 
 	.wide.state {
-		background: url(/images/mobile/state.jpg);
+		background: url(../images/mobile/state.jpg);
 		background-repeat:no-repeat;
 		background-size: cover;
 		width: 100%;
@@ -176,7 +183,7 @@ body.mobile {
 	}
 
 	.wide.region-image {
-		background: url(/images/region-finger-lakes.jpg);
+		background: url(../images/region-finger-lakes.jpg);
 		background-repeat:no-repeat;
 		background-size: 100%;
 		width: 100%;
@@ -270,7 +277,7 @@ body.mobile {
 				  width: 40px;
 				  height: 50%;
 				  margin-top: 10%;
-				  background: url(/images/filter-icon-sprite.png);
+				  background: url(../images/filter-icon-sprite.png);
 				  background-repeat: no-repeat;
 				  background-position: 11px -2px;
 				  text-align: center;
@@ -330,7 +337,7 @@ body.mobile {
 	}
 
 	.wide.venue-header {
-		background-image: url(/images/overlay-winery.jpg);
+		background-image: url(../images/overlay-winery.jpg);
 		height: 68%;
 		background-size: cover;
 		position: relative;
@@ -365,48 +372,48 @@ body.mobile {
 		}
 
 		&.Winery {
-			background-image: url(/images/overlay-winery.jpg);
+			background-image: url(../images/overlay-winery.jpg);
 			.badge,.banner {
 				background-color: $winery-color;
 			}
 			.badge {
-				background: url(/images/overlay-icon-grapes.png);
+				background: url(../images/overlay-icon-grapes.png);
 				background-size:contain;
 			}
 		}
 
 		&.Hotel {
-			background-image: url(/images/overlay-hotel.jpg);
+			background-image: url(../images/overlay-hotel.jpg);
 			.badge, .banner {
 				background-color: $accomodation-color;
 			}
 
 			.badge {
-				background: url(/images/overlay-icon-bed.png);
+				background: url(../images/overlay-icon-bed.png);
 				background-size:contain;
 			}
 		}
 
 		&.Attraction {
-			background-image: url(/images/overlay-attraction.jpg);
+			background-image: url(../images/overlay-attraction.jpg);
 			.badge, .banner {
 				background-color: $attraction-color;
 			}
 
 			.badge {
-				background: url(/images/overlay-icon-camera.png);
+				background: url(../images/overlay-icon-camera.png);
 				background-size:contain;
 			}
 		}
 
 		&.Restaurant {
-			background-image: url(/images/overlay-restaurant.jpg);
+			background-image: url(../images/overlay-restaurant.jpg);
 			.badge, .banner {
 				background-color: $restaurant-color;
 			}
 
 			.badge {
-				background: url(/images/overlay-icon-fork.png);
+				background: url(../images/overlay-icon-fork.png);
 				background-size:contain;
 			}
 		}
@@ -488,7 +495,7 @@ body.mobile {
     }
 
     .uncork-logo {
-			background: url(/images/mobile-uncork-logo.png);
+			background: url(../images/mobile-uncork-logo.png);
 	    width: 36%;
 	    background-size: contain;
 	    height: 48px;
@@ -499,7 +506,7 @@ body.mobile {
     }
 
     .ny-logo {
-			background: url(/images/mobile-ny-partner-logo.png);
+			background: url(../images/mobile-ny-partner-logo.png);
 	    width: 10%;
 	    background-size: contain;
 	    height: 31px;
@@ -508,7 +515,7 @@ body.mobile {
     }
 
     .we-logo {
-			background: url(/images/mobile-wine-enthusiast-logo.png);
+			background: url(../images/mobile-wine-enthusiast-logo.png);
 	    width: 25%;
 	    background-size: contain;
 	    height: 22px;

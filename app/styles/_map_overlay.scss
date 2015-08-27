@@ -80,19 +80,19 @@
   background-repeat: no-repeat;
 
   &.Winery {
-    background-image: url(/images/overlay-winery.jpg)
+    background-image: url(../images/overlay-winery.jpg)
   }
 
   &.Attraction {
-    background-image: url(/images/overlay-attraction.jpg)
+    background-image: url(../images/overlay-attraction.jpg)
   }
 
   &.Hotel {
-    background-image: url(/images/overlay-hotel.jpg)
+    background-image: url(../images/overlay-hotel.jpg)
   }
 
   &.Restaurant {
-    background-image: url(/images/overlay-restaurant.jpg)
+    background-image: url(../images/overlay-restaurant.jpg)
   }
 }
 
@@ -166,7 +166,7 @@
   .venue-card-footer { background-color: $winery-color }
 
   .venue-badge {
-    background: url('/images/overlay-icon-grapes.png') no-repeat;
+    background: url('../images/overlay-icon-grapes.png') no-repeat;
     background-size: contain;
   }
 }
@@ -176,7 +176,7 @@
   .venue-card-footer { background-color: $restaurant-color }
 
   .venue-badge {
-    background: url('/images/overlay-icon-fork.png') no-repeat;
+    background: url('../images/overlay-icon-fork.png') no-repeat;
     background-size: contain;
   }
 }
@@ -187,7 +187,7 @@
   .venue-card-footer { background-color: #8B95A2; }
 
   .venue-badge {
-    background: url('/images/overlay-icon-bed.png') no-repeat;
+    background: url('../images/overlay-icon-bed.png') no-repeat;
     background-size: contain;
   }
 }
@@ -197,7 +197,7 @@
   .venue-card-footer { background-color: $attraction-color }
 
   .venue-badge {
-    background: url('/images/overlay-icon-camera.png') no-repeat;
+    background: url('../images/overlay-icon-camera.png') no-repeat;
     background-size: contain;
   }
 }

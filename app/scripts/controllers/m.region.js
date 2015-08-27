@@ -15,7 +15,7 @@ angular.module('nyWineApp')
     $scope.r = $location.search().r;
     $scope.region = $scope.r.split("-").join(" ");
 
-		$http.get('/data/regions.json').
+		$http.get('data/regions.json').
       success(function(data, status, headers, config) {
 				$scope.selectedRegion = _.filter(data, function(region) {
           return region.name.toLowerCase()==$scope.region;

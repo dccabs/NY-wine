@@ -24,7 +24,7 @@ angular.module('nyWineApp')
 
 
     if ($scope.subRegion) {
-      $http.get('/data/venues.json').
+      $http.get('data/venues.json').
       success(function(data, status, headers, config) {
         $scope.venues = _.filter(data, function(venue) {
           var sub = venue.sub_region;
@@ -34,7 +34,7 @@ angular.module('nyWineApp')
       });
 
     } else {
-      $http.get('/data/venues.json').
+      $http.get('data/venues.json').
       success(function(data, status, headers, config) {
         $scope.venues = _.filter(data, function(venue) {
           return venue.region.toLowerCase()==$scope.region;

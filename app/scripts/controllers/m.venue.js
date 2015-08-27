@@ -16,7 +16,7 @@ angular.module('nyWineApp')
     $scope.region = $location.search().r;
     $scope.subRegion = $location.search().sr;
 
-		$http.get('/data/venues.json').
+		$http.get('data/venues.json').
       success(function(data, status, headers, config) {
 				$scope.venue= _.filter(data, function(venue) {
           return venue.id==$scope.id;

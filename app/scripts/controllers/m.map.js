@@ -14,7 +14,7 @@ angular.module('nyWineApp')
     $rootScope.device = "mobile";
     $scope.bookmarkedVenue = $location.search().venue;
 
-    $http.get('/data/regions.json').
+    $http.get('data/regions.json').
       success(function(data, status, headers, config) {
         $scope.regions = data;
       });

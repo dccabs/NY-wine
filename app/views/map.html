@@ -1,5 +1,5 @@
 <div id="map-container" ng-class="(getMapZoomLevel() < 9) ? 'map-zoomed-out' : 'map-zoomed-in'">
-<div ng-include="'/views/map-region.html'"></div>
+<div ng-include="'views/map-region.html'"></div>
 
 <map resizeMap id="map" class="map" map-type-id="roadmap"
     on-click="findClosesetRegion()"
@@ -32,7 +32,7 @@
 
 
   <shape ng-if="getMapZoomLevel() < 8" name="image"
-    url="/images/NY_state.png"
+    url="images/NY_state.png"
     bounds="{{mapBounds}}"
     on-click="regionClick(event, this)"
     background="#000000"
@@ -60,7 +60,7 @@
     on-click="showVenueOverlay(event,{{venue}})"
     ng-if="getMapZoomLevel() >= 8 && !hideWineries"
     position="{{venue.coordinates}}"
-    icon="/images/marker-winery.png"
+    icon="images/marker-winery.png"
     >
   </marker>
 
@@ -70,7 +70,7 @@
     ng-if="getMapZoomLevel() >= 8 && !hideRestaurants"
     position="{{venue.coordinates}}"
     title="{{venue.name}}"
-    icon="/images/marker-restaurant.png"
+    icon="images/marker-restaurant.png"
     >
   </marker>
 
@@ -80,7 +80,7 @@
     ng-if="getMapZoomLevel() >= 8 && !hideAttractions"
     position="{{venue.coordinates}}"
     title="{{venue.name}}"
-    icon="/images/marker-attraction.png"
+    icon="images/marker-attraction.png"
     >
   </marker>
 
@@ -90,15 +90,15 @@
     ng-if="getMapZoomLevel() >= 8 && !hideHotels"
     position="{{venue.coordinates}}"
     title="{{venue.name}}"
-    icon="/images/marker-hotel.png"
+    icon="images/marker-hotel.png"
     >
   </marker>
 </map>
-<div ng-include="'/views/map-controls.html'"></div>
-<div ng-include="'/views/map-overlay.html'"></div>
-<div ng-include="'/views/map-filters.html'"></div>
-<div ng-include="'/views/map-loading.html'"></div>
-<div ng-include="'/views/map-menu.html'"></div>
-<div ng-include="'/views/map-legend.html'"></div>
-<div ng-include="'/views/map-intro-overlay.html'"></div>
+<div ng-include="'views/map-controls.html'"></div>
+<div ng-include="'views/map-overlay.html'"></div>
+<div ng-include="'views/map-filters.html'"></div>
+<div ng-include="'views/map-loading.html'"></div>
+<div ng-include="'views/map-menu.html'"></div>
+<div ng-include="'views/map-legend.html'"></div>
+<div ng-include="'views/map-intro-overlay.html'"></div>
 
