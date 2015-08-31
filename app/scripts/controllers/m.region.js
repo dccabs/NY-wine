@@ -26,6 +26,7 @@ angular.module('nyWineApp')
 
     $scope.getUrlName = function(name) {
       var urlName = name.split(" ").join("-");
+      urlName = urlName.split("&").join("and");
       urlName = urlName.toLowerCase();
       return urlName;
     }
