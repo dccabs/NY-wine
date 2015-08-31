@@ -1378,7 +1378,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Becker Farms",
         "address": "3724 Quaker Road",
@@ -1582,7 +1582,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Lockport Cave & Underground Boat Ride",
         "address": "5 Gooding Street",
@@ -1599,7 +1599,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Lockport Locks & Erie Canal Cruises",
         "address": "210 Market Street",
@@ -1650,7 +1650,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Maid of the Mist",
         "address": "1 Prospect Street",
@@ -1701,7 +1701,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Niagara Falls State Park",
         "address": "332 Prospect Street",
@@ -1718,7 +1718,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Olcott Carousel Park",
         "address": "5979 Main Street",
@@ -1735,7 +1735,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Old Fort Niagara",
         "address": "",
@@ -1803,7 +1803,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Whirlpool Jet Boat Tours",
         "address": "115 South Water Street",
@@ -2738,7 +2738,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Barton Hill Hotel & Spa",
         "address": "100 Center Street",
@@ -2772,7 +2772,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Brookins Inn & Suites",
         "address": "2697 Maple Avenue",
@@ -2789,7 +2789,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "DeFlippo’s Bed & Breakfast",
         "address": "326 West Avenue",
@@ -2823,7 +2823,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Four Points by Sheraton",
         "address": "7001 Buffalo Ave",
@@ -2840,7 +2840,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Hart House Hotel",
         "address": "113 W Center Street",
@@ -2857,7 +2857,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Holiday Inn Niagara Falls",
         "address": "114 Buffalo Avenue",
@@ -2908,7 +2908,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Red Coach Inn",
         "address": "2 Buffalo Ave",
@@ -2925,7 +2925,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Sheraton at the Falls",
         "address": "300 Third Street",
@@ -2993,7 +2993,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "The Giacomo",
         "address": "222 First Street",
@@ -3095,7 +3095,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Wilson House Restaurant & Inn",
         "address": "300 Lake St",
@@ -4557,7 +4557,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Becker Farms",
         "address": "3724 Quaker Road",
@@ -4591,7 +4591,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "DeFlippo’s Italian Restaurant and Bed & Breakfast",
         "address": "326 West Avenue",
@@ -4710,7 +4710,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Mericana",
         "address": "80 Main St",
@@ -4727,7 +4727,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Red Coach Inn Restaurant",
         "address": "2 Buffalo Ave",
@@ -4744,7 +4744,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Savor at Niagara Falls Culinary Institute",
         "address": "28 Old Falls Street",
@@ -4761,7 +4761,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Shamus Restaurant",
         "address": "98 West Ave",
@@ -4829,7 +4829,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Wilson Boat House",
         "address": "57 Harbor Streer",
@@ -4846,7 +4846,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Wilson House Restaurant & Inn",
         "address": "300 Lake St",
@@ -4863,7 +4863,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Zambistro",
         "address": "408 Main Street",
@@ -10252,7 +10252,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Salamaca Estate Winery",
         "address": "2660 Hindsburg Road",
@@ -10269,7 +10269,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "The Winery at Marjim Manor",
         "address": "7171 East Lake Road",
@@ -10286,7 +10286,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "BlackBird Cider Works",
         "address": "8503 Lower Lake Rd.",
@@ -10303,7 +10303,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Autumn Moon Farm Winery",
         "address": "7585 W. Bergen Rd.",
@@ -10320,7 +10320,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Black Willow Winery",
         "address": "5565 West Lake Rd.",
@@ -10337,7 +10337,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Schulze Vineyards and Winery",
         "address": "2090 Coomer Road",
@@ -10354,7 +10354,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Schwenk Wine Cellars",
         "address": "1456 Bills Road",
@@ -10371,7 +10371,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Honeymoon Trail Winery",
         "address": "4120 Ridge Road",
@@ -10388,7 +10388,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "810 Meadworks LLC",
         "address": "113 West Center St.",
@@ -10405,7 +10405,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Leonard Oakes Estate Winery",
         "address": "10609 Ridge Rd.",
@@ -10422,7 +10422,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Chateau Niagara Winery",
         "address": "2466 West Creek Rd.",
@@ -10439,7 +10439,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "A Gust of Sun",
         "address": "4515 Baer Rd.",
@@ -10456,7 +10456,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Midnight Run Wine Cellars",
         "address": "3301 Braley Rd",
@@ -10473,7 +10473,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Long Cliff Vineyard & Winery",
         "address": "3617 Lower Mountain Rd.",
@@ -10490,7 +10490,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Victorianbourg Wine Estate",
         "address": "4402 East Lake Road",
@@ -10507,7 +10507,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Vizcarra Vineyards at Becker Farms",
         "address": "3724 Quaker Road",
@@ -10524,7 +10524,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Arrowhead Spring Vineyards",
         "address": "4746 Townline Road",
@@ -10541,7 +10541,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Eveningside Vineyards",
         "address": "4794 Lower Mountain Rd.",
@@ -10558,7 +10558,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Flight of Five",
         "address": "2 Pine St.",
@@ -10575,7 +10575,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Freedom Run Winery",
         "address": "5138 Lower Mountain Road",
@@ -10592,7 +10592,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Niagara Landing Wine Cellars",
         "address": "4434 Van Dusen Road",
@@ -10609,7 +10609,7 @@
     },
     {
         "type": "Winery",
-        "region": "Niagra",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Spring Lake Winery",
         "address": "7373 Rochester Road",

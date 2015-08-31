@@ -26,7 +26,7 @@ angular.module('nyWineApp')
       });
 
     $scope.backToList = function() {
-        $location.path('/venues');
+        $location.path('venues');
     }
 
  }); //end controller
