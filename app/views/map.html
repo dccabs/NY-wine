@@ -1,3 +1,5 @@
+
+<!-- <div style="color:#fff;">{{activeRegions()}}</div> -->
 <div id="map-container" ng-class="(getMapZoomLevel() < 9) ? 'map-zoomed-out' : 'map-zoomed-in'">
 <div ng-include="'views/map-region.html'"></div>
 
@@ -38,7 +40,7 @@
 
 
   <shape ng-if="getMapZoomLevel() < 8" name="image"
-    url="images/NY_state.png"
+    url="images/NY_state_v2.png"
     bounds="{{mapBounds}}"
     background="#000000"
    >

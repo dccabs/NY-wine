@@ -39,6 +39,7 @@ angular.module('nyWineApp')
         $scope.regions = data;
     });
 
+
     /* get venue data */
 
     // $http.get('data/venues.json').
@@ -59,6 +60,16 @@ angular.module('nyWineApp')
         });
 
       });
+
+    $scope.activeRegions = function() {
+      var entries = [];
+      angular.forEach($scope.venues, function(venue) {
+        if (entries.indexOf(venue.region)==-1) {
+          entries.push(venue.region);
+        }
+      })
+      return entries;
+    }
 
     /* map functions */
 

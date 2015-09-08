@@ -2,7 +2,7 @@
 	<div class="container">
 		<input ng-model="searchTxt.name" type="text" placeholder="Search Wineries, Attractions, Restaurants, & Hotels">
 		<ul ng-if="searchTxt.name.length">
-			<li ng-click="selectVenue(venue)" ng-repeat="venue in venues | filter:searchTxt">{{venue.name}}</li>
+			<li ng-click="selectVenue(venue)" ng-repeat="venue in venues | filter:searchTxt | limitTo:20">{{venue.name}}</li>
 		</ul>
 
 	</div>
