@@ -41,7 +41,8 @@ angular.module('nyWineApp')
 
     /* get venue data */
 
-    $http.get('data/venues.json').
+    // $http.get('data/venues.json').
+     $http.get('data/venues.json').
       success(function(data, status, headers, config) {
         $scope.venues = data;
         $scope.attractions = _.filter($scope.venues, function(venue) {
@@ -223,6 +224,33 @@ angular.module('nyWineApp')
       return w;
     }
 
+    /* search functions */
+
+    $scope.searchTxt = {};
+    $scope.searchTxt.name = "";
+    $scope.infowindow = null;
+
+    $scope.selectVenue = function(venue) {
+      $scope.loading = true;
+      var windowLatLng = new google.maps.LatLng(venue.coordinates[0]+.004,venue.coordinates[1]);
+
+      if ($scope.infowindow) {
+        $scope.infowindow.close();
+      }
+      $scope.infowindow = new google.maps.InfoWindow({
+        content: "<h5>"+venue.name+"</h5> <div>Click on the icon for more information",
+        position: windowLatLng
+      });
+
+     $timeout(function() {
+        $scope.map.setZoom(13);
+        $scope.mapCoordinates = venue.coordinates;
+        $scope.searchTxt.name = "";
+        $scope.infowindow.open($scope.map);
+     },50);
+
+    }
+
     /* end Overlay functions */
 
     $scope.toggleMapIntroOverlay = function() {
@@ -292,7 +320,7 @@ angular.module('nyWineApp')
                   "saturation": -100
               },
               {
-                  "visibility": "simplified"
+                  "visibility": "off"
               }
           ]
       },
@@ -307,7 +335,7 @@ angular.module('nyWineApp')
                   "lightness": 30
               },
               {
-                  "visibility": "off"
+                  "visibility": "on"
               }
           ]
       },
