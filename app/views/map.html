@@ -71,7 +71,6 @@
     on-mouseover="hoverVenue(event,{{venue}});"
     ng-if="getMapZoomLevel() >= 8 && !hideWineries"
     position="{{venue.coordinates}}"
-    title="{{venue.name}}"
     icon="images/marker-winery.png"
     >
   </marker>
@@ -82,7 +81,6 @@
     on-mouseover="hoverVenue(event,{{venue}});"
     ng-if="getMapZoomLevel() >= 8 && !hideRestaurants"
     position="{{venue.coordinates}}"
-    title="{{venue.name}}"
     icon="images/marker-restaurant.png"
     >
   </marker>
@@ -93,7 +91,6 @@
     on-mouseover="hoverVenue(event,{{venue}});"
     ng-if="getMapZoomLevel() >= 8 && !hideAttractions"
     position="{{venue.coordinates}}"
-    title="{{venue.name}}"
     icon="images/marker-attraction.png"
     >
   </marker>
@@ -104,7 +101,6 @@
     on-mouseover="hoverVenue(event,{{venue}});"
     ng-if="getMapZoomLevel() >= 8 && !hideHotels"
     position="{{venue.coordinates}}"
-    title="{{venue.name}}"
     icon="images/marker-hotel.png"
     >
   </marker>

@@ -263,7 +263,9 @@ angular.module('nyWineApp')
         $scope.map.setZoom(13);
         $scope.mapCoordinates = venue.coordinates;
         $scope.searchTxt.name = "";
-        $scope.infowindow.open($scope.map);
+        $timeout(function() {
+          $scope.infowindow.open($scope.map);
+        });
      },50);
 
     }
