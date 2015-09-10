@@ -119,7 +119,17 @@
       {
         "name": "Niagara",
         "description": "Just east of iconic Niagara Falls separating the United States from Canada, the Greater Niagara wine region includes two parallel wine trails running east to west – Lake, and Ridge—as well as an official American Viticultural Area known as the Niagara Escarpment with special grape growing characteristics.",
-        "pos": { "lat": 43.296409, "lng": -78.715268 }
+        "pos": { "lat": 43.296409, "lng": -78.715268 },
+        "sub_regions" : [
+          {
+            "name": "Niagara Escarpment",
+            "pos": { "lat": 43.1806288, "lng": -78.7543331 }
+          },
+          {
+            "name": "Greater Niagara Area",
+            "pos": { "lat": 43.3166014, "lng": -78.7399478 }
+          }
+        ]
       },
       {
         "name": "Other Western Counties",

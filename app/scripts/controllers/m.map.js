@@ -21,12 +21,14 @@ angular.module('nyWineApp')
 
     $scope.getUrlName = function(name) {
     	var urlName = name.split(" ").join("-");
+      //urlName = urlName.split("/").join("-");
     	urlName = urlName.toLowerCase();
     	return urlName;
     }
 
     $scope.getClass = function(val) {
       val = val.toLowerCase().split(" ").join("-");
+      val = val.toLowerCase().split("/").join("-");
       return val;
     }
 
@@ -38,19 +40,9 @@ angular.module('nyWineApp')
  }) //end controller
   .directive('scrolling', function() {
     return function(scope, element, attrs) {
-      // $(window).scroll(function(e) {
-      //   var top = $('body').scrollTop();
-      //   console.log(top)
-      //   if (top > 95) {
-      //     $('.region-image, .filters').addClass("fixed");
-      //   } else {
-      //     $('.region-image, .filters').removeClass("fixed");
-      //   }
-      // });
 
       var touchMove = function() {
         var top = $('body').scrollTop();
-        console.log(top)
         if (top > 95) {
           $('.region-image, .filters').addClass("fixed");
         } else {

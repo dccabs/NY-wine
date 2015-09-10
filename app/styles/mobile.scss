@@ -187,7 +187,7 @@ body.mobile {
 		background-repeat:no-repeat;
 		background-size: 100%;
 		width: 100%;
-		height: 128px;
+		min-height: 128px;
 		border: 1px solid $site-background-color;
 		margin-top:50px;
 		background-position: 20% 44%;
@@ -221,7 +221,7 @@ body.mobile {
 		.region-name {
 			font-size: 25px;
 			color: #fff;
-			text-shadow: 0px -1px 23px #000;
+			text-shadow: 0px 4px 23px #000;
 			margin-top: 74px;
 			margin-left: 10px;
 			line-height: 25px;
@@ -232,9 +232,10 @@ body.mobile {
 			font-size: 14px;
 			line-height: 14px;
 			color: #fff;
-			text-shadow: 0px -1px 23px #000;
+			text-shadow: 0px 4px 23px #000;
 			margin-top: 5px;
 			margin-left: 10px;
+			margin-bottom:5px;
 			text-transform: uppercase;
 
 			span {

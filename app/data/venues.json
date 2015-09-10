@@ -13,7 +13,8 @@
         "coordinates": [
             42.2929993,
             -75.5732956
-        ]
+        ],
+        "id": 58433
     },
     {
         "region": "Central New York",
@@ -29,7 +30,8 @@
         "coordinates": [
             42.0708427,
             -75.9225922
-        ]
+        ],
+        "id": 85727
     },
     {
         "region": "Central New York",
@@ -45,7 +47,8 @@
         "coordinates": [
             42.7210175,
             -75.1572085
-        ]
+        ],
+        "id": 88102
     },
     {
         "region": "Central New York",
@@ -61,7 +64,8 @@
         "coordinates": [
             42.8819662,
             -75.8747886
-        ]
+        ],
+        "id": 66406
     },
     {
         "region": "Central New York",
@@ -77,7 +81,8 @@
         "coordinates": [
             42.977844,
             -75.875617
-        ]
+        ],
+        "id": 41676
     },
     {
         "region": "Central New York",
@@ -93,7 +98,8 @@
         "coordinates": [
             42.2663308,
             -75.8283837
-        ]
+        ],
+        "id": 99759
     },
     {
         "region": "Central New York",
@@ -109,7 +115,8 @@
         "coordinates": [
             43.10215,
             -76.0737076
-        ]
+        ],
+        "id": 70877
     },
     {
         "region": "Central New York",
@@ -125,7 +132,8 @@
         "coordinates": [
             42.1592268,
             -76.6650626
-        ]
+        ],
+        "id": 90106
     },
     {
         "region": "Central New York",
@@ -141,7 +149,8 @@
         "coordinates": [
             42.7248459,
             -74.9783173
-        ]
+        ],
+        "id": 97799
     },
     {
         "region": "Central New York",
@@ -157,7 +166,8 @@
         "coordinates": [
             42.7180595,
             -74.9708252
-        ]
+        ],
+        "id": 31056
     },
     {
         "region": "Central New York",
@@ -173,7 +183,8 @@
         "coordinates": [
             43.0587097,
             -74.9606911
-        ]
+        ],
+        "id": 65935
     },
     {
         "region": "Central New York",
@@ -189,7 +200,8 @@
         "coordinates": [
             42.9024234,
             -76.2212462
-        ]
+        ],
+        "id": 83153
     },
     {
         "region": "Central New York",
@@ -205,7 +217,8 @@
         "coordinates": [
             43.1109505,
             -76.2064362
-        ]
+        ],
+        "id": 14346
     },
     {
         "region": "Central New York",
@@ -221,7 +234,8 @@
         "coordinates": [
             41.8977928,
             -75.0482025
-        ]
+        ],
+        "id": 96910
     },
     {
         "region": "Central New York",
@@ -237,7 +251,8 @@
         "coordinates": [
             42.5230765,
             -76.049733
-        ]
+        ],
+        "id": 75451
     },
     {
         "region": "Central New York",
@@ -253,7 +268,8 @@
         "coordinates": [
             42.5207291,
             -74.9926224
-        ]
+        ],
+        "id": 36337
     },
     {
         "region": "Central New York",
@@ -269,7 +285,8 @@
         "coordinates": [
             42.1209641,
             -76.2562256
-        ]
+        ],
+        "id": 43668
     },
     {
         "region": "Central New York",
@@ -285,7 +302,8 @@
         "coordinates": [
             42.6561508,
             -74.5110855
-        ]
+        ],
+        "id": 84120
     },
     {
         "region": "Central New York",
@@ -301,7 +319,8 @@
         "coordinates": [
             42.3930931,
             -74.5641632
-        ]
+        ],
+        "id": 69569
     },
     {
         "region": "Central New York",
@@ -317,7 +336,8 @@
         "coordinates": [
             42.5748329,
             -74.663414
-        ]
+        ],
+        "id": 69107
     },
     {
         "region": "Central New York",
@@ -333,7 +353,8 @@
         "coordinates": [
             43.0928917,
             -76.2431259
-        ]
+        ],
+        "id": 25597
     },
     {
         "region": "Central New York",
@@ -349,7 +370,8 @@
         "coordinates": [
             42.1853408,
             -76.5650645
-        ]
+        ],
+        "id": 70545
     },
     {
         "region": "Central New York",
@@ -365,7 +387,8 @@
         "coordinates": [
             43.0997951,
             -75.6145949
-        ]
+        ],
+        "id": 17677
     },
     {
         "region": "Central New York",
@@ -381,7 +404,8 @@
         "coordinates": [
             42.9545581,
             -76.9095386
-        ]
+        ],
+        "id": 17500
     },
     {
         "region": "Central New York",
@@ -397,7 +421,8 @@
         "coordinates": [
             43.1119576,
             -76.5334625
-        ]
+        ],
+        "id": 48859
     },
     {
         "region": "Finger Lakes",
@@ -413,7 +438,8 @@
         "coordinates": [
             42.7070045,
             -77.3798065
-        ]
+        ],
+        "id": 73389
     },
     {
         "region": "Finger Lakes",
@@ -429,7 +455,8 @@
         "coordinates": [
             43.1067009,
             -77.4321289
-        ]
+        ],
+        "id": 92941
     },
     {
         "region": "Finger Lakes",
@@ -445,7 +472,8 @@
         "coordinates": [
             42.89814,
             -77.2721558
-        ]
+        ],
+        "id": 18792
     },
     {
         "region": "Finger Lakes",
@@ -461,7 +489,8 @@
         "coordinates": [
             42.6214935,
             -77.3983658
-        ]
+        ],
+        "id": 59136
     },
     {
         "region": "Finger Lakes",
@@ -477,7 +506,8 @@
         "coordinates": [
             42.7622223,
             -77.3352661
-        ]
+        ],
+        "id": 70855
     },
     {
         "region": "Finger Lakes",
@@ -493,7 +523,8 @@
         "coordinates": [
             42.6253166,
             -77.3950043
-        ]
+        ],
+        "id": 42762
     },
     {
         "region": "Finger Lakes",
@@ -509,7 +540,8 @@
         "coordinates": [
             42.875568,
             -77.273391
-        ]
+        ],
+        "id": 66488
     },
     {
         "region": "Finger Lakes",
@@ -525,7 +557,8 @@
         "coordinates": [
             42.8675079,
             -77.3795471
-        ]
+        ],
+        "id": 50069
     },
     {
         "region": "Finger Lakes",
@@ -541,7 +574,8 @@
         "coordinates": [
             43.0135231,
             -77.3985422
-        ]
+        ],
+        "id": 30811
     },
     {
         "region": "Finger Lakes",
@@ -557,7 +591,8 @@
         "coordinates": [
             42.9843521,
             -77.4112015
-        ]
+        ],
+        "id": 30686
     },
     {
         "region": "Finger Lakes",
@@ -573,7 +608,8 @@
         "coordinates": [
             43.0317709,
             -77.4413878
-        ]
+        ],
+        "id": 22188
     },
     {
         "region": "Finger Lakes",
@@ -589,7 +625,8 @@
         "coordinates": [
             42.5754949,
             -76.6771446
-        ]
+        ],
+        "id": 74569
     },
     {
         "region": "Finger Lakes",
@@ -605,7 +642,8 @@
         "coordinates": [
             42.5847821,
             -76.6704679
-        ]
+        ],
+        "id": 49580
     },
     {
         "region": "Finger Lakes",
@@ -621,7 +659,8 @@
         "coordinates": [
             42.7542343,
             -76.7027588
-        ]
+        ],
+        "id": 38319
     },
     {
         "region": "Finger Lakes",
@@ -637,7 +676,8 @@
         "coordinates": [
             42.7338056,
             -76.7675786
-        ]
+        ],
+        "id": 35861
     },
     {
         "region": "Finger Lakes",
@@ -653,7 +693,8 @@
         "coordinates": [
             42.711488,
             -76.739954
-        ]
+        ],
+        "id": 81580
     },
     {
         "region": "Finger Lakes",
@@ -669,7 +710,8 @@
         "coordinates": [
             42.701901,
             -76.744074
-        ]
+        ],
+        "id": 95372
     },
     {
         "region": "Finger Lakes",
@@ -685,7 +727,8 @@
         "coordinates": [
             42.8051551,
             -76.7033518
-        ]
+        ],
+        "id": 17019
     },
     {
         "region": "Finger Lakes",
@@ -701,7 +744,8 @@
         "coordinates": [
             42.5633975,
             -76.6470335
-        ]
+        ],
+        "id": 44081
     },
     {
         "region": "Finger Lakes",
@@ -717,7 +761,8 @@
         "coordinates": [
             42.5075989,
             -76.7109756
-        ]
+        ],
+        "id": 61696
     },
     {
         "region": "Finger Lakes",
@@ -733,7 +778,8 @@
         "coordinates": [
             42.7586623,
             -76.7702609
-        ]
+        ],
+        "id": 61266
     },
     {
         "region": "Finger Lakes",
@@ -749,7 +795,8 @@
         "coordinates": [
             42.9727241,
             -76.4272533
-        ]
+        ],
+        "id": 56096
     },
     {
         "region": "Finger Lakes",
@@ -765,7 +812,8 @@
         "coordinates": [
             42.6856586,
             -76.7449455
-        ]
+        ],
+        "id": 72933
     },
     {
         "region": "Finger Lakes",
@@ -781,7 +829,8 @@
         "coordinates": [
             42.9385051,
             -76.705851
-        ]
+        ],
+        "id": 64468
     },
     {
         "region": "Finger Lakes",
@@ -797,7 +846,8 @@
         "coordinates": [
             42.6503433,
             -76.6355482
-        ]
+        ],
+        "id": 85766
     },
     {
         "region": "Finger Lakes",
@@ -813,7 +863,8 @@
         "coordinates": [
             42.7674713,
             -76.8025131
-        ]
+        ],
+        "id": 63054
     },
     {
         "region": "Finger Lakes",
@@ -829,7 +880,8 @@
         "coordinates": [
             42.7758157,
             -76.7696486
-        ]
+        ],
+        "id": 80808
     },
     {
         "region": "Finger Lakes",
@@ -845,7 +897,8 @@
         "coordinates": [
             42.7107561,
             -76.6857103
-        ]
+        ],
+        "id": 22728
     },
     {
         "region": "Finger Lakes",
@@ -861,7 +914,8 @@
         "coordinates": [
             42.6289929,
             -76.7082717
-        ]
+        ],
+        "id": 99211
     },
     {
         "region": "Finger Lakes",
@@ -877,7 +931,8 @@
         "coordinates": [
             42.9501358,
             -76.7659921
-        ]
+        ],
+        "id": 86249
     },
     {
         "region": "Finger Lakes",
@@ -893,7 +948,8 @@
         "coordinates": [
             42.4385719,
             -76.5150757
-        ]
+        ],
+        "id": 58287
     },
     {
         "region": "Finger Lakes",
@@ -909,7 +965,8 @@
         "coordinates": [
             42.6635458,
             -76.7006622
-        ]
+        ],
+        "id": 62703
     },
     {
         "region": "Finger Lakes",
@@ -925,7 +982,8 @@
         "coordinates": [
             42.4158478,
             -76.4553452
-        ]
+        ],
+        "id": 34575
     },
     {
         "region": "Finger Lakes",
@@ -941,7 +999,8 @@
         "coordinates": [
             42.7384605,
             -76.8214874
-        ]
+        ],
+        "id": 42520
     },
     {
         "region": "Finger Lakes",
@@ -957,7 +1016,8 @@
         "coordinates": [
             42.8732796,
             -76.6853256
-        ]
+        ],
+        "id": 83910
     },
     {
         "region": "Finger Lakes",
@@ -973,7 +1033,8 @@
         "coordinates": [
             42.6914998,
             -76.7453324
-        ]
+        ],
+        "id": 60905
     },
     {
         "region": "Finger Lakes",
@@ -989,7 +1050,8 @@
         "coordinates": [
             42.777411,
             -76.769774
-        ]
+        ],
+        "id": 30212
     },
     {
         "region": "Finger Lakes",
@@ -1005,7 +1067,8 @@
         "coordinates": [
             42.7263866,
             -76.7624395
-        ]
+        ],
+        "id": 38117
     },
     {
         "region": "Finger Lakes",
@@ -1021,7 +1084,8 @@
         "coordinates": [
             42.82286,
             -77.718391
-        ]
+        ],
+        "id": 80749
     },
     {
         "region": "Finger Lakes",
@@ -1037,7 +1101,8 @@
         "coordinates": [
             42.7398872,
             -77.622818
-        ]
+        ],
+        "id": 31168
     },
     {
         "region": "Finger Lakes",
@@ -1053,7 +1118,8 @@
         "coordinates": [
             42.4968796,
             -77.1820984
-        ]
+        ],
+        "id": 86840
     },
     {
         "region": "Finger Lakes",
@@ -1069,7 +1135,8 @@
         "coordinates": [
             42.549096,
             -77.0911228
-        ]
+        ],
+        "id": 66554
     },
     {
         "region": "Finger Lakes",
@@ -1085,7 +1152,8 @@
         "coordinates": [
             42.4432907,
             -77.1870193
-        ]
+        ],
+        "id": 15456
     },
     {
         "region": "Finger Lakes",
@@ -1101,7 +1169,8 @@
         "coordinates": [
             42.4709053,
             -77.1809616
-        ]
+        ],
+        "id": 28775
     },
     {
         "region": "Finger Lakes",
@@ -1117,7 +1186,8 @@
         "coordinates": [
             42.3859673,
             -77.2648468
-        ]
+        ],
+        "id": 46196
     },
     {
         "region": "Finger Lakes",
@@ -1133,7 +1203,8 @@
         "coordinates": [
             42.483875,
             -77.129104
-        ]
+        ],
+        "id": 36003
     },
     {
         "region": "Finger Lakes",
@@ -1149,7 +1220,8 @@
         "coordinates": [
             42.5054779,
             -77.1616974
-        ]
+        ],
+        "id": 48833
     },
     {
         "region": "Finger Lakes",
@@ -1165,7 +1237,8 @@
         "coordinates": [
             42.4735718,
             -77.1821289
-        ]
+        ],
+        "id": 58031
     },
     {
         "region": "Finger Lakes",
@@ -1181,7 +1254,8 @@
         "coordinates": [
             42.4490242,
             -77.1995621
-        ]
+        ],
+        "id": 36967
     },
     {
         "region": "Finger Lakes",
@@ -1197,7 +1271,8 @@
         "coordinates": [
             42.5984875,
             -77.1723703
-        ]
+        ],
+        "id": 63916
     },
     {
         "region": "Finger Lakes",
@@ -1213,7 +1288,8 @@
         "coordinates": [
             42.4314858,
             -77.2000627
-        ]
+        ],
+        "id": 22176
     },
     {
         "region": "Finger Lakes",
@@ -1229,7 +1305,8 @@
         "coordinates": [
             42.6253586,
             -77.0681763
-        ]
+        ],
+        "id": 40868
     },
     {
         "region": "Finger Lakes",
@@ -1245,7 +1322,8 @@
         "coordinates": [
             42.4978485,
             -77.1033173
-        ]
+        ],
+        "id": 83692
     },
     {
         "region": "Finger Lakes",
@@ -1261,7 +1339,8 @@
         "coordinates": [
             42.4022035,
             -77.2513492
-        ]
+        ],
+        "id": 18302
     },
     {
         "region": "Finger Lakes",
@@ -1277,7 +1356,8 @@
         "coordinates": [
             42.4893951,
             -77.1183243
-        ]
+        ],
+        "id": 37116
     },
     {
         "region": "Finger Lakes",
@@ -1293,7 +1373,8 @@
         "coordinates": [
             42.665184,
             -77.0530853
-        ]
+        ],
+        "id": 27112
     },
     {
         "region": "Finger Lakes",
@@ -1309,7 +1390,8 @@
         "coordinates": [
             42.5864258,
             -77.167305
-        ]
+        ],
+        "id": 37266
     },
     {
         "region": "Finger Lakes",
@@ -1325,7 +1407,8 @@
         "coordinates": [
             42.6075706,
             -77.1151276
-        ]
+        ],
+        "id": 28424
     },
     {
         "region": "Finger Lakes",
@@ -1341,7 +1424,8 @@
         "coordinates": [
             42.4837379,
             -77.138382
-        ]
+        ],
+        "id": 13524
     },
     {
         "region": "Finger Lakes",
@@ -1357,7 +1441,8 @@
         "coordinates": [
             42.484333,
             -77.1368332
-        ]
+        ],
+        "id": 10351
     },
     {
         "region": "Finger Lakes",
@@ -1373,7 +1458,8 @@
         "coordinates": [
             42.5060935,
             -77.1428324
-        ]
+        ],
+        "id": 24882
     },
     {
         "region": "Finger Lakes",
@@ -1389,7 +1475,8 @@
         "coordinates": [
             42.6235943,
             -77.1025188
-        ]
+        ],
+        "id": 24192
     },
     {
         "region": "Finger Lakes",
@@ -1405,7 +1492,8 @@
         "coordinates": [
             42.6622047,
             -76.3929977
-        ]
+        ],
+        "id": 18450
     },
     {
         "region": "Finger Lakes",
@@ -1421,7 +1509,8 @@
         "coordinates": [
             42.7049026,
             -76.9736938
-        ]
+        ],
+        "id": 84873
     },
     {
         "region": "Finger Lakes",
@@ -1437,7 +1526,8 @@
         "coordinates": [
             42.9545581,
             -76.9095386
-        ]
+        ],
+        "id": 66110
     },
     {
         "region": "Finger Lakes",
@@ -1453,7 +1543,8 @@
         "coordinates": [
             42.4781303,
             -76.8756409
-        ]
+        ],
+        "id": 92533
     },
     {
         "region": "Finger Lakes",
@@ -1469,7 +1560,8 @@
         "coordinates": [
             42.4361954,
             -76.9048538
-        ]
+        ],
+        "id": 42940
     },
     {
         "region": "Finger Lakes",
@@ -1485,7 +1577,8 @@
         "coordinates": [
             42.837574,
             -76.9975967
-        ]
+        ],
+        "id": 26548
     },
     {
         "region": "Finger Lakes",
@@ -1501,7 +1594,8 @@
         "coordinates": [
             42.5661888,
             -76.9180374
-        ]
+        ],
+        "id": 32328
     },
     {
         "region": "Finger Lakes",
@@ -1517,7 +1611,8 @@
         "coordinates": [
             42.7980593,
             -76.9777612
-        ]
+        ],
+        "id": 24497
     },
     {
         "region": "Finger Lakes",
@@ -1533,7 +1628,8 @@
         "coordinates": [
             42.8764,
             -76.9429779
-        ]
+        ],
+        "id": 52076
     },
     {
         "region": "Finger Lakes",
@@ -1549,7 +1645,8 @@
         "coordinates": [
             42.4897156,
             -76.8703766
-        ]
+        ],
+        "id": 39017
     },
     {
         "region": "Finger Lakes",
@@ -1565,7 +1662,8 @@
         "coordinates": [
             42.6297761,
             -76.8713379
-        ]
+        ],
+        "id": 39610
     },
     {
         "region": "Finger Lakes",
@@ -1581,7 +1679,8 @@
         "coordinates": [
             42.3968582,
             -76.9007645
-        ]
+        ],
+        "id": 87765
     },
     {
         "region": "Finger Lakes",
@@ -1597,7 +1696,8 @@
         "coordinates": [
             42.4363708,
             -76.8673401
-        ]
+        ],
+        "id": 17412
     },
     {
         "region": "Finger Lakes",
@@ -1613,7 +1713,8 @@
         "coordinates": [
             42.5650711,
             -76.8628693
-        ]
+        ],
+        "id": 13474
     },
     {
         "region": "Finger Lakes",
@@ -1629,7 +1730,8 @@
         "coordinates": [
             42.4799862,
             -76.8696059
-        ]
+        ],
+        "id": 81185
     },
     {
         "region": "Finger Lakes",
@@ -1645,7 +1747,8 @@
         "coordinates": [
             42.4611397,
             -76.8644409
-        ]
+        ],
+        "id": 68207
     },
     {
         "region": "Finger Lakes",
@@ -1661,7 +1764,8 @@
         "coordinates": [
             42.615296,
             -76.822834
-        ]
+        ],
+        "id": 10707
     },
     {
         "region": "Finger Lakes",
@@ -1677,7 +1781,8 @@
         "coordinates": [
             42.5050659,
             -76.8751373
-        ]
+        ],
+        "id": 62879
     },
     {
         "region": "Finger Lakes",
@@ -1693,7 +1798,8 @@
         "coordinates": [
             42.7316132,
             -76.9759521
-        ]
+        ],
+        "id": 40821
     },
     {
         "region": "Finger Lakes",
@@ -1709,7 +1815,8 @@
         "coordinates": [
             42.5217247,
             -76.9213715
-        ]
+        ],
+        "id": 63035
     },
     {
         "region": "Finger Lakes",
@@ -1725,7 +1832,8 @@
         "coordinates": [
             42.4930472,
             -76.924046
-        ]
+        ],
+        "id": 81796
     },
     {
         "region": "Finger Lakes",
@@ -1741,7 +1849,8 @@
         "coordinates": [
             42.499594,
             -76.924186
-        ]
+        ],
+        "id": 30236
     },
     {
         "region": "Finger Lakes",
@@ -1757,7 +1866,8 @@
         "coordinates": [
             42.5102615,
             -76.8754578
-        ]
+        ],
+        "id": 39553
     },
     {
         "region": "Finger Lakes",
@@ -1773,7 +1883,8 @@
         "coordinates": [
             42.5050659,
             -76.8751373
-        ]
+        ],
+        "id": 35411
     },
     {
         "region": "Finger Lakes",
@@ -1789,7 +1900,8 @@
         "coordinates": [
             42.5104485,
             -76.9235001
-        ]
+        ],
+        "id": 85256
     },
     {
         "region": "Finger Lakes",
@@ -1805,7 +1917,8 @@
         "coordinates": [
             42.5905724,
             -76.9414673
-        ]
+        ],
+        "id": 48938
     },
     {
         "region": "Finger Lakes",
@@ -1821,7 +1934,8 @@
         "coordinates": [
             42.5106116,
             -76.923419
-        ]
+        ],
+        "id": 88135
     },
     {
         "region": "Finger Lakes",
@@ -1837,7 +1951,8 @@
         "coordinates": [
             42.5842014,
             -76.853933
-        ]
+        ],
+        "id": 20535
     },
     {
         "region": "Finger Lakes",
@@ -1853,7 +1968,8 @@
         "coordinates": [
             42.4719505,
             -76.8666
-        ]
+        ],
+        "id": 93569
     },
     {
         "region": "Finger Lakes",
@@ -1869,7 +1985,8 @@
         "coordinates": [
             42.7071648,
             -76.9776764
-        ]
+        ],
+        "id": 69771
     },
     {
         "region": "Finger Lakes",
@@ -1885,7 +2002,8 @@
         "coordinates": [
             42.5828402,
             -76.8551501
-        ]
+        ],
+        "id": 46251
     },
     {
         "region": "Finger Lakes",
@@ -1901,7 +2019,8 @@
         "coordinates": [
             42.8021317,
             -76.9902878
-        ]
+        ],
+        "id": 47700
     },
     {
         "region": "Finger Lakes",
@@ -1917,7 +2036,8 @@
         "coordinates": [
             42.4252892,
             -76.9055786
-        ]
+        ],
+        "id": 63490
     },
     {
         "region": "Finger Lakes",
@@ -1933,7 +2053,8 @@
         "coordinates": [
             42.5776991,
             -76.8574622
-        ]
+        ],
+        "id": 89393
     },
     {
         "region": "Finger Lakes",
@@ -1949,7 +2070,8 @@
         "coordinates": [
             42.5078011,
             -76.8790283
-        ]
+        ],
+        "id": 25100
     },
     {
         "region": "Finger Lakes",
@@ -1965,7 +2087,8 @@
         "coordinates": [
             42.4651031,
             -76.9182358
-        ]
+        ],
+        "id": 22847
     },
     {
         "region": "Finger Lakes",
@@ -1981,7 +2104,8 @@
         "coordinates": [
             42.617045,
             -76.9223683
-        ]
+        ],
+        "id": 78043
     },
     {
         "region": "Finger Lakes",
@@ -1997,7 +2121,8 @@
         "coordinates": [
             42.7304026,
             -76.97145
-        ]
+        ],
+        "id": 28906
     },
     {
         "region": "Finger Lakes",
@@ -2013,7 +2138,8 @@
         "coordinates": [
             42.5276524,
             -76.8753545
-        ]
+        ],
+        "id": 75655
     },
     {
         "region": "Finger Lakes",
@@ -2029,7 +2155,8 @@
         "coordinates": [
             42.4508476,
             -76.9104156
-        ]
+        ],
+        "id": 16933
     },
     {
         "region": "Finger Lakes",
@@ -2045,7 +2172,8 @@
         "coordinates": [
             42.5129395,
             -76.8764114
-        ]
+        ],
+        "id": 33510
     },
     {
         "region": "Finger Lakes",
@@ -2061,7 +2189,8 @@
         "coordinates": [
             42.6366959,
             -76.9462128
-        ]
+        ],
+        "id": 75829
     },
     {
         "region": "Finger Lakes",
@@ -2077,7 +2206,8 @@
         "coordinates": [
             42.5175934,
             -76.8697052
-        ]
+        ],
+        "id": 78015
     },
     {
         "region": "Finger Lakes",
@@ -2093,7 +2223,8 @@
         "coordinates": [
             42.8458402,
             -76.994517
-        ]
+        ],
+        "id": 88273
     },
     {
         "region": "Finger Lakes",
@@ -2109,7 +2240,8 @@
         "coordinates": [
             42.5019531,
             -76.8671875
-        ]
+        ],
+        "id": 99339
     },
     {
         "region": "Finger Lakes",
@@ -2125,7 +2257,8 @@
         "coordinates": [
             42.7228661,
             -76.9782791
-        ]
+        ],
+        "id": 91764
     },
     {
         "region": "Finger Lakes",
@@ -2141,7 +2274,8 @@
         "coordinates": [
             42.4723663,
             -76.9190369
-        ]
+        ],
+        "id": 21477
     },
     {
         "region": "Finger Lakes",
@@ -2157,7 +2291,8 @@
         "coordinates": [
             42.487548,
             -76.8702194
-        ]
+        ],
+        "id": 45467
     },
     {
         "region": "Finger Lakes",
@@ -2173,7 +2308,8 @@
         "coordinates": [
             42.38311,
             -76.8744812
-        ]
+        ],
+        "id": 26204
     },
     {
         "region": "Finger Lakes",
@@ -2189,7 +2325,8 @@
         "coordinates": [
             42.7142448,
             -76.9704819
-        ]
+        ],
+        "id": 28154
     },
     {
         "region": "Finger Lakes",
@@ -2205,7 +2342,8 @@
         "coordinates": [
             42.7189484,
             -76.9701996
-        ]
+        ],
+        "id": 82675
     },
     {
         "region": "Finger Lakes",
@@ -2221,7 +2359,8 @@
         "coordinates": [
             42.5556607,
             -76.8662846
-        ]
+        ],
+        "id": 27321
     },
     {
         "region": "Finger Lakes",
@@ -2237,7 +2376,8 @@
         "coordinates": [
             42.5762299,
             -76.9295552
-        ]
+        ],
+        "id": 98625
     },
     {
         "region": "Finger Lakes",
@@ -2253,7 +2393,8 @@
         "coordinates": [
             42.4486237,
             -76.8596344
-        ]
+        ],
+        "id": 69567
     },
     {
         "region": "Finger Lakes",
@@ -2269,7 +2410,8 @@
         "coordinates": [
             42.5616554,
             -76.8783318
-        ]
+        ],
+        "id": 48337
     },
     {
         "region": "Finger Lakes",
@@ -2285,7 +2427,8 @@
         "coordinates": [
             42.433136,
             -76.7670059
-        ]
+        ],
+        "id": 38748
     },
     {
         "region": "Finger Lakes",
@@ -2301,7 +2444,8 @@
         "coordinates": [
             42.5445429,
             -76.8726616
-        ]
+        ],
+        "id": 20775
     },
     {
         "region": "Finger Lakes",
@@ -2317,7 +2461,8 @@
         "coordinates": [
             42.820919,
             -76.926313
-        ]
+        ],
+        "id": 68298
     },
     {
         "region": "Finger Lakes",
@@ -2333,7 +2478,8 @@
         "coordinates": [
             42.5131758,
             -76.8564543
-        ]
+        ],
+        "id": 98275
     },
     {
         "region": "Finger Lakes",
@@ -2349,7 +2495,8 @@
         "coordinates": [
             42.628891,
             -76.9487228
-        ]
+        ],
+        "id": 66928
     },
     {
         "region": "Finger Lakes",
@@ -2365,7 +2512,8 @@
         "coordinates": [
             42.628891,
             -76.9487228
-        ]
+        ],
+        "id": 93442
     },
     {
         "region": "Finger Lakes",
@@ -2381,7 +2529,8 @@
         "coordinates": [
             42.859105,
             -76.9363084
-        ]
+        ],
+        "id": 29814
     },
     {
         "region": "Finger Lakes",
@@ -2397,7 +2546,8 @@
         "coordinates": [
             42.5729596,
             -76.8581012
-        ]
+        ],
+        "id": 66542
     },
     {
         "region": "Finger Lakes",
@@ -2413,7 +2563,8 @@
         "coordinates": [
             42.837574,
             -76.9975967
-        ]
+        ],
+        "id": 22163
     },
     {
         "region": "Finger Lakes",
@@ -2429,7 +2580,8 @@
         "coordinates": [
             42.8159758,
             -76.9312001
-        ]
+        ],
+        "id": 88746
     },
     {
         "region": "Finger Lakes",
@@ -2445,7 +2597,8 @@
         "coordinates": [
             42.887961,
             -76.416628
-        ]
+        ],
+        "id": 51564
     },
     {
         "region": "Finger Lakes",
@@ -2461,11 +2614,12 @@
         "coordinates": [
             42.9457703,
             -76.4304581
-        ]
+        ],
+        "id": 91050
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Cascade Mountain Winery",
         "address": "835 Cascade Mountain Road",
         "city": "Amenia",
@@ -2477,11 +2631,12 @@
         "coordinates": [
             41.882087,
             -73.566215
-        ]
+        ],
+        "id": 27666
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Brookview Station Winery",
         "address": "1297 Brookview Station Road",
         "city": "Castleton",
@@ -2493,11 +2648,12 @@
         "coordinates": [
             42.537807,
             -73.711456
-        ]
+        ],
+        "id": 40560
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Clermont Vineyards & Winery",
         "address": "241 County Route 6",
         "city": "Clermont",
@@ -2509,11 +2665,12 @@
         "coordinates": [
             42.0798308,
             -73.8916276
-        ]
+        ],
+        "id": 28865
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Clinton Vineyards, Inc.",
         "address": "450 Schultzville Road",
         "city": "Clinton Corners",
@@ -2525,11 +2682,12 @@
         "coordinates": [
             41.8482208,
             -73.7827606
-        ]
+        ],
+        "id": 42530
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Tousey Winery",
         "address": "1774 Route 9",
         "city": "Germantown",
@@ -2541,11 +2699,12 @@
         "coordinates": [
             42.0856237,
             -73.8260892
-        ]
+        ],
+        "id": 10422
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Hudson-Chatham Winery",
         "address": "1900 State Route 66",
         "city": "Ghent",
@@ -2557,11 +2716,12 @@
         "coordinates": [
             42.3102171,
             -73.6421554
-        ]
+        ],
+        "id": 60404
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Millbrook Vineyards & Winery",
         "address": "26 Wing Rd",
         "city": "Millbrook",
@@ -2573,11 +2733,12 @@
         "coordinates": [
             41.8350584,
             -73.6858325
-        ]
+        ],
+        "id": 62436
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "The Winery at St. George",
         "address": "1715 East Main St.",
         "city": "Mohegan Lake",
@@ -2589,11 +2750,12 @@
         "coordinates": [
             41.324707,
             -73.8505249
-        ]
+        ],
+        "id": 66872
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Brothers Covino",
         "address": "130 Hardscrabble Rd.",
         "city": "North Salem",
@@ -2605,11 +2767,12 @@
         "coordinates": [
             41.3486163,
             -73.6356048
-        ]
+        ],
+        "id": 58403
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Prospero Winery",
         "address": "134 Marble Ave",
         "city": "Pleasantville",
@@ -2621,11 +2784,12 @@
         "coordinates": [
             41.1284752,
             -73.7890396
-        ]
+        ],
+        "id": 92009
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Hetta Glögg LLC",
         "address": "2 Charles St., Suite 1",
         "city": "Rhinecliff",
@@ -2637,11 +2801,12 @@
         "coordinates": [
             41.919788,
             -73.951164
-        ]
+        ],
+        "id": 32333
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Breezy Hill Orchard & Cider Mill",
         "address": "828 Centre Road",
         "city": "Staatsburg",
@@ -2653,11 +2818,12 @@
         "coordinates": [
             41.8581543,
             -73.8082886
-        ]
+        ],
+        "id": 26789
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Altamont Vineyard & Winery",
         "address": "3001 Furbeck Rd.",
         "city": "Altamont",
@@ -2669,11 +2835,12 @@
         "coordinates": [
             42.7412987,
             -74.0790863
-        ]
+        ],
+        "id": 42487
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Windham Vineyards and Winery",
         "address": "11 Mount View Estates Rd.",
         "city": "Ashland",
@@ -2685,11 +2852,12 @@
         "coordinates": [
             42.3356887,
             -74.305758
-        ]
+        ],
+        "id": 27517
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Woodstock Winery",
         "address": "403 Wittenberg Rd.",
         "city": "Bearsville",
@@ -2701,11 +2869,12 @@
         "coordinates": [
             42.0249825,
             -74.1938171
-        ]
+        ],
+        "id": 28312
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Cereghino Smith",
         "address": "2583 Route 32",
         "city": "Bloomington",
@@ -2717,11 +2886,12 @@
         "coordinates": [
             41.8816833,
             -74.0477066
-        ]
+        ],
+        "id": 50486
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Enlightenment Wines",
         "address": "",
         "city": "Clintondale",
@@ -2733,11 +2903,12 @@
         "coordinates": [
             42.417303,
             -77.6868099
-        ]
+        ],
+        "id": 77481
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Helderberg Meadworks LLC",
         "address": "990 W. Duane Lake Rd.",
         "city": "Duanesburg",
@@ -2749,11 +2920,12 @@
         "coordinates": [
             42.7455864,
             -74.1148529
-        ]
+        ],
+        "id": 79491
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Tuthilltown Spirits",
         "address": "14 Gristmill Lane",
         "city": "Gardiner",
@@ -2765,11 +2937,12 @@
         "coordinates": [
             41.687838,
             -74.174948
-        ]
+        ],
+        "id": 66198
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Whitecliff Vineyard and Winery",
         "address": "331 McKinstry Road",
         "city": "Gardiner",
@@ -2781,11 +2954,12 @@
         "coordinates": [
             41.6861153,
             -74.1983948
-        ]
+        ],
+        "id": 55721
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Palaia Vineyards Inc.",
         "address": "20 Sweet Clover Road",
         "city": "Highland Mills",
@@ -2797,11 +2971,12 @@
         "coordinates": [
             41.3792076,
             -74.1013718
-        ]
+        ],
+        "id": 64690
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Torne Valley Vineyards LLC",
         "address": "1 Torne Brook Rd.",
         "city": "Hillburn",
@@ -2813,11 +2988,12 @@
         "coordinates": [
             41.1405882,
             -74.168276
-        ]
+        ],
+        "id": 42222
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Benmarl Winery at Slate Hill Vineyards",
         "address": "156 Highland Ave.",
         "city": "Marlboro",
@@ -2829,11 +3005,12 @@
         "coordinates": [
             41.5948982,
             -73.9806671
-        ]
+        ],
+        "id": 29180
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Brunel & Rafael Winery",
         "address": "180 South St.",
         "city": "Marlboro",
@@ -2845,11 +3022,12 @@
         "coordinates": [
             41.599391,
             -74.002212
-        ]
+        ],
+        "id": 43128
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Glorie Farm Winery",
         "address": "40 Mountain Road",
         "city": "Marlboro",
@@ -2861,11 +3039,12 @@
         "coordinates": [
             41.6194305,
             -74.0128708
-        ]
+        ],
+        "id": 71299
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Royal Kedem Winery",
         "address": "1519 Route 9W",
         "city": "Marlboro",
@@ -2877,11 +3056,12 @@
         "coordinates": [
             41.6248589,
             -73.9687424
-        ]
+        ],
+        "id": 25980
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Stoutridge Vineyard",
         "address": "10 Ann Kaley Lane",
         "city": "Marlboro",
@@ -2893,11 +3073,12 @@
         "coordinates": [
             41.6133262,
             -73.9779445
-        ]
+        ],
+        "id": 49309
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Weed Orchards & Winery",
         "address": "43 Mt. Zion Rd.",
         "city": "Marlboro",
@@ -2909,11 +3090,12 @@
         "coordinates": [
             41.6226387,
             -74.0014267
-        ]
+        ],
+        "id": 97145
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Nostrano Vineyards",
         "address": "14 Gala Lane",
         "city": "Milton",
@@ -2925,11 +3107,12 @@
         "coordinates": [
             41.6503454,
             -74.0041202
-        ]
+        ],
+        "id": 23864
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Orchard Hill Cider Mill",
         "address": "29 Soons Cir.",
         "city": "New Hampton",
@@ -2941,11 +3124,12 @@
         "coordinates": [
             41.4028298,
             -74.4032302
-        ]
+        ],
+        "id": 85348
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Adair Vineyards",
         "address": "52 Allhusen Road",
         "city": "New Paltz",
@@ -2957,11 +3141,12 @@
         "coordinates": [
             41.6781082,
             -74.0945358
-        ]
+        ],
+        "id": 59951
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Kettleborough Cider House LLC",
         "address": "277 State Route 208",
         "city": "New Paltz",
@@ -2973,11 +3158,12 @@
         "coordinates": [
             41.7145159,
             -74.1111054
-        ]
+        ],
+        "id": 12104
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Robibero Family Vineyards",
         "address": "714 Albany Post Rd.",
         "city": "New Paltz",
@@ -2989,11 +3175,12 @@
         "coordinates": [
             41.7135745,
             -74.1603072
-        ]
+        ],
+        "id": 66733
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Yankee Folly Cidery",
         "address": "69 Yankee Folly Rd.",
         "city": "New Paltz",
@@ -3005,11 +3192,12 @@
         "coordinates": [
             41.7353516,
             -74.1554413
-        ]
+        ],
+        "id": 38991
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Capoccia Vineyards & Winery",
         "address": "2820 Balltown Rd.",
         "city": "Niskayuna",
@@ -3021,11 +3209,12 @@
         "coordinates": [
             42.8455048,
             -73.8899384
-        ]
+        ],
+        "id": 23193
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Baldwin Vineyards",
         "address": "176 Hardenburgh Road",
         "city": "Pine Bush",
@@ -3037,11 +3226,12 @@
         "coordinates": [
             41.6229118,
             -74.2944063
-        ]
+        ],
+        "id": 21495
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Brimstone Hill Vineyard",
         "address": "61 Brimstone Hill Road",
         "city": "Pine Bush",
@@ -3053,11 +3243,12 @@
         "coordinates": [
             41.626545,
             -74.3167419
-        ]
+        ],
+        "id": 78488
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Christopher Jacobs Winery at Pennings Vineyards",
         "address": "320 Crawford St.",
         "city": "Pine Bush",
@@ -3069,11 +3260,12 @@
         "coordinates": [
             41.5860998,
             -74.3620623
-        ]
+        ],
+        "id": 40916
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Pazdar Winery",
         "address": "6 Laddie Road",
         "city": "Scotchtown",
@@ -3085,11 +3277,12 @@
         "coordinates": [
             41.467926,
             -74.3622284
-        ]
+        ],
+        "id": 65800
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "El Paso Winery",
         "address": "742 Broadway, Route 9W",
         "city": "Ulster Park",
@@ -3101,11 +3294,12 @@
         "coordinates": [
             41.856671,
             -73.9700373
-        ]
+        ],
+        "id": 64581
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Magnanini Farm Winery, Inc.",
         "address": "172 Strawridge Road",
         "city": "Wallkill",
@@ -3117,11 +3311,12 @@
         "coordinates": [
             41.595676,
             -74.153808
-        ]
+        ],
+        "id": 68919
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Applewood Winery",
         "address": "82 Four Corners Road",
         "city": "Warwick",
@@ -3133,11 +3328,12 @@
         "coordinates": [
             41.2953568,
             -74.3071442
-        ]
+        ],
+        "id": 76805
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Clearview Vineyard",
         "address": "35 Clearview Lane",
         "city": "Warwick",
@@ -3149,11 +3345,12 @@
         "coordinates": [
             41.3013458,
             -74.3483582
-        ]
+        ],
+        "id": 52428
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Demarest Hill Winery",
         "address": "81 Pine Island Turnpike",
         "city": "Warwick",
@@ -3165,11 +3362,12 @@
         "coordinates": [
             41.2636185,
             -74.3740692
-        ]
+        ],
+        "id": 92080
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Warwick Valley Winery & Distillery",
         "address": "114 Little York Road",
         "city": "Warwick",
@@ -3181,11 +3379,12 @@
         "coordinates": [
             41.2909851,
             -74.4419174
-        ]
+        ],
+        "id": 58232
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Brotherhood, America's Oldest Winery",
         "address": "100 Brotherhood Plaza Drive",
         "city": "Washingtonville",
@@ -3197,11 +3396,12 @@
         "coordinates": [
             41.4309005,
             -74.1614391
-        ]
+        ],
+        "id": 63889
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Shier Winery",
         "address": "439 Floyd Ackert Rd.",
         "city": "West Park",
@@ -3213,11 +3413,12 @@
         "coordinates": [
             41.81023,
             -73.986343
-        ]
+        ],
+        "id": 97578
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Aaron Burr Cider",
         "address": "2251 State Route 209",
         "city": "Wurtsboro",
@@ -3229,11 +3430,12 @@
         "coordinates": [
             41.5340093,
             -74.537757
-        ]
+        ],
+        "id": 87413
     },
     {
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "BashaKill Vineyards",
         "address": "1131 South Rd.",
         "city": "Wurtsboro",
@@ -3245,7 +3447,8 @@
         "coordinates": [
             41.5161686,
             -74.5364448
-        ]
+        ],
+        "id": 84688
     },
     {
         "region": "Lake Erie",
@@ -3261,7 +3464,8 @@
         "coordinates": [
             42.880764,
             -78.8108521
-        ]
+        ],
+        "id": 72424
     },
     {
         "region": "Lake Erie",
@@ -3277,7 +3481,8 @@
         "coordinates": [
             42.5715408,
             -78.5167389
-        ]
+        ],
+        "id": 90972
     },
     {
         "region": "Lake Erie",
@@ -3293,7 +3498,8 @@
         "coordinates": [
             42.994397,
             -78.4238327
-        ]
+        ],
+        "id": 62061
     },
     {
         "region": "Lake Erie",
@@ -3309,7 +3515,8 @@
         "coordinates": [
             42.27618,
             -78.671337
-        ]
+        ],
+        "id": 65683
     },
     {
         "region": "Lake Erie",
@@ -3325,7 +3532,8 @@
         "coordinates": [
             42.4852028,
             -79.2090073
-        ]
+        ],
+        "id": 35762
     },
     {
         "region": "Lake Erie",
@@ -3341,7 +3549,8 @@
         "coordinates": [
             42.456516,
             -79.272613
-        ]
+        ],
+        "id": 16357
     },
     {
         "region": "Lake Erie",
@@ -3357,7 +3566,8 @@
         "coordinates": [
             42.7154999,
             -78.8288956
-        ]
+        ],
+        "id": 63150
     },
     {
         "region": "Lake Erie",
@@ -3373,7 +3583,8 @@
         "coordinates": [
             42.2067435,
             -79.4762591
-        ]
+        ],
+        "id": 84941
     },
     {
         "region": "Lake Erie",
@@ -3389,7 +3600,8 @@
         "coordinates": [
             42.372451,
             -79.49047
-        ]
+        ],
+        "id": 56430
     },
     {
         "region": "Lake Erie",
@@ -3405,7 +3617,8 @@
         "coordinates": [
             42.1893463,
             -79.7239532
-        ]
+        ],
+        "id": 66233
     },
     {
         "region": "Lake Erie",
@@ -3421,7 +3634,8 @@
         "coordinates": [
             42.251785,
             -79.754013
-        ]
+        ],
+        "id": 38387
     },
     {
         "region": "Lake Erie",
@@ -3437,7 +3651,8 @@
         "coordinates": [
             42.2493155,
             -79.7486629
-        ]
+        ],
+        "id": 18464
     },
     {
         "region": "Lake Erie",
@@ -3453,7 +3668,8 @@
         "coordinates": [
             42.265174,
             -79.753509
-        ]
+        ],
+        "id": 66383
     },
     {
         "region": "Lake Erie",
@@ -3469,7 +3685,8 @@
         "coordinates": [
             42.4832806,
             -79.2468993
-        ]
+        ],
+        "id": 51590
     },
     {
         "region": "Lake Erie",
@@ -3485,7 +3702,8 @@
         "coordinates": [
             42.5119133,
             -79.2322159
-        ]
+        ],
+        "id": 15346
     },
     {
         "region": "Lake Erie",
@@ -3501,7 +3719,8 @@
         "coordinates": [
             42.306217,
             -79.605186
-        ]
+        ],
+        "id": 23824
     },
     {
         "region": "Lake Erie",
@@ -3517,7 +3736,8 @@
         "coordinates": [
             42.311592,
             -79.605239
-        ]
+        ],
+        "id": 40030
     },
     {
         "region": "Lake Erie",
@@ -3533,7 +3753,8 @@
         "coordinates": [
             42.2917581,
             -79.6216643
-        ]
+        ],
+        "id": 10278
     },
     {
         "region": "Lake Erie",
@@ -3549,7 +3770,8 @@
         "coordinates": [
             42.3321643,
             -79.5792921
-        ]
+        ],
+        "id": 94630
     },
     {
         "region": "Lake Erie",
@@ -3565,7 +3787,8 @@
         "coordinates": [
             42.3485527,
             -79.514473
-        ]
+        ],
+        "id": 36767
     },
     {
         "region": "Lake Ontario",
@@ -3581,7 +3804,8 @@
         "coordinates": [
             43.1515274,
             -77.9815216
-        ]
+        ],
+        "id": 58961
     },
     {
         "region": "Lake Ontario",
@@ -3597,7 +3821,8 @@
         "coordinates": [
             43.2898827,
             -77.8384094
-        ]
+        ],
+        "id": 56464
     },
     {
         "region": "Lake Ontario",
@@ -3613,7 +3838,8 @@
         "coordinates": [
             43.1163067,
             -77.3132171
-        ]
+        ],
+        "id": 48095
     },
     {
         "region": "Lake Ontario",
@@ -3629,7 +3855,8 @@
         "coordinates": [
             43.4950714,
             -76.2618103
-        ]
+        ],
+        "id": 87306
     },
     {
         "region": "Lake Ontario",
@@ -3645,7 +3872,8 @@
         "coordinates": [
             43.479084,
             -76.3048477
-        ]
+        ],
+        "id": 95000
     },
     {
         "region": "Lake Ontario",
@@ -3661,7 +3889,8 @@
         "coordinates": [
             43.481884,
             -76.2340775
-        ]
+        ],
+        "id": 58515
     },
     {
         "region": "Lake Ontario",
@@ -3677,7 +3906,8 @@
         "coordinates": [
             43.221786,
             -76.907867
-        ]
+        ],
+        "id": 60104
     },
     {
         "region": "Lake Ontario",
@@ -3693,7 +3923,8 @@
         "coordinates": [
             43.203495,
             -77.3544312
-        ]
+        ],
+        "id": 53131
     },
     {
         "region": "Lake Ontario",
@@ -3709,7 +3940,8 @@
         "coordinates": [
             43.3223319,
             -76.7207439
-        ]
+        ],
+        "id": 74829
     },
     {
         "region": "Lake Ontario",
@@ -3725,7 +3957,8 @@
         "coordinates": [
             43.2276154,
             -77.4772644
-        ]
+        ],
+        "id": 57815
     },
     {
         "region": "Lake Ontario",
@@ -3741,7 +3974,8 @@
         "coordinates": [
             43.2020147,
             -77.2237775
-        ]
+        ],
+        "id": 26732
     },
     {
         "region": "Lake Ontario",
@@ -3757,7 +3991,8 @@
         "coordinates": [
             43.2570839,
             -77.177536
-        ]
+        ],
+        "id": 89560
     },
     {
         "region": "Lake Ontario",
@@ -3773,7 +4008,8 @@
         "coordinates": [
             43.2890358,
             -76.8961182
-        ]
+        ],
+        "id": 40999
     },
     {
         "region": "Long Island",
@@ -3789,7 +4025,8 @@
         "coordinates": [
             40.8066887,
             -73.2425968
-        ]
+        ],
+        "id": 49233
     },
     {
         "region": "Long Island",
@@ -3805,7 +4042,8 @@
         "coordinates": [
             40.736025,
             -73.079504
-        ]
+        ],
+        "id": 64693
     },
     {
         "region": "Long Island",
@@ -3821,7 +4059,8 @@
         "coordinates": [
             40.9461281,
             -73.0687695
-        ]
+        ],
+        "id": 89957
     },
     {
         "region": "Long Island",
@@ -3837,7 +4076,8 @@
         "coordinates": [
             40.911596,
             -73.1537721
-        ]
+        ],
+        "id": 31970
     },
     {
         "region": "Long Island",
@@ -3853,7 +4093,8 @@
         "coordinates": [
             40.8702665,
             -73.1795541
-        ]
+        ],
+        "id": 59469
     },
     {
         "region": "Long Island",
@@ -3869,7 +4110,8 @@
         "coordinates": [
             40.9489975,
             -72.60392
-        ]
+        ],
+        "id": 36506
     },
     {
         "region": "Long Island",
@@ -3885,7 +4127,8 @@
         "coordinates": [
             40.9465904,
             -72.6179581
-        ]
+        ],
+        "id": 24804
     },
     {
         "region": "Long Island",
@@ -3901,7 +4144,8 @@
         "coordinates": [
             40.957473,
             -72.75634
-        ]
+        ],
+        "id": 84803
     },
     {
         "region": "Long Island",
@@ -3917,7 +4161,8 @@
         "coordinates": [
             42.417303,
             -77.6868099
-        ]
+        ],
+        "id": 65076
     },
     {
         "region": "Long Island",
@@ -3933,7 +4178,8 @@
         "coordinates": [
             41.029067,
             -72.468765
-        ]
+        ],
+        "id": 77906
     },
     {
         "region": "Long Island",
@@ -3949,7 +4195,8 @@
         "coordinates": [
             40.9971809,
             -72.5318298
-        ]
+        ],
+        "id": 84480
     },
     {
         "region": "Long Island",
@@ -3965,7 +4212,8 @@
         "coordinates": [
             41.019996,
             -72.479652
-        ]
+        ],
+        "id": 20982
     },
     {
         "region": "Long Island",
@@ -3981,7 +4229,8 @@
         "coordinates": [
             41.0361557,
             -72.5042267
-        ]
+        ],
+        "id": 39705
     },
     {
         "region": "Long Island",
@@ -3997,7 +4246,8 @@
         "coordinates": [
             41.005172,
             -72.49652
-        ]
+        ],
+        "id": 16034
     },
     {
         "region": "Long Island",
@@ -4013,7 +4263,8 @@
         "coordinates": [
             41.000064,
             -72.500885
-        ]
+        ],
+        "id": 95532
     },
     {
         "region": "Long Island",
@@ -4029,7 +4280,8 @@
         "coordinates": [
             41.004215,
             -72.503936
-        ]
+        ],
+        "id": 15957
     },
     {
         "region": "Long Island",
@@ -4045,7 +4297,8 @@
         "coordinates": [
             41.0299416,
             -72.480629
-        ]
+        ],
+        "id": 74307
     },
     {
         "region": "Long Island",
@@ -4061,7 +4314,8 @@
         "coordinates": [
             41.032924,
             -72.472297
-        ]
+        ],
+        "id": 88623
     },
     {
         "region": "Long Island",
@@ -4077,7 +4331,8 @@
         "coordinates": [
             40.9971809,
             -72.5318298
-        ]
+        ],
+        "id": 87470
     },
     {
         "region": "Long Island",
@@ -4093,7 +4348,8 @@
         "coordinates": [
             41.031222,
             -72.494958
-        ]
+        ],
+        "id": 17402
     },
     {
         "region": "Long Island",
@@ -4109,7 +4365,8 @@
         "coordinates": [
             40.9624901,
             -72.1872253
-        ]
+        ],
+        "id": 20070
     },
     {
         "region": "Long Island",
@@ -4125,7 +4382,8 @@
         "coordinates": [
             42.417303,
             -77.6868099
-        ]
+        ],
+        "id": 25561
     },
     {
         "region": "Long Island",
@@ -4141,7 +4399,8 @@
         "coordinates": [
             42.417303,
             -77.6868099
-        ]
+        ],
+        "id": 43282
     },
     {
         "region": "Long Island",
@@ -4157,7 +4416,8 @@
         "coordinates": [
             41.1127014,
             -72.3717194
-        ]
+        ],
+        "id": 53471
     },
     {
         "region": "Long Island",
@@ -4173,7 +4433,8 @@
         "coordinates": [
             40.957405,
             -72.57199
-        ]
+        ],
+        "id": 90789
     },
     {
         "region": "Long Island",
@@ -4189,7 +4450,8 @@
         "coordinates": [
             40.9575233,
             -72.585434
-        ]
+        ],
+        "id": 93708
     },
     {
         "region": "Long Island",
@@ -4205,7 +4467,8 @@
         "coordinates": [
             40.946784,
             -72.596931
-        ]
+        ],
+        "id": 69903
     },
     {
         "region": "Long Island",
@@ -4221,7 +4484,8 @@
         "coordinates": [
             40.9476089,
             -72.5865479
-        ]
+        ],
+        "id": 83292
     },
     {
         "region": "Long Island",
@@ -4237,7 +4501,8 @@
         "coordinates": [
             40.9524002,
             -72.5740738
-        ]
+        ],
+        "id": 86243
     },
     {
         "region": "Long Island",
@@ -4253,7 +4518,8 @@
         "coordinates": [
             40.947063,
             -72.593666
-        ]
+        ],
+        "id": 20104
     },
     {
         "region": "Long Island",
@@ -4269,7 +4535,8 @@
         "coordinates": [
             40.9536057,
             -72.5818024
-        ]
+        ],
+        "id": 58271
     },
     {
         "region": "Long Island",
@@ -4285,7 +4552,8 @@
         "coordinates": [
             40.9728813,
             -72.5586929
-        ]
+        ],
+        "id": 42141
     },
     {
         "region": "Long Island",
@@ -4301,7 +4569,8 @@
         "coordinates": [
             40.9858093,
             -72.5442886
-        ]
+        ],
+        "id": 96547
     },
     {
         "region": "Long Island",
@@ -4317,7 +4586,8 @@
         "coordinates": [
             40.9892654,
             -72.5813522
-        ]
+        ],
+        "id": 51102
     },
     {
         "region": "Long Island",
@@ -4333,7 +4603,8 @@
         "coordinates": [
             42.417303,
             -77.6868099
-        ]
+        ],
+        "id": 53690
     },
     {
         "region": "Long Island",
@@ -4349,7 +4620,8 @@
         "coordinates": [
             40.9884949,
             -72.554657
-        ]
+        ],
+        "id": 69851
     },
     {
         "region": "Long Island",
@@ -4365,7 +4637,8 @@
         "coordinates": [
             40.9863874,
             -72.5697277
-        ]
+        ],
+        "id": 31385
     },
     {
         "region": "Long Island",
@@ -4381,7 +4654,8 @@
         "coordinates": [
             42.417303,
             -77.6868099
-        ]
+        ],
+        "id": 35991
     },
     {
         "region": "Long Island",
@@ -4397,7 +4671,8 @@
         "coordinates": [
             40.9916801,
             -72.5348816
-        ]
+        ],
+        "id": 91915
     },
     {
         "region": "Long Island",
@@ -4413,7 +4688,8 @@
         "coordinates": [
             40.9851952,
             -72.56353
-        ]
+        ],
+        "id": 27697
     },
     {
         "region": "Long Island",
@@ -4429,7 +4705,8 @@
         "coordinates": [
             41.0146561,
             -72.5280838
-        ]
+        ],
+        "id": 45527
     },
     {
         "region": "Long Island",
@@ -4445,7 +4722,8 @@
         "coordinates": [
             41.014534,
             -72.5326538
-        ]
+        ],
+        "id": 37374
     },
     {
         "region": "Long Island",
@@ -4461,7 +4739,8 @@
         "coordinates": [
             40.9884949,
             -72.554657
-        ]
+        ],
+        "id": 99565
     },
     {
         "region": "Long Island",
@@ -4477,7 +4756,8 @@
         "coordinates": [
             41.0427475,
             -72.4590759
-        ]
+        ],
+        "id": 88471
     },
     {
         "region": "Long Island",
@@ -4493,7 +4773,8 @@
         "coordinates": [
             42.417303,
             -77.6868099
-        ]
+        ],
+        "id": 70771
     },
     {
         "region": "Long Island",
@@ -4509,7 +4790,8 @@
         "coordinates": [
             41.045494,
             -72.45111
-        ]
+        ],
+        "id": 70447
     },
     {
         "region": "Long Island",
@@ -4525,7 +4807,8 @@
         "coordinates": [
             41.0347748,
             -72.4698029
-        ]
+        ],
+        "id": 72114
     },
     {
         "region": "Long Island",
@@ -4541,7 +4824,8 @@
         "coordinates": [
             41.0313683,
             -72.4587555
-        ]
+        ],
+        "id": 71196
     },
     {
         "region": "Long Island",
@@ -4557,7 +4841,8 @@
         "coordinates": [
             41.0427475,
             -72.4590759
-        ]
+        ],
+        "id": 66922
     },
     {
         "region": "Long Island",
@@ -4573,7 +4858,8 @@
         "coordinates": [
             41.0367126,
             -72.4681396
-        ]
+        ],
+        "id": 52189
     },
     {
         "region": "Long Island",
@@ -4589,7 +4875,8 @@
         "coordinates": [
             41.046814,
             -72.4619598
-        ]
+        ],
+        "id": 11045
     },
     {
         "region": "Long Island",
@@ -4605,7 +4892,8 @@
         "coordinates": [
             40.9784594,
             -72.6047004
-        ]
+        ],
+        "id": 54300
     },
     {
         "region": "Long Island",
@@ -4621,7 +4909,8 @@
         "coordinates": [
             40.9829387,
             -72.5892743
-        ]
+        ],
+        "id": 72464
     },
     {
         "region": "Long Island",
@@ -4637,7 +4926,8 @@
         "coordinates": [
             40.97187,
             -72.627639
-        ]
+        ],
+        "id": 80664
     },
     {
         "region": "Long Island",
@@ -4653,7 +4943,8 @@
         "coordinates": [
             40.968154,
             -72.694656
-        ]
+        ],
+        "id": 60231
     },
     {
         "region": "Long Island",
@@ -4669,7 +4960,8 @@
         "coordinates": [
             41.0454445,
             -72.4399643
-        ]
+        ],
+        "id": 21946
     },
     {
         "region": "Long Island",
@@ -4685,7 +4977,8 @@
         "coordinates": [
             41.0489922,
             -72.4494858
-        ]
+        ],
+        "id": 20100
     },
     {
         "region": "Long Island",
@@ -4701,7 +4994,8 @@
         "coordinates": [
             41.048561,
             -72.445311
-        ]
+        ],
+        "id": 56300
     },
     {
         "region": "Long Island",
@@ -4717,7 +5011,8 @@
         "coordinates": [
             42.417303,
             -77.6868099
-        ]
+        ],
+        "id": 60913
     },
     {
         "region": "Long Island",
@@ -4733,7 +5028,8 @@
         "coordinates": [
             41.083931,
             -72.4250488
-        ]
+        ],
+        "id": 56419
     },
     {
         "region": "Long Island",
@@ -4749,7 +5045,8 @@
         "coordinates": [
             41.0749321,
             -72.4363251
-        ]
+        ],
+        "id": 41538
     },
     {
         "region": "Long Island",
@@ -4765,7 +5062,8 @@
         "coordinates": [
             41.0608559,
             -72.4433746
-        ]
+        ],
+        "id": 26206
     },
     {
         "region": "Long Island",
@@ -4781,7 +5079,8 @@
         "coordinates": [
             41.0714035,
             -72.4077988
-        ]
+        ],
+        "id": 76594
     },
     {
         "region": "Long Island",
@@ -4797,7 +5096,8 @@
         "coordinates": [
             41.046196,
             -72.4460907
-        ]
+        ],
+        "id": 97570
     },
     {
         "region": "Long Island",
@@ -4813,7 +5113,8 @@
         "coordinates": [
             40.9371109,
             -72.3018265
-        ]
+        ],
+        "id": 32346
     },
     {
         "region": "Long Island",
@@ -4829,7 +5130,8 @@
         "coordinates": [
             40.9034386,
             -72.3669586
-        ]
+        ],
+        "id": 95923
     },
     {
         "region": "Long Island",
@@ -4845,7 +5147,8 @@
         "coordinates": [
             40.9451256,
             -72.2789662
-        ]
+        ],
+        "id": 32409
     },
     {
         "region": "Long Island",
@@ -4861,7 +5164,8 @@
         "coordinates": [
             40.9451256,
             -72.2789662
-        ]
+        ],
+        "id": 64450
     },
     {
         "region": "Long Island",
@@ -4877,7 +5181,8 @@
         "coordinates": [
             40.9424139,
             -72.273288
-        ]
+        ],
+        "id": 22732
     },
     {
         "region": "New York City",
@@ -4893,7 +5198,8 @@
         "coordinates": [
             40.8285408,
             -73.9240875
-        ]
+        ],
+        "id": 78991
     },
     {
         "region": "New York City",
@@ -4909,7 +5215,8 @@
         "coordinates": [
             40.7280998,
             -73.7106094
-        ]
+        ],
+        "id": 38337
     },
     {
         "region": "New York City",
@@ -4925,7 +5232,8 @@
         "coordinates": [
             42.417303,
             -77.6868099
-        ]
+        ],
+        "id": 95838
     },
     {
         "region": "New York City",
@@ -4941,7 +5249,8 @@
         "coordinates": [
             40.7261887,
             -74.0060349
-        ]
+        ],
+        "id": 28910
     },
     {
         "region": "New York City",
@@ -4957,7 +5266,8 @@
         "coordinates": [
             40.7521313,
             -73.9775864
-        ]
+        ],
+        "id": 64833
     },
     {
         "region": "New York City",
@@ -4973,7 +5283,8 @@
         "coordinates": [
             40.664825,
             -73.945236
-        ]
+        ],
+        "id": 89931
     },
     {
         "region": "New York City",
@@ -4989,7 +5300,8 @@
         "coordinates": [
             42.417303,
             -77.6868099
-        ]
+        ],
+        "id": 11561
     },
     {
         "region": "New York City",
@@ -5005,7 +5317,8 @@
         "coordinates": [
             40.7175254,
             -73.9625003
-        ]
+        ],
+        "id": 79848
     },
     {
         "region": "New York City",
@@ -5021,7 +5334,8 @@
         "coordinates": [
             40.7173386,
             -73.9549789
-        ]
+        ],
+        "id": 71016
     },
     {
         "region": "New York City",
@@ -5037,7 +5351,8 @@
         "coordinates": [
             40.6736298,
             -74.0114975
-        ]
+        ],
+        "id": 65431
     },
     {
         "region": "New York City",
@@ -5053,7 +5368,8 @@
         "coordinates": [
             40.6807175,
             -74.0093231
-        ]
+        ],
+        "id": 97066
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5069,7 +5385,8 @@
         "coordinates": [
             43.2866058,
             -78.1085129
-        ]
+        ],
+        "id": 32196
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5085,7 +5402,8 @@
         "coordinates": [
             43.349044,
             -78.639244
-        ]
+        ],
+        "id": 72136
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5101,7 +5419,8 @@
         "coordinates": [
             43.3652344,
             -78.5580902
-        ]
+        ],
+        "id": 96839
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5117,7 +5436,8 @@
         "coordinates": [
             43.0460968,
             -77.9991989
-        ]
+        ],
+        "id": 88567
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5133,7 +5453,8 @@
         "coordinates": [
             43.33411,
             -78.73587
-        ]
+        ],
+        "id": 93252
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5149,7 +5470,8 @@
         "coordinates": [
             43.3166014,
             -78.7399478
-        ]
+        ],
+        "id": 38827
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5165,7 +5487,8 @@
         "coordinates": [
             43.3424873,
             -78.1514282
-        ]
+        ],
+        "id": 29238
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5181,7 +5504,8 @@
         "coordinates": [
             43.2016487,
             -78.8210678
-        ]
+        ],
+        "id": 92132
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5197,7 +5521,8 @@
         "coordinates": [
             43.2203469,
             -78.38771
-        ]
+        ],
+        "id": 92747
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5213,7 +5538,8 @@
         "coordinates": [
             43.2621384,
             -78.4376221
-        ]
+        ],
+        "id": 42727
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5229,7 +5555,8 @@
         "coordinates": [
             43.297554,
             -78.717933
-        ]
+        ],
+        "id": 58740
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5245,7 +5572,8 @@
         "coordinates": [
             43.1946068,
             -78.8529587
-        ]
+        ],
+        "id": 31673
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5261,7 +5589,8 @@
         "coordinates": [
             43.265461,
             -78.8614044
-        ]
+        ],
+        "id": 12626
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5277,7 +5606,8 @@
         "coordinates": [
             43.1768227,
             -78.8656921
-        ]
+        ],
+        "id": 17919
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5293,7 +5623,8 @@
         "coordinates": [
             43.31908,
             -78.803077
-        ]
+        ],
+        "id": 39402
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5309,7 +5640,8 @@
         "coordinates": [
             43.2198181,
             -78.5427856
-        ]
+        ],
+        "id": 33135
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5325,7 +5657,8 @@
         "coordinates": [
             43.1806288,
             -78.7543331
-        ]
+        ],
+        "id": 72411
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5341,7 +5674,8 @@
         "coordinates": [
             43.1822548,
             -78.7806854
-        ]
+        ],
+        "id": 99185
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5357,7 +5691,8 @@
         "coordinates": [
             43.1707535,
             -78.6925125
-        ]
+        ],
+        "id": 79470
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5373,7 +5708,8 @@
         "coordinates": [
             43.1792831,
             -78.7596588
-        ]
+        ],
+        "id": 36003
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5389,7 +5725,8 @@
         "coordinates": [
             43.1909882,
             -78.8012248
-        ]
+        ],
+        "id": 33226
     },
     {
         "region": "Niagara Escarpment/Greater Niagara Area",
@@ -5405,7 +5742,8 @@
         "coordinates": [
             43.1886635,
             -78.6257553
-        ]
+        ],
+        "id": 20424
     },
     {
         "region": "North Country",
@@ -5421,7 +5759,8 @@
         "coordinates": [
             42.9942398,
             -74.0746994
-        ]
+        ],
+        "id": 52867
     },
     {
         "region": "North Country",
@@ -5437,7 +5776,8 @@
         "coordinates": [
             43.0146599,
             -73.9746323
-        ]
+        ],
+        "id": 79908
     },
     {
         "region": "North Country",
@@ -5453,7 +5793,8 @@
         "coordinates": [
             43.0051689,
             -73.4645004
-        ]
+        ],
+        "id": 26599
     },
     {
         "region": "North Country",
@@ -5469,7 +5810,8 @@
         "coordinates": [
             43.2724304,
             -73.8947449
-        ]
+        ],
+        "id": 58636
     },
     {
         "region": "North Country",
@@ -5485,7 +5827,8 @@
         "coordinates": [
             43.2301865,
             -73.5781403
-        ]
+        ],
+        "id": 35443
     },
     {
         "region": "North Country",
@@ -5501,7 +5844,8 @@
         "coordinates": [
             42.811657,
             -74.3044662
-        ]
+        ],
+        "id": 29997
     },
     {
         "region": "North Country",
@@ -5517,7 +5861,8 @@
         "coordinates": [
             43.1603851,
             -73.6543198
-        ]
+        ],
+        "id": 13723
     },
     {
         "region": "North Country",
@@ -5533,7 +5878,8 @@
         "coordinates": [
             43.4128156,
             -73.3314946
-        ]
+        ],
+        "id": 91046
     },
     {
         "region": "North Country",
@@ -5549,7 +5895,8 @@
         "coordinates": [
             43.1052666,
             -73.849968
-        ]
+        ],
+        "id": 32975
     },
     {
         "region": "North Country",
@@ -5565,7 +5912,8 @@
         "coordinates": [
             43.4260826,
             -73.7130051
-        ]
+        ],
+        "id": 69647
     },
     {
         "region": "North Country",
@@ -5581,7 +5929,8 @@
         "coordinates": [
             44.2873116,
             -73.9848022
-        ]
+        ],
+        "id": 51142
     },
     {
         "region": "North Country",
@@ -5597,7 +5946,8 @@
         "coordinates": [
             44.267421,
             -73.970794
-        ]
+        ],
+        "id": 19581
     },
     {
         "region": "North Country",
@@ -5613,7 +5963,8 @@
         "coordinates": [
             43.7094893,
             -74.9748632
-        ]
+        ],
+        "id": 64887
     },
     {
         "region": "North Country",
@@ -5629,7 +5980,8 @@
         "coordinates": [
             43.08097,
             -73.7857655
-        ]
+        ],
+        "id": 87783
     },
     {
         "region": "North Country",
@@ -5645,7 +5997,8 @@
         "coordinates": [
             43.0748881,
             -73.862462
-        ]
+        ],
+        "id": 51492
     },
     {
         "region": "North Country",
@@ -5661,7 +6014,8 @@
         "coordinates": [
             43.0739956,
             -73.7874024
-        ]
+        ],
+        "id": 38483
     },
     {
         "region": "North Country",
@@ -5677,7 +6031,8 @@
         "coordinates": [
             43.0078872,
             -73.5492537
-        ]
+        ],
+        "id": 12879
     },
     {
         "region": "North Country",
@@ -5693,7 +6048,8 @@
         "coordinates": [
             42.9537544,
             -73.5310364
-        ]
+        ],
+        "id": 75712
     },
     {
         "region": "North Country",
@@ -5709,7 +6065,8 @@
         "coordinates": [
             42.9802475,
             -73.5212784
-        ]
+        ],
+        "id": 37703
     },
     {
         "region": "North Country",
@@ -5725,7 +6082,8 @@
         "coordinates": [
             44.775888,
             -74.8566851
-        ]
+        ],
+        "id": 85614
     },
     {
         "region": "North Country",
@@ -5741,7 +6099,8 @@
         "coordinates": [
             44.9010277,
             -73.4372559
-        ]
+        ],
+        "id": 97282
     },
     {
         "region": "North Country",
@@ -5757,7 +6116,8 @@
         "coordinates": [
             44.9089432,
             -73.5442734
-        ]
+        ],
+        "id": 79897
     },
     {
         "region": "North Country",
@@ -5773,7 +6133,8 @@
         "coordinates": [
             44.6731415,
             -73.5878983
-        ]
+        ],
+        "id": 85975
     },
     {
         "region": "North Country",
@@ -5789,7 +6150,8 @@
         "coordinates": [
             44.7431755,
             -73.4252625
-        ]
+        ],
+        "id": 50885
     },
     {
         "region": "North Country",
@@ -5802,7 +6164,11 @@
         "phone_number": "518-564-0064",
         "url": "http://www.champlainwinecompany.com",
         "type": "Winery",
-        "coordinates": [44.698383, -73.451609]
+        "coordinates": [
+            44.698383,
+            -73.451609
+        ],
+        "id": 98633
     },
     {
         "region": "North Country",
@@ -5818,7 +6184,8 @@
         "coordinates": [
             44.8172705,
             -73.4420257
-        ]
+        ],
+        "id": 19852
     },
     {
         "region": "North Country",
@@ -5834,7 +6201,8 @@
         "coordinates": [
             44.2927873,
             -75.9823787
-        ]
+        ],
+        "id": 95759
     },
     {
         "region": "North Country",
@@ -5850,7 +6218,8 @@
         "coordinates": [
             42.417303,
             -77.6868099
-        ]
+        ],
+        "id": 52481
     },
     {
         "region": "North Country",
@@ -5866,7 +6235,8 @@
         "coordinates": [
             44.104399,
             -76.3296269
-        ]
+        ],
+        "id": 48191
     },
     {
         "region": "North Country",
@@ -5882,7 +6252,8 @@
         "coordinates": [
             44.237849,
             -76.0222451
-        ]
+        ],
+        "id": 19441
     },
     {
         "region": "North Country",
@@ -5898,7 +6269,8 @@
         "coordinates": [
             44.2422659,
             -76.0885439
-        ]
+        ],
+        "id": 33751
     },
     {
         "region": "North Country",
@@ -5914,7 +6286,8 @@
         "coordinates": [
             44.5103929,
             -75.6157402
-        ]
+        ],
+        "id": 24355
     },
     {
         "region": "North Country",
@@ -5930,7 +6303,8 @@
         "coordinates": [
             43.8198495,
             -75.5789302
-        ]
+        ],
+        "id": 87383
     },
     {
         "region": "North Country",
@@ -5946,7 +6320,8 @@
         "coordinates": [
             44.7626708,
             -75.3784592
-        ]
+        ],
+        "id": 35053
     },
     {
         "region": "North Country",
@@ -5962,7 +6337,8 @@
         "coordinates": [
             44.1937332,
             -75.7180252
-        ]
+        ],
+        "id": 25941
     },
     {
         "region": "North Country",
@@ -5978,7 +6354,8 @@
         "coordinates": [
             44.2881773,
             -75.6803291
-        ]
+        ],
+        "id": 66046
     },
     {
         "region": "North Country",
@@ -5994,7 +6371,8 @@
         "coordinates": [
             43.9815941,
             -75.9498864
-        ]
+        ],
+        "id": 82579
     },
     {
         "region": "North Country",
@@ -6010,7 +6388,8 @@
         "coordinates": [
             43.9357986,
             -76.062973
-        ]
+        ],
+        "id": 39274
     },
     {
         "region": "Other Western Counties",
@@ -6026,7 +6405,8 @@
         "coordinates": [
             42.305221,
             -78.017074
-        ]
+        ],
+        "id": 88204
     },
     {
         "region": "Other Western Counties",
@@ -6042,7 +6422,8 @@
         "coordinates": [
             42.417303,
             -77.6868099
-        ]
+        ],
+        "id": 85900
     },
     {
         "region": "Other Western Counties",
@@ -6058,7 +6439,8 @@
         "coordinates": [
             42.534523,
             -78.4226913
-        ]
+        ],
+        "id": 41347
     },
     {
         "region": "Other Western Counties",
@@ -6074,7 +6456,8 @@
         "coordinates": [
             42.417303,
             -77.6868099
-        ]
+        ],
+        "id": 12617
     },
     {
         "type": "Attraction",
@@ -6090,7 +6473,8 @@
         "coordinates": [
             42.8158564,
             -75.091827
-        ]
+        ],
+        "id": 27257
     },
     {
         "type": "Attraction",
@@ -6106,7 +6490,8 @@
         "coordinates": [
             42.6236801,
             -75.1949158
-        ]
+        ],
+        "id": 20371
     },
     {
         "type": "Attraction",
@@ -6122,7 +6507,8 @@
         "coordinates": [
             42.588825,
             -74.941009
-        ]
+        ],
+        "id": 75568
     },
     {
         "type": "Attraction",
@@ -6138,7 +6524,8 @@
         "coordinates": [
             42.6996658,
             -74.932076
-        ]
+        ],
+        "id": 49917
     },
     {
         "type": "Attraction",
@@ -6154,7 +6541,8 @@
         "coordinates": [
             42.7161369,
             -74.9265137
-        ]
+        ],
+        "id": 99661
     },
     {
         "type": "Attraction",
@@ -6170,7 +6558,8 @@
         "coordinates": [
             null,
             null
-        ]
+        ],
+        "id": 25154
     },
     {
         "type": "Attraction",
@@ -6186,7 +6575,8 @@
         "coordinates": [
             42.6954651,
             -74.4008865
-        ]
+        ],
+        "id": 91330
     },
     {
         "type": "Attraction",
@@ -6202,7 +6592,8 @@
         "coordinates": [
             42.6998291,
             -74.922966
-        ]
+        ],
+        "id": 96769
     },
     {
         "type": "Attraction",
@@ -6218,7 +6609,8 @@
         "coordinates": [
             42.7119904,
             -74.9301834
-        ]
+        ],
+        "id": 91065
     },
     {
         "type": "Hotel",
@@ -6234,7 +6626,8 @@
         "coordinates": [
             42.7022896,
             -74.9220352
-        ]
+        ],
+        "id": 42468
     },
     {
         "type": "Hotel",
@@ -6250,7 +6643,8 @@
         "coordinates": [
             null,
             null
-        ]
+        ],
+        "id": 58554
     },
     {
         "type": "Restaurant",
@@ -6266,7 +6660,8 @@
         "coordinates": [
             42.7248459,
             -74.9783173
-        ]
+        ],
+        "id": 18943
     },
     {
         "type": "Restaurant",
@@ -6282,7 +6677,8 @@
         "coordinates": [
             42.7022896,
             -74.9220352
-        ]
+        ],
+        "id": 73324
     },
     {
         "type": "Restaurant",
@@ -6298,7 +6694,8 @@
         "coordinates": [
             42.8158564,
             -75.091827
-        ]
+        ],
+        "id": 90971
     },
     {
         "type": "Attraction",
@@ -6314,7 +6711,8 @@
         "coordinates": [
             42.7477524,
             -77.426354
-        ]
+        ],
+        "id": 37548
     },
     {
         "type": "Attraction",
@@ -6330,7 +6728,8 @@
         "coordinates": [
             42.776329,
             -77.4035416
-        ]
+        ],
+        "id": 81882
     },
     {
         "type": "Attraction",
@@ -6346,7 +6745,8 @@
         "coordinates": [
             42.8750702,
             -77.2596688
-        ]
+        ],
+        "id": 53133
     },
     {
         "type": "Attraction",
@@ -6362,7 +6762,8 @@
         "coordinates": [
             null,
             null
-        ]
+        ],
+        "id": 15582
     },
     {
         "type": "Attraction",
@@ -6378,7 +6779,8 @@
         "coordinates": [
             42.6086517,
             -77.4084489
-        ]
+        ],
+        "id": 28282
     },
     {
         "type": "Attraction",
@@ -6394,7 +6796,8 @@
         "coordinates": [
             42.8658032,
             -77.2228649
-        ]
+        ],
+        "id": 67234
     },
     {
         "type": "Attraction",
@@ -6410,7 +6813,8 @@
         "coordinates": [
             42.875568,
             -77.273391
-        ]
+        ],
+        "id": 81003
     },
     {
         "type": "Attraction",
@@ -6426,7 +6830,8 @@
         "coordinates": [
             42.89814,
             -77.2721558
-        ]
+        ],
+        "id": 29859
     },
     {
         "type": "Hotel",
@@ -6442,7 +6847,8 @@
         "coordinates": [
             42.7571831,
             -77.3412323
-        ]
+        ],
+        "id": 70214
     },
     {
         "type": "Hotel",
@@ -6458,7 +6864,8 @@
         "coordinates": [
             42.6148567,
             -77.4032593
-        ]
+        ],
+        "id": 81584
     },
     {
         "type": "Hotel",
@@ -6474,7 +6881,8 @@
         "coordinates": [
             42.874919,
             -77.274955
-        ]
+        ],
+        "id": 89105
     },
     {
         "type": "Restaurant",
@@ -6490,7 +6898,8 @@
         "coordinates": [
             42.7070045,
             -77.3798065
-        ]
+        ],
+        "id": 50387
     },
     {
         "type": "Restaurant",
@@ -6506,7 +6915,8 @@
         "coordinates": [
             null,
             null
-        ]
+        ],
+        "id": 86695
     },
     {
         "type": "Restaurant",
@@ -6522,7 +6932,8 @@
         "coordinates": [
             42.8858366,
             -77.2798209
-        ]
+        ],
+        "id": 57235
     },
     {
         "type": "Restaurant",
@@ -6538,7 +6949,8 @@
         "coordinates": [
             42.6159554,
             -77.4025421
-        ]
+        ],
+        "id": 21091
     },
     {
         "type": "Restaurant",
@@ -6554,7 +6966,8 @@
         "coordinates": [
             42.8852592,
             -77.2823187
-        ]
+        ],
+        "id": 98285
     },
     {
         "type": "Restaurant",
@@ -6570,7 +6983,8 @@
         "coordinates": [
             42.8864441,
             -77.2802608
-        ]
+        ],
+        "id": 47265
     },
     {
         "type": "Restaurant",
@@ -6586,7 +7000,8 @@
         "coordinates": [
             42.6148567,
             -77.4032593
-        ]
+        ],
+        "id": 58746
     },
     {
         "type": "Restaurant",
@@ -6602,7 +7017,8 @@
         "coordinates": [
             42.875568,
             -77.273391
-        ]
+        ],
+        "id": 66724
     },
     {
         "type": "Attraction",
@@ -6618,7 +7034,8 @@
         "coordinates": [
             42.9501358,
             -76.7659921
-        ]
+        ],
+        "id": 83262
     },
     {
         "type": "Attraction",
@@ -6634,7 +7051,8 @@
         "coordinates": [
             42.5888819,
             -76.7233034
-        ]
+        ],
+        "id": 80638
     },
     {
         "type": "Attraction",
@@ -6650,7 +7068,8 @@
         "coordinates": [
             42.9104579,
             -76.7976154
-        ]
+        ],
+        "id": 42753
     },
     {
         "type": "Attraction",
@@ -6666,7 +7085,8 @@
         "coordinates": [
             42.9106128,
             -76.8002238
-        ]
+        ],
+        "id": 75856
     },
     {
         "type": "Hotel",
@@ -6682,7 +7102,8 @@
         "coordinates": [
             42.5439609,
             -76.5971249
-        ]
+        ],
+        "id": 35767
     },
     {
         "type": "Hotel",
@@ -6698,7 +7119,8 @@
         "coordinates": [
             42.9105484,
             -76.7988706
-        ]
+        ],
+        "id": 28198
     },
     {
         "type": "Hotel",
@@ -6714,7 +7136,8 @@
         "coordinates": [
             42.777411,
             -76.769774
-        ]
+        ],
+        "id": 67639
     },
     {
         "type": "Hotel",
@@ -6730,7 +7153,8 @@
         "coordinates": [
             42.754509,
             -76.7031403
-        ]
+        ],
+        "id": 30068
     },
     {
         "type": "Restaurant",
@@ -6746,7 +7170,8 @@
         "coordinates": [
             42.7185631,
             -76.6873856
-        ]
+        ],
+        "id": 50124
     },
     {
         "type": "Restaurant",
@@ -6762,7 +7187,8 @@
         "coordinates": [
             42.693838,
             -76.7440396
-        ]
+        ],
+        "id": 21209
     },
     {
         "type": "Restaurant",
@@ -6778,7 +7204,8 @@
         "coordinates": [
             42.6927323,
             -76.7455698
-        ]
+        ],
+        "id": 65725
     },
     {
         "type": "Restaurant",
@@ -6794,7 +7221,8 @@
         "coordinates": [
             42.5754949,
             -76.6771446
-        ]
+        ],
+        "id": 72096
     },
     {
         "type": "Restaurant",
@@ -6810,7 +7238,8 @@
         "coordinates": [
             42.7657843,
             -76.7831596
-        ]
+        ],
+        "id": 18010
     },
     {
         "type": "Attraction",
@@ -6826,7 +7255,8 @@
         "coordinates": [
             42.5911617,
             -78.0628878
-        ]
+        ],
+        "id": 94713
     },
     {
         "type": "Attraction",
@@ -6842,7 +7272,8 @@
         "coordinates": [
             42.794848,
             -77.8339217
-        ]
+        ],
+        "id": 84520
     },
     {
         "type": "Hotel",
@@ -6858,7 +7289,8 @@
         "coordinates": [
             42.590982,
             -78.0626558
-        ]
+        ],
+        "id": 23659
     },
     {
         "type": "Hotel",
@@ -6874,7 +7306,8 @@
         "coordinates": [
             42.8036443,
             -77.4839263
-        ]
+        ],
+        "id": 57809
     },
     {
         "type": "Restaurant",
@@ -6890,7 +7323,8 @@
         "coordinates": [
             42.8352206,
             -77.7010471
-        ]
+        ],
+        "id": 68851
     },
     {
         "type": "Attraction",
@@ -6906,7 +7340,8 @@
         "coordinates": [
             42.4001083,
             -77.2337036
-        ]
+        ],
+        "id": 96920
     },
     {
         "type": "Attraction",
@@ -6922,7 +7357,8 @@
         "coordinates": [
             42.6594124,
             -77.0675049
-        ]
+        ],
+        "id": 18530
     },
     {
         "type": "Attraction",
@@ -6938,7 +7374,8 @@
         "coordinates": [
             42.5735852,
             -77.0358485
-        ]
+        ],
+        "id": 10988
     },
     {
         "type": "Hotel",
@@ -6954,7 +7391,8 @@
         "coordinates": [
             42.5959589,
             -77.1315222
-        ]
+        ],
+        "id": 85101
     },
     {
         "type": "Hotel",
@@ -6970,7 +7408,8 @@
         "coordinates": [
             42.6320152,
             -77.0903168
-        ]
+        ],
+        "id": 34290
     },
     {
         "type": "Hotel",
@@ -6986,7 +7425,8 @@
         "coordinates": [
             42.3961906,
             -77.2354813
-        ]
+        ],
+        "id": 28511
     },
     {
         "type": "Restaurant",
@@ -7002,7 +7442,8 @@
         "coordinates": [
             42.4490242,
             -77.1995621
-        ]
+        ],
+        "id": 42612
     },
     {
         "type": "Restaurant",
@@ -7018,7 +7459,8 @@
         "coordinates": [
             42.4301172,
             -77.2084721
-        ]
+        ],
+        "id": 55951
     },
     {
         "type": "Restaurant",
@@ -7034,7 +7476,8 @@
         "coordinates": [
             42.5959589,
             -77.1315222
-        ]
+        ],
+        "id": 53194
     },
     {
         "type": "Restaurant",
@@ -7050,7 +7493,8 @@
         "coordinates": [
             42.4093924,
             -77.2222238
-        ]
+        ],
+        "id": 42667
     },
     {
         "type": "Restaurant",
@@ -7066,7 +7510,8 @@
         "coordinates": [
             42.4100609,
             -77.2217941
-        ]
+        ],
+        "id": 38399
     },
     {
         "type": "Attraction",
@@ -7082,7 +7527,8 @@
         "coordinates": [
             42.912892,
             -76.5646715
-        ]
+        ],
+        "id": 30063
     },
     {
         "type": "Attraction",
@@ -7098,7 +7544,8 @@
         "coordinates": [
             42.9038034,
             -76.5359739
-        ]
+        ],
+        "id": 57797
     },
     {
         "type": "Attraction",
@@ -7114,7 +7561,8 @@
         "coordinates": [
             null,
             null
-        ]
+        ],
+        "id": 52529
     },
     {
         "type": "Attraction",
@@ -7130,7 +7578,8 @@
         "coordinates": [
             42.6597183,
             -76.9376005
-        ]
+        ],
+        "id": 29124
     },
     {
         "type": "Attraction",
@@ -7146,7 +7595,8 @@
         "coordinates": [
             42.1488534,
             -77.0538991
-        ]
+        ],
+        "id": 20785
     },
     {
         "type": "Attraction",
@@ -7162,7 +7612,8 @@
         "coordinates": [
             42.4595299,
             -76.8638992
-        ]
+        ],
+        "id": 83734
     },
     {
         "type": "Attraction",
@@ -7178,7 +7629,8 @@
         "coordinates": [
             42.8577297,
             -77.0216482
-        ]
+        ],
+        "id": 35590
     },
     {
         "type": "Attraction",
@@ -7194,7 +7646,8 @@
         "coordinates": [
             42.3472872,
             -76.9236671
-        ]
+        ],
+        "id": 76268
     },
     {
         "type": "Attraction",
@@ -7210,7 +7663,8 @@
         "coordinates": [
             null,
             null
-        ]
+        ],
+        "id": 81928
     },
     {
         "type": "Hotel",
@@ -7226,7 +7680,8 @@
         "coordinates": [
             null,
             null
-        ]
+        ],
+        "id": 70880
     },
     {
         "type": "Hotel",
@@ -7242,7 +7697,8 @@
         "coordinates": [
             42.7143555,
             -76.9851532
-        ]
+        ],
+        "id": 44722
     },
     {
         "type": "Hotel",
@@ -7258,7 +7714,8 @@
         "coordinates": [
             42.4799862,
             -76.8696059
-        ]
+        ],
+        "id": 94878
     },
     {
         "type": "Hotel",
@@ -7274,7 +7731,8 @@
         "coordinates": [
             42.5005084,
             -76.9242766
-        ]
+        ],
+        "id": 93121
     },
     {
         "type": "Hotel",
@@ -7290,7 +7748,8 @@
         "coordinates": [
             42.617045,
             -76.9223683
-        ]
+        ],
+        "id": 28321
     },
     {
         "type": "Hotel",
@@ -7306,7 +7765,8 @@
         "coordinates": [
             42.3832588,
             -76.8736725
-        ]
+        ],
+        "id": 61858
     },
     {
         "type": "Restaurant",
@@ -7322,7 +7782,8 @@
         "coordinates": [
             42.3832588,
             -76.8736725
-        ]
+        ],
+        "id": 98663
     },
     {
         "type": "Restaurant",
@@ -7338,7 +7799,8 @@
         "coordinates": [
             42.3968582,
             -76.9007645
-        ]
+        ],
+        "id": 27601
     },
     {
         "type": "Restaurant",
@@ -7354,7 +7816,8 @@
         "coordinates": [
             42.5895996,
             -76.9554138
-        ]
+        ],
+        "id": 24153
     },
     {
         "type": "Restaurant",
@@ -7370,7 +7833,8 @@
         "coordinates": [
             42.7316132,
             -76.9759521
-        ]
+        ],
+        "id": 45906
     },
     {
         "type": "Restaurant",
@@ -7386,7 +7850,8 @@
         "coordinates": [
             42.5729596,
             -76.8581012
-        ]
+        ],
+        "id": 30279
     },
     {
         "type": "Restaurant",
@@ -7402,7 +7867,8 @@
         "coordinates": [
             42.8667312,
             -76.9844379
-        ]
+        ],
+        "id": 77252
     },
     {
         "type": "Restaurant",
@@ -7418,7 +7884,8 @@
         "coordinates": [
             42.8149109,
             -76.9774467
-        ]
+        ],
+        "id": 78939
     },
     {
         "type": "Restaurant",
@@ -7434,7 +7901,8 @@
         "coordinates": [
             42.8680374,
             -76.982272
-        ]
+        ],
+        "id": 12440
     },
     {
         "type": "Restaurant",
@@ -7450,7 +7918,8 @@
         "coordinates": [
             42.5019531,
             -76.8671875
-        ]
+        ],
+        "id": 83503
     },
     {
         "type": "Restaurant",
@@ -7466,7 +7935,8 @@
         "coordinates": [
             42.5863827,
             -76.8513541
-        ]
+        ],
+        "id": 13540
     },
     {
         "type": "Restaurant",
@@ -7482,7 +7952,8 @@
         "coordinates": [
             42.617045,
             -76.9223683
-        ]
+        ],
+        "id": 52628
     },
     {
         "type": "Restaurant",
@@ -7494,7 +7965,8 @@
         "state": "NY",
         "zip_code": "14837",
         "phone_number": "800-243-5513",
-        "url": "http://www.glenora.com/Restaurant/Veraisons-Restaurant"
+        "url": "http://www.glenora.com/Restaurant/Veraisons-Restaurant",
+        "id": 89699
     },
     {
         "type": "Restaurant",
@@ -7510,7 +7982,8 @@
         "coordinates": [
             42.4651031,
             -76.9182358
-        ]
+        ],
+        "id": 53688
     },
     {
         "type": "Attraction",
@@ -7526,7 +7999,8 @@
         "coordinates": [
             42.9461715,
             -76.4291932
-        ]
+        ],
+        "id": 55708
     },
     {
         "type": "Hotel",
@@ -7542,7 +8016,8 @@
         "coordinates": [
             42.9458885,
             -76.4300842
-        ]
+        ],
+        "id": 18405
     },
     {
         "type": "Hotel",
@@ -7558,7 +8033,8 @@
         "coordinates": [
             42.9456863,
             -76.4313583
-        ]
+        ],
+        "id": 86450
     },
     {
         "type": "Restaurant",
@@ -7574,7 +8050,8 @@
         "coordinates": [
             42.9461253,
             -76.4290624
-        ]
+        ],
+        "id": 51079
     },
     {
         "type": "Restaurant",
@@ -7590,12 +8067,13 @@
         "coordinates": [
             42.9456863,
             -76.4313583
-        ]
+        ],
+        "id": 79985
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Cold Spring Farmers Market at Boscobel House & Gardens",
         "address": "1601 Route 9D",
         "city": "Garrison",
@@ -7606,12 +8084,13 @@
         "coordinates": [
             41.4139784,
             -73.938105
-        ]
+        ],
+        "id": 37931
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Olana State Historic Site",
         "address": "5720 State Route 9G",
         "city": "Hudson",
@@ -7622,12 +8101,13 @@
         "coordinates": [
             42.2195053,
             -73.8312454
-        ]
+        ],
+        "id": 81782
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Omi International Art Center ",
         "address": "1405 County Route 22",
         "city": "Ghent",
@@ -7638,12 +8118,13 @@
         "coordinates": [
             42.3321884,
             -73.6701013
-        ]
+        ],
+        "id": 45726
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Pleasantville Farmers Market",
         "address": "Memorial Plaza &#40;next to Metro North train station&#41;",
         "city": "Pleasantville",
@@ -7654,12 +8135,13 @@
         "coordinates": [
             41.1334496,
             -73.7924728
-        ]
+        ],
+        "id": 42517
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Home of Franklin D. Roosevelt National Historic Site",
         "address": "4097 Albany Post Road",
         "city": "Hyde Park",
@@ -7670,12 +8152,13 @@
         "coordinates": [
             41.7704811,
             -73.9330215
-        ]
+        ],
+        "id": 37457
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "The Culinary Institute of America",
         "address": "1946 Campus Dr",
         "city": "Hyde Park",
@@ -7686,12 +8169,13 @@
         "coordinates": [
             41.7465172,
             -73.9330673
-        ]
+        ],
+        "id": 54363
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Inn at Silver Maple Farm",
         "address": "1871 State Route 295",
         "city": "East Chatham",
@@ -7702,12 +8186,13 @@
         "coordinates": [
             42.420139,
             -73.462944
-        ]
+        ],
+        "id": 48710
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Mount Merino Manor Bed and Breakfast",
         "address": "4317 State Route 23",
         "city": "Hudson",
@@ -7718,12 +8203,13 @@
         "coordinates": [
             42.224556,
             -73.8189468
-        ]
+        ],
+        "id": 19403
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "The Barlow",
         "address": "542 Warren Street",
         "city": "Hudson",
@@ -7734,12 +8220,13 @@
         "coordinates": [
             42.2487602,
             -73.7849579
-        ]
+        ],
+        "id": 85363
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "The Inn at Ca'Mea ",
         "address": "333 Warren Street",
         "city": "Hudson",
@@ -7750,12 +8237,13 @@
         "coordinates": [
             42.2519608,
             -73.7902222
-        ]
+        ],
+        "id": 61089
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "The Inn at Green River",
         "address": "9 Nobletown Road",
         "city": "Hillsdale",
@@ -7766,12 +8254,13 @@
         "coordinates": [
             42.2619171,
             -73.4729767
-        ]
+        ],
+        "id": 83750
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Thyme in the Country",
         "address": "671 Fish and Game Rdoad",
         "city": "Hudson",
@@ -7782,12 +8271,13 @@
         "coordinates": [
             42.2501984,
             -73.6887207
-        ]
+        ],
+        "id": 73803
     },
     {
         "type": "Restaurant",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "Local 111",
         "address": "111 Main Street",
         "city": "Philmont",
@@ -7798,12 +8288,13 @@
         "coordinates": [
             42.248848,
             -73.649147
-        ]
+        ],
+        "id": 20192
     },
     {
         "type": "Restaurant",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "RiverMarket Bar & Kitchen",
         "address": "127 W Main St",
         "city": "Tarrytown",
@@ -7814,12 +8305,13 @@
         "coordinates": [
             41.0772237,
             -73.8656511
-        ]
+        ],
+        "id": 19517
     },
     {
         "type": "Restaurant",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "The Winery at St. George",
         "address": "1715 E. Main Street",
         "city": "Mohegan Lake",
@@ -7830,12 +8322,13 @@
         "coordinates": [
             41.324707,
             -73.850524
-        ]
+        ],
+        "id": 62632
     },
     {
         "type": "Restaurant",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR East",
+        "sub_region": "Hudson River East",
         "name": "X2O",
         "address": "71 Water Grant Street",
         "city": "Yonkers",
@@ -7846,12 +8339,13 @@
         "coordinates": [
             40.9328833,
             -73.9039396
-        ]
+        ],
+        "id": 21127
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Bellvale Farms Creamery",
         "address": "1390 Route 17A",
         "city": "Warwick",
@@ -7862,12 +8356,13 @@
         "coordinates": [
             41.2504196,
             -74.3319168
-        ]
+        ],
+        "id": 23541
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Harriman State Park",
         "address": "Seven Lakes Dr / Bear Mountain Circle",
         "city": "Ramapo",
@@ -7878,12 +8373,13 @@
         "coordinates": [
             41.1312485,
             -74.0670319
-        ]
+        ],
+        "id": 70970
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Mohonk Preserve",
         "address": "3197 State Rte 55",
         "city": "Gardiner",
@@ -7894,12 +8390,13 @@
         "coordinates": [
             41.734458,
             -74.185348
-        ]
+        ],
+        "id": 42847
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Ochs Orchard",
         "address": "4 Ochs Lane",
         "city": "Warwick",
@@ -7910,12 +8407,13 @@
         "coordinates": [
             41.2318573,
             -74.3693008
-        ]
+        ],
+        "id": 46906
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Pennings Farm",
         "address": "161 State Rte 94 S",
         "city": "Warwick",
@@ -7926,12 +8424,13 @@
         "coordinates": [
             41.2362083,
             -74.3835951
-        ]
+        ],
+        "id": 61021
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Soons Orchards",
         "address": "23 Soons Circle",
         "city": "New Hampton",
@@ -7942,12 +8441,13 @@
         "coordinates": [
             41.4025388,
             -74.4035842
-        ]
+        ],
+        "id": 29909
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Sterling Forest State Park",
         "address": "116 Old Forge Road",
         "city": "Tuxedo Park",
@@ -7958,12 +8458,13 @@
         "coordinates": [
             41.198701,
             -74.2549711
-        ]
+        ],
+        "id": 56093
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Storm King Art Center",
         "address": "1 Museum Road",
         "city": "New Windsor",
@@ -7974,12 +8475,13 @@
         "coordinates": [
             41.4281505,
             -74.0635217
-        ]
+        ],
+        "id": 80025
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Thomas Cole Historic Site",
         "address": "218 Spring Street",
         "city": "Catskill",
@@ -7990,12 +8492,13 @@
         "coordinates": [
             42.2255821,
             -73.8610687
-        ]
+        ],
+        "id": 37363
     },
     {
         "type": "Attraction",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Walkway Over the Hudson",
         "address": "87 Haviland Road",
         "city": "Highland",
@@ -8006,12 +8509,13 @@
         "coordinates": [
             41.7100192,
             -73.9549881
-        ]
+        ],
+        "id": 90972
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Bear Mountain Inn and Overlook Lodge",
         "address": "3020 Seven Lakes Drive",
         "city": "Tomkins Cove",
@@ -8022,12 +8526,13 @@
         "coordinates": [
             41.2571983,
             -73.9838181
-        ]
+        ],
+        "id": 52414
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Buttermilk Falls Inn",
         "address": "220 North Road",
         "city": "Milton",
@@ -8038,12 +8543,13 @@
         "coordinates": [
             41.6669603,
             -73.9559618
-        ]
+        ],
+        "id": 28374
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Glenmere Mansion",
         "address": "634 Pine Hill Road",
         "city": "Chester",
@@ -8054,12 +8560,13 @@
         "coordinates": [
             41.3389626,
             -74.3233414
-        ]
+        ],
+        "id": 91556
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Inn at Stony Creek",
         "address": "34 Spanktown Rd.",
         "city": "Warwick",
@@ -8070,12 +8577,13 @@
         "coordinates": [
             41.306855,
             -74.3903408
-        ]
+        ],
+        "id": 43127
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Minnewaska Lodge",
         "address": "3116 State Route 55",
         "city": "Gardiner",
@@ -8086,12 +8594,13 @@
         "coordinates": [
             41.729003,
             -74.196121
-        ]
+        ],
+        "id": 63698
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Mohonk Mountain House",
         "address": "1000 Mountain Rest Road",
         "city": "New Paltz",
@@ -8102,12 +8611,13 @@
         "coordinates": [
             41.7787977,
             -74.1349275
-        ]
+        ],
+        "id": 71722
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Sleepy Valley Inn",
         "address": "117 Sleepy Valley Road",
         "city": "Warwick",
@@ -8118,12 +8628,13 @@
         "coordinates": [
             41.280262,
             -74.3711014
-        ]
+        ],
+        "id": 97854
     },
     {
         "type": "Hotel",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "The Inn at Orchard Heights",
         "address": "20 Church St",
         "city": "New Paltz",
@@ -8134,12 +8645,13 @@
         "coordinates": [
             41.7488136,
             -74.0844498
-        ]
+        ],
+        "id": 26416
     },
     {
         "type": "Restaurant",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Eddie's Roadhouse",
         "address": "18 Main Street",
         "city": "Warwick",
@@ -8150,12 +8662,13 @@
         "coordinates": [
             41.2567245,
             -74.3598609
-        ]
+        ],
+        "id": 10434
     },
     {
         "type": "Restaurant",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Iron Forge Inn",
         "address": "38 Iron Forge Rd ",
         "city": "Warwick",
@@ -8166,12 +8679,13 @@
         "coordinates": [
             41.251348,
             -74.3096694
-        ]
+        ],
+        "id": 98815
     },
     {
         "type": "Restaurant",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Pané Café/Black Dirt® at Warwick Valley Winery",
         "address": "114 Little York Road",
         "city": "Warwick",
@@ -8182,12 +8696,13 @@
         "coordinates": [
             41.2909851,
             -74.4419174
-        ]
+        ],
+        "id": 61862
     },
     {
         "type": "Restaurant",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Restaurant X",
         "address": "117 North Route 303",
         "city": "Congers",
@@ -8198,12 +8713,13 @@
         "coordinates": [
             41.1554565,
             -73.9357452
-        ]
+        ],
+        "id": 77578
     },
     {
         "type": "Restaurant",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "The Landmark Inn",
         "address": "526 Route 94 North",
         "city": "Warwick",
@@ -8214,12 +8730,13 @@
         "coordinates": [
             41.2786789,
             -74.3524628
-        ]
+        ],
+        "id": 15852
     },
     {
         "type": "Restaurant",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "The Village Tea Room",
         "address": "10 Plattekill Ave",
         "city": "New Paltz",
@@ -8230,12 +8747,13 @@
         "coordinates": [
             41.7473145,
             -74.084465
-        ]
+        ],
+        "id": 52814
     },
     {
         "type": "Restaurant",
         "region": "Hudson River Valley/Catskills",
-        "sub_region": "HR West",
+        "sub_region": "Hudson River West",
         "name": "Vinum Café at Brotherhood Winery",
         "address": "84 Brotherhood Plaza Drive",
         "city": "Washingtonville",
@@ -8246,7 +8764,8 @@
         "coordinates": [
             41.4304888,
             -74.1616168
-        ]
+        ],
+        "id": 12994
     },
     {
         "type": "Attraction",
@@ -8262,7 +8781,8 @@
         "coordinates": [
             43.2020147,
             -77.2237775
-        ]
+        ],
+        "id": 89532
     },
     {
         "type": "Attraction",
@@ -8278,7 +8798,8 @@
         "coordinates": [
             43.263446,
             -77.06781
-        ]
+        ],
+        "id": 82012
     },
     {
         "type": "Attraction",
@@ -8294,7 +8815,8 @@
         "coordinates": [
             43.248184,
             -77.191719
-        ]
+        ],
+        "id": 54915
     },
     {
         "type": "Attraction",
@@ -8310,7 +8832,8 @@
         "coordinates": [
             43.1162162,
             -77.3132184
-        ]
+        ],
+        "id": 24664
     },
     {
         "type": "Attraction",
@@ -8326,7 +8849,8 @@
         "coordinates": [
             43.1457558,
             -77.2230988
-        ]
+        ],
+        "id": 84304
     },
     {
         "type": "Hotel",
@@ -8342,7 +8866,8 @@
         "coordinates": [
             43.2392632,
             -76.9346293
-        ]
+        ],
+        "id": 52238
     },
     {
         "type": "Hotel",
@@ -8358,7 +8883,8 @@
         "coordinates": [
             43.265918,
             -77.024467
-        ]
+        ],
+        "id": 97202
     },
     {
         "type": "Hotel",
@@ -8374,7 +8900,8 @@
         "coordinates": [
             43.270343,
             -77.005195
-        ]
+        ],
+        "id": 74609
     },
     {
         "type": "Restaurant",
@@ -8390,7 +8917,8 @@
         "coordinates": [
             43.263446,
             -77.06781
-        ]
+        ],
+        "id": 68270
     },
     {
         "type": "Restaurant",
@@ -8406,7 +8934,8 @@
         "coordinates": [
             43.2809296,
             -77.1848297
-        ]
+        ],
+        "id": 67878
     },
     {
         "type": "Attraction",
@@ -8422,7 +8951,8 @@
         "coordinates": [
             42.2099233,
             -79.4666279
-        ]
+        ],
+        "id": 94648
     },
     {
         "type": "Attraction",
@@ -8438,7 +8968,8 @@
         "coordinates": [
             42.3101883,
             -79.5979309
-        ]
+        ],
+        "id": 14499
     },
     {
         "type": "Attraction",
@@ -8454,7 +8985,8 @@
         "coordinates": [
             42.0963465,
             -79.2414531
-        ]
+        ],
+        "id": 58480
     },
     {
         "type": "Attraction",
@@ -8470,7 +9002,8 @@
         "coordinates": [
             42.0733376,
             -79.4880447
-        ]
+        ],
+        "id": 24185
     },
     {
         "type": "Attraction",
@@ -8486,7 +9019,8 @@
         "coordinates": [
             42.1165314,
             -79.2229004
-        ]
+        ],
+        "id": 83892
     },
     {
         "type": "Hotel",
@@ -8502,7 +9036,8 @@
         "coordinates": [
             42.2104523,
             -79.4633804
-        ]
+        ],
+        "id": 93975
     },
     {
         "type": "Hotel",
@@ -8518,7 +9053,8 @@
         "coordinates": [
             42.340793,
             -79.594131
-        ]
+        ],
+        "id": 36291
     },
     {
         "type": "Hotel",
@@ -8534,7 +9070,8 @@
         "coordinates": [
             42.4450684,
             -79.3330994
-        ]
+        ],
+        "id": 16909
     },
     {
         "type": "Hotel",
@@ -8550,7 +9087,8 @@
         "coordinates": [
             42.2077762,
             -79.4644533
-        ]
+        ],
+        "id": 26993
     },
     {
         "type": "Hotel",
@@ -8566,7 +9104,8 @@
         "coordinates": [
             42.1198845,
             -79.7352295
-        ]
+        ],
+        "id": 12787
     },
     {
         "type": "Hotel",
@@ -8582,7 +9121,8 @@
         "coordinates": [
             42.264797,
             -79.492851
-        ]
+        ],
+        "id": 58363
     },
     {
         "type": "Hotel",
@@ -8598,7 +9138,8 @@
         "coordinates": [
             42.2075539,
             -79.4651871
-        ]
+        ],
+        "id": 54316
     },
     {
         "type": "Hotel",
@@ -8614,7 +9155,8 @@
         "coordinates": [
             42.2932014,
             -79.5510254
-        ]
+        ],
+        "id": 22607
     },
     {
         "type": "Hotel",
@@ -8630,7 +9172,8 @@
         "coordinates": [
             42.4425087,
             -79.3295593
-        ]
+        ],
+        "id": 73004
     },
     {
         "type": "Restaurant",
@@ -8646,7 +9189,8 @@
         "coordinates": [
             42.2104523,
             -79.4633804
-        ]
+        ],
+        "id": 82797
     },
     {
         "type": "Restaurant",
@@ -8662,7 +9206,8 @@
         "coordinates": [
             42.3221603,
             -79.5779061
-        ]
+        ],
+        "id": 83338
     },
     {
         "type": "Restaurant",
@@ -8678,7 +9223,8 @@
         "coordinates": [
             42.439186,
             -79.332252
-        ]
+        ],
+        "id": 31645
     },
     {
         "type": "Restaurant",
@@ -8694,7 +9240,8 @@
         "coordinates": [
             42.0965791,
             -79.2394971
-        ]
+        ],
+        "id": 39424
     },
     {
         "type": "Restaurant",
@@ -8710,7 +9257,8 @@
         "coordinates": [
             42.2184639,
             -79.4861908
-        ]
+        ],
+        "id": 73079
     },
     {
         "type": "Restaurant",
@@ -8726,7 +9274,8 @@
         "coordinates": [
             42.2357536,
             -79.4920787
-        ]
+        ],
+        "id": 74487
     },
     {
         "type": "Attraction",
@@ -8742,7 +9291,8 @@
         "coordinates": [
             41.0441666,
             -71.9500198
-        ]
+        ],
+        "id": 17955
     },
     {
         "type": "Attraction",
@@ -8758,7 +9308,8 @@
         "coordinates": [
             40.9038169,
             -72.3642953
-        ]
+        ],
+        "id": 70194
     },
     {
         "type": "Attraction",
@@ -8774,7 +9325,8 @@
         "coordinates": [
             41.0843086,
             -72.4186172
-        ]
+        ],
+        "id": 66902
     },
     {
         "type": "Attraction",
@@ -8790,7 +9342,8 @@
         "coordinates": [
             40.9677447,
             -72.6486886
-        ]
+        ],
+        "id": 65266
     },
     {
         "type": "Attraction",
@@ -8806,7 +9359,8 @@
         "coordinates": [
             41.1031439,
             -72.3584904
-        ]
+        ],
+        "id": 94682
     },
     {
         "type": "Attraction",
@@ -8822,7 +9376,8 @@
         "coordinates": [
             40.989265,
             -72.581352
-        ]
+        ],
+        "id": 68031
     },
     {
         "type": "Attraction",
@@ -8838,7 +9393,8 @@
         "coordinates": [
             40.9186522,
             -72.6565334
-        ]
+        ],
+        "id": 85084
     },
     {
         "type": "Attraction",
@@ -8854,7 +9410,8 @@
         "coordinates": [
             40.957531,
             -72.7351074
-        ]
+        ],
+        "id": 88098
     },
     {
         "type": "Attraction",
@@ -8870,7 +9427,8 @@
         "coordinates": [
             40.9666966,
             -72.7039321
-        ]
+        ],
+        "id": 81948
     },
     {
         "type": "Hotel",
@@ -8886,7 +9444,8 @@
         "coordinates": [
             40.9851952,
             -72.56353
-        ]
+        ],
+        "id": 85541
     },
     {
         "type": "Hotel",
@@ -8902,7 +9461,8 @@
         "coordinates": [
             40.9179689,
             -72.7197799
-        ]
+        ],
+        "id": 57152
     },
     {
         "type": "Hotel",
@@ -8918,7 +9478,8 @@
         "coordinates": [
             40.9189016,
             -72.6559762
-        ]
+        ],
+        "id": 40387
     },
     {
         "type": "Hotel",
@@ -8934,7 +9495,8 @@
         "coordinates": [
             41.019742,
             -72.5113032
-        ]
+        ],
+        "id": 67162
     },
     {
         "type": "Hotel",
@@ -8950,7 +9512,8 @@
         "coordinates": [
             41.014534,
             -72.5326538
-        ]
+        ],
+        "id": 56790
     },
     {
         "type": "Restaurant",
@@ -8966,7 +9529,8 @@
         "coordinates": [
             41.0762863,
             -72.4021454
-        ]
+        ],
+        "id": 68576
     },
     {
         "type": "Restaurant",
@@ -8982,7 +9546,8 @@
         "coordinates": [
             40.9917793,
             -72.5313568
-        ]
+        ],
+        "id": 69792
     },
     {
         "type": "Restaurant",
@@ -8998,7 +9563,8 @@
         "coordinates": [
             41.1022186,
             -72.3617859
-        ]
+        ],
+        "id": 50782
     },
     {
         "type": "Restaurant",
@@ -9014,7 +9580,8 @@
         "coordinates": [
             41.0683746,
             -72.4171677
-        ]
+        ],
+        "id": 12387
     },
     {
         "type": "Restaurant",
@@ -9030,7 +9597,8 @@
         "coordinates": [
             40.947177,
             -72.618103
-        ]
+        ],
+        "id": 34860
     },
     {
         "type": "Attraction",
@@ -9046,7 +9614,8 @@
         "coordinates": [
             40.8295441,
             -73.9264603
-        ]
+        ],
+        "id": 24088
     },
     {
         "type": "Restaurant",
@@ -9062,7 +9631,8 @@
         "coordinates": [
             40.690895,
             -73.995796
-        ]
+        ],
+        "id": 29402
     },
     {
         "type": "Restaurant",
@@ -9078,7 +9648,8 @@
         "coordinates": [
             40.689312,
             -73.9704742
-        ]
+        ],
+        "id": 89329
     },
     {
         "type": "Restaurant",
@@ -9094,7 +9665,8 @@
         "coordinates": [
             40.6902542,
             -73.9961777
-        ]
+        ],
+        "id": 46742
     },
     {
         "type": "Restaurant",
@@ -9110,7 +9682,8 @@
         "coordinates": [
             40.7169418,
             -73.9428253
-        ]
+        ],
+        "id": 72556
     },
     {
         "type": "Restaurant",
@@ -9126,7 +9699,8 @@
         "coordinates": [
             40.712398,
             -73.956718
-        ]
+        ],
+        "id": 27534
     },
     {
         "type": "Restaurant",
@@ -9142,7 +9716,8 @@
         "coordinates": [
             40.6805878,
             -73.9943542
-        ]
+        ],
+        "id": 88470
     },
     {
         "type": "Attraction",
@@ -9158,7 +9733,8 @@
         "coordinates": [
             40.7029419,
             -74.0143738
-        ]
+        ],
+        "id": 26194
     },
     {
         "type": "Restaurant",
@@ -9174,7 +9750,8 @@
         "coordinates": [
             40.7212029,
             -73.9977417
-        ]
+        ],
+        "id": 46661
     },
     {
         "type": "Restaurant",
@@ -9190,7 +9767,8 @@
         "coordinates": [
             40.7263096,
             -74.0057416
-        ]
+        ],
+        "id": 59082
     },
     {
         "type": "Restaurant",
@@ -9206,7 +9784,8 @@
         "coordinates": [
             40.738174,
             -73.988655
-        ]
+        ],
+        "id": 78104
     },
     {
         "type": "Restaurant",
@@ -9222,7 +9801,8 @@
         "coordinates": [
             40.7415123,
             -73.9864807
-        ]
+        ],
+        "id": 73094
     },
     {
         "type": "Restaurant",
@@ -9238,7 +9818,8 @@
         "coordinates": [
             40.7383842,
             -73.9884262
-        ]
+        ],
+        "id": 22254
     },
     {
         "type": "Restaurant",
@@ -9254,7 +9835,8 @@
         "coordinates": [
             40.731308,
             -74.0019836
-        ]
+        ],
+        "id": 14738
     },
     {
         "type": "Restaurant",
@@ -9270,7 +9852,8 @@
         "coordinates": [
             40.7378006,
             -74.0020752
-        ]
+        ],
+        "id": 26880
     },
     {
         "type": "Restaurant",
@@ -9286,7 +9869,8 @@
         "coordinates": [
             40.7189102,
             -74.0099716
-        ]
+        ],
+        "id": 51835
     },
     {
         "type": "Restaurant",
@@ -9302,7 +9886,8 @@
         "coordinates": [
             40.7553593,
             -73.9682396
-        ]
+        ],
+        "id": 91836
     },
     {
         "type": "Restaurant",
@@ -9318,7 +9903,8 @@
         "coordinates": [
             40.7265819,
             -74.002203
-        ]
+        ],
+        "id": 60710
     },
     {
         "type": "Restaurant",
@@ -9334,7 +9920,8 @@
         "coordinates": [
             40.7421883,
             -74.0045647
-        ]
+        ],
+        "id": 26412
     },
     {
         "type": "Restaurant",
@@ -9350,7 +9937,8 @@
         "coordinates": [
             40.761219,
             -73.9939651
-        ]
+        ],
+        "id": 81174
     },
     {
         "type": "Restaurant",
@@ -9366,7 +9954,8 @@
         "coordinates": [
             40.7449885,
             -73.9887263
-        ]
+        ],
+        "id": 53683
     },
     {
         "type": "Attraction",
@@ -9382,7 +9971,8 @@
         "coordinates": [
             40.7548128,
             -73.8451738
-        ]
+        ],
+        "id": 44322
     },
     {
         "type": "Attraction",
@@ -9398,7 +9988,8 @@
         "coordinates": [
             40.7280998,
             -73.7106094
-        ]
+        ],
+        "id": 84859
     },
     {
         "type": "Restaurant",
@@ -9414,7 +10005,8 @@
         "coordinates": [
             40.7206116,
             -73.8418579
-        ]
+        ],
+        "id": 95624
     },
     {
         "type": "Attraction",
@@ -9430,7 +10022,8 @@
         "coordinates": [
             43.2198181,
             -78.5427856
-        ]
+        ],
+        "id": 49081
     },
     {
         "type": "Attraction",
@@ -9446,7 +10039,8 @@
         "coordinates": [
             43.1727638,
             -78.6918411
-        ]
+        ],
+        "id": 56073
     },
     {
         "type": "Attraction",
@@ -9462,7 +10056,8 @@
         "coordinates": [
             43.1752625,
             -78.6872253
-        ]
+        ],
+        "id": 98653
     },
     {
         "type": "Attraction",
@@ -9478,7 +10073,8 @@
         "coordinates": [
             43.0862389,
             -79.0647278
-        ]
+        ],
+        "id": 32686
     },
     {
         "type": "Attraction",
@@ -9494,7 +10090,8 @@
         "coordinates": [
             43.0867843,
             -79.064715
-        ]
+        ],
+        "id": 92049
     },
     {
         "type": "Attraction",
@@ -9510,7 +10107,8 @@
         "coordinates": [
             43.3384056,
             -78.7134628
-        ]
+        ],
+        "id": 23310
     },
     {
         "type": "Attraction",
@@ -9526,7 +10124,8 @@
         "coordinates": [
             44.3419075,
             -75.9144135
-        ]
+        ],
+        "id": 70728
     },
     {
         "type": "Attraction",
@@ -9542,7 +10141,8 @@
         "coordinates": [
             43.172592,
             -79.049362
-        ]
+        ],
+        "id": 94947
     },
     {
         "type": "Hotel",
@@ -9558,7 +10158,8 @@
         "coordinates": [
             43.1734962,
             -79.0473022
-        ]
+        ],
+        "id": 78298
     },
     {
         "type": "Hotel",
@@ -9574,7 +10175,8 @@
         "coordinates": [
             43.2840849,
             -78.7073321
-        ]
+        ],
+        "id": 64184
     },
     {
         "type": "Hotel",
@@ -9590,7 +10192,8 @@
         "coordinates": [
             43.166782,
             -78.707252
-        ]
+        ],
+        "id": 91832
     },
     {
         "type": "Hotel",
@@ -9606,7 +10209,8 @@
         "coordinates": [
             43.073486,
             -78.983497
-        ]
+        ],
+        "id": 79827
     },
     {
         "type": "Hotel",
@@ -9622,7 +10226,8 @@
         "coordinates": [
             43.2203469,
             -78.38771
-        ]
+        ],
+        "id": 81693
     },
     {
         "type": "Hotel",
@@ -9638,7 +10243,8 @@
         "coordinates": [
             43.0836754,
             -79.0611343
-        ]
+        ],
+        "id": 67824
     },
     {
         "type": "Hotel",
@@ -9654,7 +10260,8 @@
         "coordinates": [
             43.0841243,
             -79.0632056
-        ]
+        ],
+        "id": 32685
     },
     {
         "type": "Hotel",
@@ -9670,7 +10277,8 @@
         "coordinates": [
             43.0867424,
             -79.059845
-        ]
+        ],
+        "id": 58807
     },
     {
         "type": "Hotel",
@@ -9686,7 +10294,8 @@
         "coordinates": [
             43.3095022,
             -78.825991
-        ]
+        ],
+        "id": 72172
     },
     {
         "type": "Hotel",
@@ -9702,7 +10311,8 @@
         "coordinates": [
             43.0853615,
             -79.061882
-        ]
+        ],
+        "id": 27931
     },
     {
         "type": "Restaurant",
@@ -9718,7 +10328,8 @@
         "coordinates": [
             43.2198181,
             -78.5427856
-        ]
+        ],
+        "id": 44130
     },
     {
         "type": "Restaurant",
@@ -9734,7 +10345,8 @@
         "coordinates": [
             43.166782,
             -78.707252
-        ]
+        ],
+        "id": 56074
     },
     {
         "type": "Restaurant",
@@ -9750,7 +10362,8 @@
         "coordinates": [
             43.1699333,
             -78.6911087
-        ]
+        ],
+        "id": 32051
     },
     {
         "type": "Restaurant",
@@ -9766,7 +10379,8 @@
         "coordinates": [
             43.0841243,
             -79.0632056
-        ]
+        ],
+        "id": 71013
     },
     {
         "type": "Restaurant",
@@ -9782,7 +10396,8 @@
         "coordinates": [
             43.0864182,
             -79.0623779
-        ]
+        ],
+        "id": 92762
     },
     {
         "type": "Restaurant",
@@ -9798,7 +10413,8 @@
         "coordinates": [
             43.168117,
             -78.699066
-        ]
+        ],
+        "id": 14521
     },
     {
         "type": "Restaurant",
@@ -9814,7 +10430,8 @@
         "coordinates": [
             43.316608,
             -78.833244
-        ]
+        ],
+        "id": 94127
     },
     {
         "type": "Restaurant",
@@ -9830,7 +10447,8 @@
         "coordinates": [
             43.3095022,
             -78.825991
-        ]
+        ],
+        "id": 65615
     },
     {
         "type": "Restaurant",
@@ -9846,7 +10464,8 @@
         "coordinates": [
             43.2216339,
             -78.3873215
-        ]
+        ],
+        "id": 66563
     },
     {
         "type": "Attraction",
@@ -9862,7 +10481,8 @@
         "coordinates": [
             43.0810008,
             -73.7857548
-        ]
+        ],
+        "id": 43419
     },
     {
         "type": "Attraction",
@@ -9878,7 +10498,8 @@
         "coordinates": [
             43.3525467,
             -73.6974182
-        ]
+        ],
+        "id": 20796
     },
     {
         "type": "Attraction",
@@ -9894,7 +10515,8 @@
         "coordinates": [
             43.4208107,
             -73.7093353
-        ]
+        ],
+        "id": 80989
     },
     {
         "type": "Attraction",
@@ -9910,7 +10532,8 @@
         "coordinates": [
             42.6476604,
             -73.7593049
-        ]
+        ],
+        "id": 64240
     },
     {
         "type": "Attraction",
@@ -9926,7 +10549,8 @@
         "coordinates": [
             42.6617662,
             -73.7441491
-        ]
+        ],
+        "id": 27751
     },
     {
         "type": "Attraction",
@@ -9942,7 +10566,8 @@
         "coordinates": [
             43.0911293,
             -73.7678146
-        ]
+        ],
+        "id": 13571
     },
     {
         "type": "Attraction",
@@ -9958,7 +10583,8 @@
         "coordinates": [
             43.5011292,
             -73.7798004
-        ]
+        ],
+        "id": 42020
     },
     {
         "type": "Attraction",
@@ -9974,7 +10600,8 @@
         "coordinates": [
             43.0871692,
             -73.7794771
-        ]
+        ],
+        "id": 65332
     },
     {
         "type": "Attraction",
@@ -9990,7 +10617,8 @@
         "coordinates": [
             43.0574745,
             -73.80449
-        ]
+        ],
+        "id": 81576
     },
     {
         "type": "Attraction",
@@ -10006,7 +10634,8 @@
         "coordinates": [
             43.073785,
             -73.7634408
-        ]
+        ],
+        "id": 29199
     },
     {
         "type": "Attraction",
@@ -10022,7 +10651,8 @@
         "coordinates": [
             42.96978,
             -73.9255905
-        ]
+        ],
+        "id": 40602
     },
     {
         "type": "Hotel",
@@ -10038,7 +10668,8 @@
         "coordinates": [
             43.1027641,
             -73.5793152
-        ]
+        ],
+        "id": 52100
     },
     {
         "type": "Hotel",
@@ -10054,7 +10685,8 @@
         "coordinates": [
             43.4290924,
             -73.7103653
-        ]
+        ],
+        "id": 14376
     },
     {
         "type": "Hotel",
@@ -10070,7 +10702,8 @@
         "coordinates": [
             43.4286804,
             -73.7105026
-        ]
+        ],
+        "id": 68335
     },
     {
         "type": "Hotel",
@@ -10086,7 +10719,8 @@
         "coordinates": [
             43.3194389,
             -73.8387985
-        ]
+        ],
+        "id": 45047
     },
     {
         "type": "Attraction",
@@ -10102,7 +10736,8 @@
         "coordinates": [
             43.4185181,
             -73.714119
-        ]
+        ],
+        "id": 22401
     },
     {
         "type": "Restaurant",
@@ -10118,7 +10753,8 @@
         "coordinates": [
             43.08102,
             -73.78524
-        ]
+        ],
+        "id": 46388
     },
     {
         "type": "Restaurant",
@@ -10134,7 +10770,8 @@
         "coordinates": [
             43.0178566,
             -73.84272
-        ]
+        ],
+        "id": 80710
     },
     {
         "type": "Restaurant",
@@ -10150,7 +10787,8 @@
         "coordinates": [
             42.7908516,
             -73.6794434
-        ]
+        ],
+        "id": 84912
     },
     {
         "type": "Restaurant",
@@ -10166,7 +10804,8 @@
         "coordinates": [
             43.3682594,
             -73.6974869
-        ]
+        ],
+        "id": 56532
     },
     {
         "type": "Attraction",
@@ -10182,7 +10821,8 @@
         "coordinates": [
             44.5256996,
             -73.4697876
-        ]
+        ],
+        "id": 98497
     },
     {
         "type": "Attraction",
@@ -10198,7 +10838,8 @@
         "coordinates": [
             44.5687714,
             -73.5542374
-        ]
+        ],
+        "id": 90122
     },
     {
         "type": "Attraction",
@@ -10214,7 +10855,8 @@
         "coordinates": [
             44.8353462,
             -73.5374832
-        ]
+        ],
+        "id": 42523
     },
     {
         "type": "Attraction",
@@ -10230,7 +10872,8 @@
         "coordinates": [
             44.6992645,
             -73.4472046
-        ]
+        ],
+        "id": 58712
     },
     {
         "type": "Attraction",
@@ -10246,7 +10889,8 @@
         "coordinates": [
             44.5787735,
             -73.496109
-        ]
+        ],
+        "id": 76408
     },
     {
         "type": "Attraction",
@@ -10262,7 +10906,8 @@
         "coordinates": [
             44.6963431,
             -73.4968071
-        ]
+        ],
+        "id": 93853
     },
     {
         "type": "Hotel",
@@ -10278,7 +10923,8 @@
         "coordinates": [
             44.9809418,
             -73.3641281
-        ]
+        ],
+        "id": 80554
     },
     {
         "type": "Hotel",
@@ -10294,7 +10940,8 @@
         "coordinates": [
             44.6777992,
             -73.4510727
-        ]
+        ],
+        "id": 40520
     },
     {
         "type": "Hotel",
@@ -10310,7 +10957,8 @@
         "coordinates": [
             44.6977348,
             -73.4965286
-        ]
+        ],
+        "id": 45362
     },
     {
         "type": "Hotel",
@@ -10326,7 +10974,8 @@
         "coordinates": [
             44.7860641,
             -73.3829956
-        ]
+        ],
+        "id": 39650
     },
     {
         "type": "Restaurant",
@@ -10342,7 +10991,8 @@
         "coordinates": [
             44.6975441,
             -73.4526749
-        ]
+        ],
+        "id": 87564
     },
     {
         "type": "Restaurant",
@@ -10358,7 +11008,8 @@
         "coordinates": [
             44.8152885,
             -73.4328003
-        ]
+        ],
+        "id": 67639
     },
     {
         "type": "Restaurant",
@@ -10374,7 +11025,8 @@
         "coordinates": [
             44.6982012,
             -73.4519559
-        ]
+        ],
+        "id": 21641
     },
     {
         "type": "Restaurant",
@@ -10390,7 +11042,8 @@
         "coordinates": [
             44.5760803,
             -73.5115738
-        ]
+        ],
+        "id": 15321
     },
     {
         "type": "Restaurant",
@@ -10406,7 +11059,8 @@
         "coordinates": [
             44.6955757,
             -73.4887848
-        ]
+        ],
+        "id": 19897
     },
     {
         "type": "Attraction",
@@ -10422,7 +11076,8 @@
         "coordinates": [
             44.24086,
             -76.0888367
-        ]
+        ],
+        "id": 55173
     },
     {
         "type": "Attraction",
@@ -10438,7 +11093,8 @@
         "coordinates": [
             44.2382622,
             -76.0893021
-        ]
+        ],
+        "id": 72537
     },
     {
         "type": "Attraction",
@@ -10454,7 +11110,8 @@
         "coordinates": [
             44.3233833,
             -75.9194565
-        ]
+        ],
+        "id": 43208
     },
     {
         "type": "Attraction",
@@ -10470,7 +11127,8 @@
         "coordinates": [
             44.4388618,
             -75.6994324
-        ]
+        ],
+        "id": 79332
     },
     {
         "type": "Attraction",
@@ -10486,7 +11144,8 @@
         "coordinates": [
             44.3388748,
             -75.9174957
-        ]
+        ],
+        "id": 64558
     },
     {
         "type": "Attraction",
@@ -10502,7 +11161,8 @@
         "coordinates": [
             43.9645119,
             -75.9128265
-        ]
+        ],
+        "id": 11716
     },
     {
         "type": "Hotel",
@@ -10518,7 +11178,8 @@
         "coordinates": [
             44.2425461,
             -76.0832291
-        ]
+        ],
+        "id": 80796
     },
     {
         "type": "Hotel",
@@ -10534,7 +11195,8 @@
         "coordinates": [
             44.3419075,
             -75.9144135
-        ]
+        ],
+        "id": 80521
     },
     {
         "type": "Hotel",
@@ -10550,7 +11212,8 @@
         "coordinates": [
             44.335537,
             -75.9167252
-        ]
+        ],
+        "id": 72677
     },
     {
         "type": "Hotel",
@@ -10562,7 +11225,8 @@
         "state": "NY",
         "zip_code": "13624",
         "phone_number": "315-686-3518",
-        "url": "http://www.mckinleyhousebnb.com"
+        "url": "http://www.mckinleyhousebnb.com",
+        "id": 55746
     },
     {
         "type": "Hotel",
@@ -10578,7 +11242,8 @@
         "coordinates": [
             44.3390846,
             -75.9155807
-        ]
+        ],
+        "id": 62161
     },
     {
         "type": "Restaurant",
@@ -10594,7 +11259,8 @@
         "coordinates": [
             44.2388856,
             -76.0744214
-        ]
+        ],
+        "id": 63504
     },
     {
         "type": "Restaurant",
@@ -10610,7 +11276,8 @@
         "coordinates": [
             44.2422659,
             -76.0885439
-        ]
+        ],
+        "id": 70975
     },
     {
         "type": "Restaurant",
@@ -10626,7 +11293,8 @@
         "coordinates": [
             44.3390846,
             -75.9155807
-        ]
+        ],
+        "id": 62883
     },
     {
         "type": "Restaurant",
@@ -10642,7 +11310,8 @@
         "coordinates": [
             44.2425461,
             -76.0832291
-        ]
+        ],
+        "id": 41683
     },
     {
         "type": "Restaurant",
@@ -10658,7 +11327,8 @@
         "coordinates": [
             44.3419075,
             -75.9144135
-        ]
+        ],
+        "id": 42592
     },
     {
         "type": "Attraction",
@@ -10672,8 +11342,10 @@
         "phone_number": "&#40;716&#41; 355-4141",
         "url": "http://www.pknpk.com",
         "coordinates": [
-            42.062042, -79.735620
-        ]
+            42.062042,
+            -79.73562
+        ],
+        "id": 23408
     },
     {
         "type": "Attraction",
@@ -10687,7 +11359,9 @@
         "phone_number": "&#40;800&#41; 323-0020",
         "url": "http://www.holidayvalley.com",
         "coordinates": [
-            42.262483, -78.668131
-        ]
+            42.262483,
+            -78.668131
+        ],
+        "id": 15113
     }
 ]

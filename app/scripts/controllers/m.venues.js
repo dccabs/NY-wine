@@ -25,7 +25,6 @@ angular.module('nyWineApp')
         $scope.subRegion = $scope.subRegion.split("and").join("&");
     }
 
-
     if ($scope.subRegion) {
       $http.get('data/venues.json').
       success(function(data, status, headers, config) {
@@ -48,6 +47,7 @@ angular.module('nyWineApp')
     $scope.getUrlName = function(name) {
       var urlName = name.split(" ").join("-");
       urlName = urlName.split("&").join("and");
+      urlName = urlName.split("/").join("-");
       urlName = urlName.toLowerCase();
       return urlName;
     }

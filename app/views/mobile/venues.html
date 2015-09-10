@@ -1,6 +1,6 @@
 <div ng-include="'views/mobile/mobile-nav.html'"></div>
 <div class="wide region-image" style="background:url(images/region-{{getUrlName(region)}}.jpg);background-position:20% 45%;background-size:100%;">
-	<div class="region-name stroke">{{region}}</div>
+	<div class="region-name stroke {{getUrlName(region)}}">{{region}}</div>
 	<div ng-show="subRegion" class="subregion-name"><span class="fa fa-caret-right"></span> Subregion {{subRegion}}</div>
 </div>
 
