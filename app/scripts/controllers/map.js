@@ -88,6 +88,9 @@ angular.module('nyWineApp')
 
       $scope.google.maps.event.addListener(map, 'zoom_changed', function() {
           var zoom = map.getZoom()
+          if ($scope.infowindow) {
+            $scope.infowindow.close();
+          }
           $scope.showMapRegion = (zoom > 9) ? true : false;
           $scope.showMapLegend = (zoom < 8) ? true : false;
           $scope.resizeMap();
@@ -143,6 +146,9 @@ angular.module('nyWineApp')
 
     $scope.onMapCenterChange = function() {
       //return;
+      if ($scope.infowindow) {
+        $scope.infowindow.close();
+      }
       $timeout(function() {
         $scope.mapRegion = $scope.getCurrentRegion();
         $scope.$apply();
@@ -259,6 +265,51 @@ angular.module('nyWineApp')
         $scope.searchTxt.name = "";
         $scope.infowindow.open($scope.map);
      },50);
+
+    }
+
+    $scope.hoverVenue = function(e,venue) {
+      var zoom = $scope.map.getZoom();
+      var pad = .030;
+
+      if (zoom == 8) {
+        pad = .1;
+      }
+
+      if (zoom == 9) {
+        pad = .055;
+      }
+
+      if (zoom == 11) {
+        pad = .015;
+      }
+      if (zoom == 12) {
+        pad = .008;
+      }
+      if (zoom == 13) {
+        pad = .004;
+      }
+      if (zoom == 14) {
+        pad = .002;
+      }
+      if (zoom == 15) {
+        pad = .001;
+      }
+      if (zoom == 16) {
+        pad = .0005;
+      }
+
+
+      var windowLatLng = new google.maps.LatLng(venue.coordinates[0]+pad,venue.coordinates[1]);
+
+      if ($scope.infowindow) {
+        $scope.infowindow.close();
+      }
+      $scope.infowindow = new google.maps.InfoWindow({
+        content: "<h5>"+venue.name+"</h5> <div>Click on the icon for more information",
+        position: windowLatLng
+      });
+      $scope.infowindow.open($scope.map);
 
     }
 

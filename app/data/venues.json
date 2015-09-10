@@ -5795,13 +5795,14 @@
         "region": "North Country",
         "sub_region": "Lake Champlain",
         "name": "The Champlain Wine Company",
-        "address": "\t30 City Hall Place",
+        "address": "30 City Hall Place",
         "city": "Plattsburgh",
         "state": "NY",
         "zip_code": "12901",
         "phone_number": "518-564-0064",
         "url": "http://www.champlainwinecompany.com",
-        "type": "Winery"
+        "type": "Winery",
+        "coordinates": [44.698383, -73.451609]
     },
     {
         "region": "North Country",

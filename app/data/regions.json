@@ -1,3 +1,4 @@
+
 [
       {
         "name": "Long Island",
@@ -42,9 +43,38 @@
         ]
       },
       {
-        "name": "Hudson River",
+        "name": "Hudson River Valley/Catskills",
         "description": "One of America's oldest wine producers with wineries on both sides of the majestic waterway, the Hudson River Region benefits from warm maritime air from the Atlantic Ocean funneled through the steep palisades.",
-        "pos": { "lat": 41.857170, "lng": -73.970232 }
+        "pos": { "lat": 41.857170, "lng": -73.970232 },
+        "sub_regions" : [
+          {
+            "name": "Hudson River West",
+            "pos": { "lat": 42.0249825, "lng": -74.1938171 }
+          },
+          {
+            "name": "Hudson River East",
+            "pos": { "lat": 41.8482208, "lng": -73.7827606 }
+          }
+        ]
+      },
+      {
+        "name": "North Country",
+        "description": "North Country, which includes the Adirondacks, Lake Champlain and Thousand Islands, is the newest wine region in New York. Because of their unique climate  they specialize in cold hardy grapes which are becoming more popular.",
+        "pos": { "lat": 43.709322, "lng": -74.974604 },
+        "sub_regions" : [
+          {
+            "name": "Thousand Islands",
+            "pos": { "lat": 44.2927873, "lng": -75.9823787 }
+          },
+          {
+            "name": "Lake Champlain",
+            "pos": { "lat": 44.698383, "lng": -73.451609 }
+          },
+          {
+            "name": "Greater Adirondacks",
+            "pos": { "lat": 43.4260826, "lng": -73.7130051 }
+          }
+        ]
       },
       {
         "name": "Finger Lakes",
@@ -104,6 +134,6 @@
       {
         "name": "Central New York",
         "description": "Though not located in any traditionally defined wine region, Central New York has experienced significant growth in the number of wineries.",
-        "pos": { "lat": 42.583077, "lng": -74.591432 }
+        "pos": { "lat": 42.629023, "lng": -75.185482 }
       }
     ]

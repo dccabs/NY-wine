@@ -11,7 +11,9 @@
     map-type-control="false"
     pan-control="false"
     street-view-control="false"
-    zoom-control="false">
+    zoom-control="false"
+    max-zoom="16"
+    >
 
 
     <shape ng-if="getMapZoomLevel() < 8" name="polygon" paths="{{nyOutline}}" stroke-color="#FF0000" stroke-opacity="0" stroke-weight="2" fill-color="#FF0000" fill-opacity="0"
@@ -66,6 +68,7 @@
     class="marker-winery"
     ng-repeat="venue in wineries"
     on-click="showVenueOverlay(event,{{venue}});"
+    on-mouseover="hoverVenue(event,{{venue}});"
     ng-if="getMapZoomLevel() >= 8 && !hideWineries"
     position="{{venue.coordinates}}"
     title="{{venue.name}}"
@@ -76,6 +79,7 @@
   <marker
     ng-repeat="venue in restaurants"
     on-click="showVenueOverlay(event,{{venue}})"
+    on-mouseover="hoverVenue(event,{{venue}});"
     ng-if="getMapZoomLevel() >= 8 && !hideRestaurants"
     position="{{venue.coordinates}}"
     title="{{venue.name}}"
@@ -86,6 +90,7 @@
   <marker
     ng-repeat="venue in attractions"
     on-click="showVenueOverlay(event,{{venue}})"
+    on-mouseover="hoverVenue(event,{{venue}});"
     ng-if="getMapZoomLevel() >= 8 && !hideAttractions"
     position="{{venue.coordinates}}"
     title="{{venue.name}}"
@@ -96,6 +101,7 @@
   <marker
     ng-repeat="venue in hotels"
     on-click="showVenueOverlay(event,{{venue}})"
+    on-mouseover="hoverVenue(event,{{venue}});"
     ng-if="getMapZoomLevel() >= 8 && !hideHotels"
     position="{{venue.coordinates}}"
     title="{{venue.name}}"
