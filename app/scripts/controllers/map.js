@@ -192,9 +192,11 @@ angular.module('nyWineApp')
       $scope.loading = true;
       $scope.toggleMenu();
       $scope.showMapOverlay = false;
+      var coord = [region.pos.lat, region.pos.lng];
+      if (region.name=='North Country') coord = [44.340613, -75.911496];
       $timeout(function() {
         $scope.map.setZoom(10);
-        $scope.mapCoordinates = [region.pos.lat, region.pos.lng];
+        $scope.mapCoordinates = coord;
       },50);
     }
 
