@@ -174,7 +174,7 @@ angular.module('nyWineApp')
       $scope.loading = true;
       $timeout(function() {
         $scope.map.setZoom(10);
-        $scope.mapCoordinates = [e.latLng.G, e.latLng.K];
+        $scope.mapCoordinates = [e.latLng.lat(), e.latLng.lng()];
       },50);
     };
 
@@ -401,7 +401,7 @@ angular.module('nyWineApp')
                   "lightness": 30
               },
               {
-                  "visibility": "off"
+                  "visibility": "on"
               }
           ]
       },

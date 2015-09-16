@@ -791,8 +791,7 @@
         "url": "http://www.heartandhandswine.com",
         "type": "Winery",
         "coordinates": [
-            42.9727241,
-            -76.4272533
+            42.819351, -76.698657
         ],
         "id": 56096
     },
@@ -1148,8 +1147,7 @@
         "url": "http://www.bullyhill.com",
         "type": "Winery",
         "coordinates": [
-            42.4432907,
-            -77.1870193
+            42.420848, -77.212084
         ],
         "id": 15456
     },
@@ -1369,8 +1367,7 @@
         "url": "http://www.roosterhill.com",
         "type": "Winery",
         "coordinates": [
-            42.665184,
-            -77.0530853
+            42.596703, -77.077342
         ],
         "id": 27112
     },
@@ -1454,8 +1451,7 @@
         "url": "http://www.pointofthebluffvineyards.com",
         "type": "Winery",
         "coordinates": [
-            42.5060935,
-            -77.1428324
+            42.502691, -77.142475
         ],
         "id": 24882
     },
@@ -1573,8 +1569,7 @@
         "url": "http://www.belhurst.com",
         "type": "Winery",
         "coordinates": [
-            42.837574,
-            -76.9975967
+            42.831509, -76.979876
         ],
         "id": 26548
     },
@@ -1896,8 +1891,7 @@
         "url": "http://www.wiemer.com",
         "type": "Winery",
         "coordinates": [
-            42.5104485,
-            -76.9235001
+            42.567757, -76.925366
         ],
         "id": 85256
     },
@@ -2168,8 +2162,7 @@
         "url": "http://www.bagleysprv.com",
         "type": "Winery",
         "coordinates": [
-            42.5129395,
-            -76.8764114
+            42.550933, -76.869214
         ],
         "id": 33510
     },
@@ -2616,7 +2609,7 @@
         "id": 91050
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Cascade Mountain Winery",
         "address": "835 Cascade Mountain Road",
@@ -2633,7 +2626,7 @@
         "id": 27666
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Brookview Station Winery",
         "address": "1297 Brookview Station Road",
@@ -2650,7 +2643,7 @@
         "id": 40560
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Clermont Vineyards & Winery",
         "address": "241 County Route 6",
@@ -2667,7 +2660,7 @@
         "id": 28865
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Clinton Vineyards, Inc.",
         "address": "450 Schultzville Road",
@@ -2684,7 +2677,7 @@
         "id": 42530
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Tousey Winery",
         "address": "1774 Route 9",
@@ -2701,7 +2694,7 @@
         "id": 10422
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Hudson-Chatham Winery",
         "address": "1900 State Route 66",
@@ -2718,7 +2711,7 @@
         "id": 60404
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Millbrook Vineyards & Winery",
         "address": "26 Wing Rd",
@@ -2735,7 +2728,7 @@
         "id": 62436
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "The Winery at St. George",
         "address": "1715 East Main St.",
@@ -2752,7 +2745,7 @@
         "id": 66872
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Brothers Covino",
         "address": "130 Hardscrabble Rd.",
@@ -2769,7 +2762,7 @@
         "id": 58403
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Prospero Winery",
         "address": "134 Marble Ave",
@@ -2786,7 +2779,7 @@
         "id": 92009
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Hetta Glögg LLC",
         "address": "2 Charles St., Suite 1",
@@ -2803,7 +2796,7 @@
         "id": 32333
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Breezy Hill Orchard & Cider Mill",
         "address": "828 Centre Road",
@@ -2820,7 +2813,7 @@
         "id": 26789
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Altamont Vineyard & Winery",
         "address": "3001 Furbeck Rd.",
@@ -2837,7 +2830,7 @@
         "id": 42487
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Windham Vineyards and Winery",
         "address": "11 Mount View Estates Rd.",
@@ -2854,7 +2847,7 @@
         "id": 27517
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Woodstock Winery",
         "address": "403 Wittenberg Rd.",
@@ -2871,7 +2864,7 @@
         "id": 28312
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Cereghino Smith",
         "address": "2583 Route 32",
@@ -2888,7 +2881,7 @@
         "id": 50486
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Enlightenment Wines",
         "address": "",
@@ -2905,7 +2898,7 @@
         "id": 77481
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Helderberg Meadworks LLC",
         "address": "990 W. Duane Lake Rd.",
@@ -2922,7 +2915,7 @@
         "id": 79491
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Tuthilltown Spirits",
         "address": "14 Gristmill Lane",
@@ -2939,7 +2932,7 @@
         "id": 66198
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Whitecliff Vineyard and Winery",
         "address": "331 McKinstry Road",
@@ -2956,7 +2949,7 @@
         "id": 55721
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Palaia Vineyards Inc.",
         "address": "20 Sweet Clover Road",
@@ -2973,7 +2966,7 @@
         "id": 64690
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Torne Valley Vineyards LLC",
         "address": "1 Torne Brook Rd.",
@@ -2990,7 +2983,7 @@
         "id": 42222
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Benmarl Winery at Slate Hill Vineyards",
         "address": "156 Highland Ave.",
@@ -3007,7 +3000,7 @@
         "id": 29180
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Brunel & Rafael Winery",
         "address": "180 South St.",
@@ -3024,7 +3017,7 @@
         "id": 43128
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Glorie Farm Winery",
         "address": "40 Mountain Road",
@@ -3041,7 +3034,7 @@
         "id": 71299
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Royal Kedem Winery",
         "address": "1519 Route 9W",
@@ -3058,7 +3051,7 @@
         "id": 25980
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Stoutridge Vineyard",
         "address": "10 Ann Kaley Lane",
@@ -3075,7 +3068,7 @@
         "id": 49309
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Weed Orchards & Winery",
         "address": "43 Mt. Zion Rd.",
@@ -3092,7 +3085,7 @@
         "id": 97145
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Nostrano Vineyards",
         "address": "14 Gala Lane",
@@ -3109,7 +3102,7 @@
         "id": 23864
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Orchard Hill Cider Mill",
         "address": "29 Soons Cir.",
@@ -3126,7 +3119,7 @@
         "id": 85348
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Adair Vineyards",
         "address": "52 Allhusen Road",
@@ -3143,7 +3136,7 @@
         "id": 59951
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Kettleborough Cider House LLC",
         "address": "277 State Route 208",
@@ -3160,7 +3153,7 @@
         "id": 12104
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Robibero Family Vineyards",
         "address": "714 Albany Post Rd.",
@@ -3177,7 +3170,7 @@
         "id": 66733
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Yankee Folly Cidery",
         "address": "69 Yankee Folly Rd.",
@@ -3194,7 +3187,7 @@
         "id": 38991
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Capoccia Vineyards & Winery",
         "address": "2820 Balltown Rd.",
@@ -3211,7 +3204,7 @@
         "id": 23193
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Baldwin Vineyards",
         "address": "176 Hardenburgh Road",
@@ -3228,7 +3221,7 @@
         "id": 21495
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Brimstone Hill Vineyard",
         "address": "61 Brimstone Hill Road",
@@ -3245,7 +3238,7 @@
         "id": 78488
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Christopher Jacobs Winery at Pennings Vineyards",
         "address": "320 Crawford St.",
@@ -3262,7 +3255,7 @@
         "id": 40916
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Pazdar Winery",
         "address": "6 Laddie Road",
@@ -3279,7 +3272,7 @@
         "id": 65800
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "El Paso Winery",
         "address": "742 Broadway, Route 9W",
@@ -3296,7 +3289,7 @@
         "id": 64581
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Magnanini Farm Winery, Inc.",
         "address": "172 Strawridge Road",
@@ -3313,7 +3306,7 @@
         "id": 68919
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Applewood Winery",
         "address": "82 Four Corners Road",
@@ -3330,7 +3323,7 @@
         "id": 76805
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Clearview Vineyard",
         "address": "35 Clearview Lane",
@@ -3347,7 +3340,7 @@
         "id": 52428
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Demarest Hill Winery",
         "address": "81 Pine Island Turnpike",
@@ -3364,7 +3357,7 @@
         "id": 92080
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Warwick Valley Winery & Distillery",
         "address": "114 Little York Road",
@@ -3381,7 +3374,7 @@
         "id": 58232
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Brotherhood, America's Oldest Winery",
         "address": "100 Brotherhood Plaza Drive",
@@ -3398,7 +3391,7 @@
         "id": 63889
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Shier Winery",
         "address": "439 Floyd Ackert Rd.",
@@ -3415,7 +3408,7 @@
         "id": 97578
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Aaron Burr Cider",
         "address": "2251 State Route 209",
@@ -3432,7 +3425,7 @@
         "id": 87413
     },
     {
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "BashaKill Vineyards",
         "address": "1131 South Rd.",
@@ -4191,8 +4184,7 @@
         "url": "http://www.castellodiborghese.com",
         "type": "Winery",
         "coordinates": [
-            40.9971809,
-            -72.5318298
+            41.017412, -72.506499
         ],
         "id": 84480
     },
@@ -4327,8 +4319,7 @@
         "url": "http://www.vineyard48winery.com",
         "type": "Winery",
         "coordinates": [
-            40.9971809,
-            -72.5318298
+            41.021090, -72.501469
         ],
         "id": 87470
     },
@@ -4348,23 +4339,6 @@
             -72.494958
         ],
         "id": 17402
-    },
-    {
-        "region": "Long Island",
-        "sub_region": "North Fork",
-        "name": "Lieb Cellars",
-        "address": "26 Park Place",
-        "city": "East Hampton",
-        "state": "NY",
-        "zip_code": "11937",
-        "phone_number": "631-527-5100",
-        "url": "http://www.liebcellars.com",
-        "type": "Winery",
-        "coordinates": [
-            40.9624901,
-            -72.1872253
-        ],
-        "id": 20070
     },
     {
         "region": "Long Island",
@@ -5109,8 +5083,7 @@
         "url": "http://www.channingdaughters.com",
         "type": "Winery",
         "coordinates": [
-            40.9371109,
-            -72.3018265
+            40.959558, -72.309886
         ],
         "id": 32346
     },
@@ -7455,8 +7428,7 @@
         "phone_number": "607-868-3610",
         "url": "http://www.bullyhillvineyards.com",
         "coordinates": [
-            42.4301172,
-            -77.2084721
+            42.441758, -77.207794
         ],
         "id": 55951
     },
@@ -7676,8 +7648,7 @@
         "phone_number": "&#40;315&#41; 781-0201",
         "url": "http://www.belhurst.com",
         "coordinates": [
-            null,
-            null
+            42.838930, -76.974885
         ],
         "id": 70880
     },
@@ -8070,7 +8041,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Cold Spring Farmers Market at Boscobel House & Gardens",
         "address": "1601 Route 9D",
@@ -8087,7 +8058,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Olana State Historic Site",
         "address": "5720 State Route 9G",
@@ -8104,7 +8075,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Omi International Art Center ",
         "address": "1405 County Route 22",
@@ -8121,7 +8092,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Pleasantville Farmers Market",
         "address": "Memorial Plaza &#40;next to Metro North train station&#41;",
@@ -8138,7 +8109,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Home of Franklin D. Roosevelt National Historic Site",
         "address": "4097 Albany Post Road",
@@ -8155,7 +8126,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "The Culinary Institute of America",
         "address": "1946 Campus Dr",
@@ -8172,7 +8143,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Inn at Silver Maple Farm",
         "address": "1871 State Route 295",
@@ -8189,7 +8160,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Mount Merino Manor Bed and Breakfast",
         "address": "4317 State Route 23",
@@ -8206,7 +8177,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "The Barlow",
         "address": "542 Warren Street",
@@ -8223,7 +8194,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "The Inn at Ca'Mea ",
         "address": "333 Warren Street",
@@ -8240,7 +8211,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "The Inn at Green River",
         "address": "9 Nobletown Road",
@@ -8257,7 +8228,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Thyme in the Country",
         "address": "671 Fish and Game Rdoad",
@@ -8274,7 +8245,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "Local 111",
         "address": "111 Main Street",
@@ -8291,7 +8262,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "RiverMarket Bar & Kitchen",
         "address": "127 W Main St",
@@ -8308,7 +8279,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "The Winery at St. George",
         "address": "1715 E. Main Street",
@@ -8325,7 +8296,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River East",
         "name": "X2O",
         "address": "71 Water Grant Street",
@@ -8342,7 +8313,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Bellvale Farms Creamery",
         "address": "1390 Route 17A",
@@ -8359,7 +8330,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Harriman State Park",
         "address": "Seven Lakes Dr / Bear Mountain Circle",
@@ -8376,7 +8347,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Mohonk Preserve",
         "address": "3197 State Rte 55",
@@ -8393,7 +8364,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Ochs Orchard",
         "address": "4 Ochs Lane",
@@ -8410,7 +8381,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Pennings Farm",
         "address": "161 State Rte 94 S",
@@ -8427,7 +8398,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Soons Orchards",
         "address": "23 Soons Circle",
@@ -8444,7 +8415,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Sterling Forest State Park",
         "address": "116 Old Forge Road",
@@ -8461,7 +8432,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Storm King Art Center",
         "address": "1 Museum Road",
@@ -8478,7 +8449,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Thomas Cole Historic Site",
         "address": "218 Spring Street",
@@ -8495,7 +8466,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Walkway Over the Hudson",
         "address": "87 Haviland Road",
@@ -8512,7 +8483,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Bear Mountain Inn and Overlook Lodge",
         "address": "3020 Seven Lakes Drive",
@@ -8529,7 +8500,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Buttermilk Falls Inn",
         "address": "220 North Road",
@@ -8546,7 +8517,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Glenmere Mansion",
         "address": "634 Pine Hill Road",
@@ -8563,7 +8534,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Inn at Stony Creek",
         "address": "34 Spanktown Rd.",
@@ -8580,7 +8551,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Minnewaska Lodge",
         "address": "3116 State Route 55",
@@ -8597,7 +8568,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Mohonk Mountain House",
         "address": "1000 Mountain Rest Road",
@@ -8614,7 +8585,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Sleepy Valley Inn",
         "address": "117 Sleepy Valley Road",
@@ -8631,7 +8602,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "The Inn at Orchard Heights",
         "address": "20 Church St",
@@ -8648,7 +8619,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Eddie's Roadhouse",
         "address": "18 Main Street",
@@ -8665,7 +8636,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Iron Forge Inn",
         "address": "38 Iron Forge Rd ",
@@ -8682,7 +8653,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Pané Café/Black Dirt® at Warwick Valley Winery",
         "address": "114 Little York Road",
@@ -8699,7 +8670,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Restaurant X",
         "address": "117 North Route 303",
@@ -8716,7 +8687,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "The Landmark Inn",
         "address": "526 Route 94 North",
@@ -8733,7 +8704,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "The Village Tea Room",
         "address": "10 Plattekill Ave",
@@ -8750,7 +8721,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Hudson River Valley/Catskills",
+        "region": "Hudson River Region AVA and Catskill Region",
         "sub_region": "Hudson River West",
         "name": "Vinum Café at Brotherhood Winery",
         "address": "84 Brotherhood Plaza Drive",
