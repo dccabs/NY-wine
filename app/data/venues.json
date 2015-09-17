@@ -994,8 +994,7 @@
         "url": "http://www.swedishhill.com",
         "type": "Winery",
         "coordinates": [
-            42.7384605,
-            -76.8214874
+            42.802890, -76.810570
         ],
         "id": 42520
     },
@@ -5343,7 +5342,7 @@
         "id": 97066
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Salamaca Estate Winery",
         "address": "2660 Hindsburg Road",
@@ -5360,7 +5359,7 @@
         "id": 32196
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "The Winery at Marjim Manor",
         "address": "7171 East Lake Road",
@@ -5377,7 +5376,7 @@
         "id": 72136
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "BlackBird Cider Works",
         "address": "8503 Lower Lake Rd.",
@@ -5394,7 +5393,7 @@
         "id": 96839
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Autumn Moon Farm Winery",
         "address": "7585 W. Bergen Rd.",
@@ -5411,7 +5410,7 @@
         "id": 88567
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Black Willow Winery",
         "address": "5565 West Lake Rd.",
@@ -5428,7 +5427,7 @@
         "id": 93252
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Schulze Vineyards and Winery",
         "address": "2090 Coomer Road",
@@ -5445,7 +5444,7 @@
         "id": 38827
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Schwenk Wine Cellars",
         "address": "1456 Bills Road",
@@ -5462,7 +5461,7 @@
         "id": 29238
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Honeymoon Trail Winery",
         "address": "4120 Ridge Road",
@@ -5479,7 +5478,7 @@
         "id": 92132
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "810 Meadworks LLC",
         "address": "113 West Center St.",
@@ -5496,7 +5495,7 @@
         "id": 92747
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Leonard Oakes Estate Winery",
         "address": "10609 Ridge Rd.",
@@ -5513,7 +5512,7 @@
         "id": 42727
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Chateau Niagara Winery",
         "address": "2466 West Creek Rd.",
@@ -5530,7 +5529,7 @@
         "id": 58740
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "A Gust of Sun",
         "address": "4515 Baer Rd.",
@@ -5547,7 +5546,7 @@
         "id": 31673
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Midnight Run Wine Cellars",
         "address": "3301 Braley Rd",
@@ -5564,7 +5563,7 @@
         "id": 12626
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Long Cliff Vineyard & Winery",
         "address": "3617 Lower Mountain Rd.",
@@ -5581,7 +5580,7 @@
         "id": 17919
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Greater Niagara Area",
         "name": "Victorianbourg Wine Estate",
         "address": "4402 East Lake Road",
@@ -5598,7 +5597,7 @@
         "id": 39402
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Vizcarra Vineyards at Becker Farms",
         "address": "3724 Quaker Road",
@@ -5615,7 +5614,7 @@
         "id": 33135
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Arrowhead Spring Vineyards",
         "address": "4746 Townline Road",
@@ -5632,7 +5631,7 @@
         "id": 72411
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Eveningside Vineyards",
         "address": "4794 Lower Mountain Rd.",
@@ -5649,7 +5648,7 @@
         "id": 99185
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Flight of Five",
         "address": "2 Pine St.",
@@ -5666,7 +5665,7 @@
         "id": 79470
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Freedom Run Winery",
         "address": "5138 Lower Mountain Road",
@@ -5683,7 +5682,7 @@
         "id": 36003
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Niagara Landing Wine Cellars",
         "address": "4434 Van Dusen Road",
@@ -5700,7 +5699,7 @@
         "id": 33226
     },
     {
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "Niagara Escarpment",
         "name": "Spring Lake Winery",
         "address": "7373 Rochester Road",
@@ -9979,7 +9978,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Becker Farms",
         "address": "3724 Quaker Road",
@@ -9996,7 +9995,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Lockport Cave & Underground Boat Ride",
         "address": "5 Gooding Street",
@@ -10013,7 +10012,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Lockport Locks & Erie Canal Cruises",
         "address": "210 Market Street",
@@ -10030,7 +10029,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Maid of the Mist",
         "address": "1 Prospect Street",
@@ -10047,7 +10046,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Niagara Falls State Park",
         "address": "332 Prospect Street",
@@ -10064,7 +10063,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Olcott Carousel Park",
         "address": "5979 Main Street ",
@@ -10081,7 +10080,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Old Fort Niagara",
         "address": "",
@@ -10098,7 +10097,7 @@
     },
     {
         "type": "Attraction",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Whirlpool Jet Boat Tours",
         "address": "115 South Water Street",
@@ -10115,7 +10114,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Barton Hill Hotel & Spa",
         "address": "100 Center Street",
@@ -10132,7 +10131,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Brookins Inn & Suites ",
         "address": "2697 Maple Avenue",
@@ -10149,7 +10148,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "DeFlippo’s Bed & Breakfast ",
         "address": "326 West Avenue",
@@ -10166,7 +10165,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Four Points by Sheraton",
         "address": "7001 Buffalo Ave",
@@ -10183,7 +10182,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Hart House Hotel",
         "address": "113 W Center Street",
@@ -10200,7 +10199,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Holiday Inn Niagara Falls",
         "address": "114 Buffalo Avenue",
@@ -10217,7 +10216,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Red Coach Inn ",
         "address": "2 Buffalo Ave",
@@ -10234,7 +10233,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Sheraton at the Falls",
         "address": "300 Third Street",
@@ -10251,7 +10250,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Wilson House Restaurant & Inn",
         "address": "300 Lake St",
@@ -10268,7 +10267,7 @@
     },
     {
         "type": "Hotel",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "The Giacomo ",
         "address": "222 First Street",
@@ -10285,7 +10284,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Becker Farms",
         "address": "3724 Quaker Road",
@@ -10302,7 +10301,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "DeFlippo’s Italian Restaurant and Bed & Breakfast ",
         "address": "326 West Avenue",
@@ -10319,7 +10318,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Mericana",
         "address": "80 Main St",
@@ -10336,7 +10335,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Red Coach Inn Restaurant ",
         "address": "2 Buffalo Ave",
@@ -10353,7 +10352,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Savor at Niagara Falls Culinary Institute ",
         "address": "28 Old Falls Street",
@@ -10370,7 +10369,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Shamus Restaurant",
         "address": "98 West Ave",
@@ -10387,7 +10386,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Wilson Boat House",
         "address": "57 Harbor Streer",
@@ -10404,7 +10403,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Wilson House Restaurant & Inn",
         "address": "300 Lake St",
@@ -10421,7 +10420,7 @@
     },
     {
         "type": "Restaurant",
-        "region": "Niagara Escarpment/Greater Niagara Area",
+        "region": "Niagara",
         "sub_region": "",
         "name": "Zambistro",
         "address": "408 Main Street",

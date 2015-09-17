@@ -28,7 +28,7 @@
 <div id="navbar">
 	<ul class="nav nav-tabs nav-justified">
 		<li ng-hide="isFiltered(venue)" ng-repeat="venue in venues | orderBy: 'name'" class="{{venue.type.toLowerCase()}} venue">
-			<a ng-if="r" href="#/venue?id={{venue.id}}&r={{r}}&sr={{sr}}">{{venue.name}}</a>
+			<a ng-if="r" ng-bind-html="venue.name" href="#/venue?id={{venue.id}}&r={{r}}&sr={{sr}}"></a>
 		</li>
 	</ul>
 </div>

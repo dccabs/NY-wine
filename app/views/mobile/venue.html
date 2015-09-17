@@ -4,12 +4,11 @@
 <div class="wide venue-header {{venue.type}}">
   <div class="banner">
     <div class="badge"></div>
-    <div class="name">{{venue.name}}</div>
+    <div class="name" ng-bind-html="venue.name"></div>
   </div>
 </div>
 
 <div class="wide venue-info">
-  {{venues}}
   <div ng-bind-html="venue.address"></div>
   <div ng-bind-html="venue.city"></div>
   <div><span ng-bind-html="venue.state"></span> <span ng-bind-html="venue.zip_code"></span></div>
