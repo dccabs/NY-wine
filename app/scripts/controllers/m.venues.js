@@ -25,8 +25,6 @@ angular.module('nyWineApp')
         $scope.subRegion = $scope.subRegion.split(" and ").join("&");
     }
 
-          console.log($scope.subRegion)
-
     if ($scope.subRegion) {
       $http.get('data/venues.json').
       success(function(data, status, headers, config) {

@@ -24,8 +24,6 @@ angular.module('nyWineApp')
 				$scope.subRegions = $scope.selectedRegion[0].sub_regions;
       });
 
-      console.log($scope.subRegions)
-
     $scope.getUrlName = function(name) {
       var urlName = name.split(" ").join("-");
       urlName = urlName.split("&").join("and");
