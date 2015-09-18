@@ -1442,15 +1442,15 @@
         "region": "Finger Lakes",
         "sub_region": "Keuka Lake",
         "name": "Point of the Bluff Vineyard, LLC",
-        "address": "799 W. Bluff Dr.",
-        "city": "Pulteney",
+        "address": "10489 County Rd. 76 ",
+        "city": "South Pulteney",
         "state": "NY",
         "zip_code": "14840",
         "phone_number": "",
         "url": "http://www.pointofthebluffvineyards.com",
         "type": "Winery",
         "coordinates": [
-            42.502691, -77.142475
+            42.499777, -77.188278
         ],
         "id": 24882
     },
@@ -1882,7 +1882,7 @@
         "region": "Finger Lakes",
         "sub_region": "Seneca Lake",
         "name": "Hermann J. Wiemer Vineyard",
-        "address": "3962 State Route 14",
+        "address": "3962 NY-14",
         "city": "Dundee",
         "state": "NY",
         "zip_code": "14837",
@@ -1890,7 +1890,7 @@
         "url": "http://www.wiemer.com",
         "type": "Winery",
         "coordinates": [
-            42.567757, -76.925366
+            42.571974, -76.928227
         ],
         "id": 85256
     },
