@@ -22,7 +22,7 @@ angular.module('nyWineApp')
     if ($scope.r) $scope.region = $scope.r.split("-").join(" ");
     if ($scope.sr) {
         $scope.subRegion = $scope.sr.split("-").join(" ");
-        $scope.subRegion = $scope.subRegion.split(" and ").join("&");
+        $scope.subRegion = $scope.subRegion.split(" and ").join(" & ");
     }
 
     if ($scope.subRegion) {
