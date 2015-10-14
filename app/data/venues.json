@@ -3109,7 +3109,7 @@
         "state": "NY",
         "zip_code": "10958",
         "phone_number": "845-374-5471",
-        "url": "http://www.soonsorchards.com",
+        "url": "http://www.orchardhillnyc.com",
         "type": "Winery",
         "coordinates": [
             41.4028298,
@@ -4427,14 +4427,14 @@
     {
         "region": "Long Island",
         "sub_region": "North Fork",
-        "name": "Harbes Family Farm & Vineyard - Jamesport",
+        "name": "Harbes Western - Jamesport",
         "address": "1223 Main Rd.",
         "city": "Jamesport",
         "state": "NY",
         "zip_code": "11947",
         "phone_number": "631-722-2022",
         "url": "http://www.harbesfamilyfarm.com",
-        "type": "Winery",
+        "type": "Attraction",
         "coordinates": [
             40.946784,
             -72.596931
@@ -4852,14 +4852,14 @@
     {
         "region": "Long Island",
         "sub_region": "North Fork",
-        "name": "Harbes Family Farm & Vineyard - Riverhead",
+        "name": "Harbes Orchard - Riverhead",
         "address": "5698 Sound Ave.",
         "city": "Riverhead",
         "state": "NY",
         "zip_code": "11901",
         "phone_number": "631-298-0800",
         "url": "http://www.harbesfamilyfarm.com",
-        "type": "Winery",
+        "type": "Attraction",
         "coordinates": [
             40.9784594,
             -72.6047004
@@ -7800,7 +7800,7 @@
         "url": "http://www.foxrunvineyards.com/cafe.asp",
         "coordinates": [
             42.7316132,
-            -76.9759521
+            -76.9799521
         ],
         "id": 45906
     },
